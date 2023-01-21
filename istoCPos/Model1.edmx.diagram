@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="40026f49811e4a179454d8ffd6b6b527" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="istocDBModel.Urunler" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="istocDBModel.HizliUrun" Width="1.5" PointX="2.375" PointY="0.75" />
+        <EntityTypeShape EntityType="istocDBModel.Islem" Width="1.5" PointX="4" PointY="0.75" />
+        <EntityTypeShape EntityType="istocDBModel.IslemOzet" Width="1.5" PointX="5.625" PointY="0.75" />
+        <EntityTypeShape EntityType="istocDBModel.Satis1" Width="1.5" PointX="7.25" PointY="0.75" />
+        <EntityTypeShape EntityType="istocDBModel.Musteriler" Width="1.5" PointX="9" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

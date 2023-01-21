@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="istocDBModelStoreContainer" CdmEntityContainer="istocDBEntities">
+    <EntitySetMapping Name="Urunler">
+      <EntityTypeMapping TypeName="istocDBModel.Urunler">
+        <MappingFragment StoreEntitySet="Urunler">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunBarkod" ColumnName="UrunBarkod" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="KdvOrani" ColumnName="KdvOrani" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="AlisFiyati" ColumnName="AlisFiyati" />
+          <ScalarProperty Name="SatisFiyati1" ColumnName="SatisFiyati1" />
+          <ScalarProperty Name="SatisFiyati2" ColumnName="SatisFiyati2" />
+          <ScalarProperty Name="SatisFiyati3" ColumnName="SatisFiyati3" />
+          <ScalarProperty Name="SatisFiyati4" ColumnName="SatisFiyati4" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="KritikSeviye" ColumnName="KritikSeviye" />
+          <ScalarProperty Name="MaximumSeviye" ColumnName="MaximumSeviye" />
+          <ScalarProperty Name="Kullanici" ColumnName="Kullanici" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="StokMiktari" ColumnName="StokMiktari" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizliUrun">
+      <EntityTypeMapping TypeName="istocDBModel.HizliUrun">
+        <MappingFragment StoreEntitySet="HizliUrun">
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+          <ScalarProperty Name="UrunAd" ColumnName="UrunAd" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Islem">
+      <EntityTypeMapping TypeName="istocDBModel.Islem">
+        <MappingFragment StoreEntitySet="Islem">
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IslemOzet">
+      <EntityTypeMapping TypeName="istocDBModel.IslemOzet">
+        <MappingFragment StoreEntitySet="IslemOzet">
+          <ScalarProperty Name="Kullanci" ColumnName="Kullanci" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="AlisFiyatiToplam" ColumnName="AlisFiyatiToplam" />
+          <ScalarProperty Name="Gider" ColumnName="Gider" />
+          <ScalarProperty Name="Gelir" ColumnName="Gelir" />
+          <ScalarProperty Name="Kart" ColumnName="Kart" />
+          <ScalarProperty Name="Nakit" ColumnName="Nakit" />
+          <ScalarProperty Name="OdemeSekli" ColumnName="OdemeSekli" />
+          <ScalarProperty Name="Iade" ColumnName="Iade" />
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Satis1">
+      <EntityTypeMapping TypeName="istocDBModel.Satis1">
+        <MappingFragment StoreEntitySet="Satis1">
+          <ScalarProperty Name="Kullanici" ColumnName="Kullanici" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Iade" ColumnName="Iade" />
+          <ScalarProperty Name="OdemeSekli" ColumnName="OdemeSekli" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="Toplam" ColumnName="Toplam" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="SatisFiyat" ColumnName="SatisFiyat" />
+          <ScalarProperty Name="AlisFiyat" ColumnName="AlisFiyat" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="UrunAd" ColumnName="UrunAd" />
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+          <ScalarProperty Name="SatisId" ColumnName="SatisId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteriler">
+      <EntityTypeMapping TypeName="istocDBModel.Musteriler">
+        <MappingFragment StoreEntitySet="Musteriler">
+          <ScalarProperty Name="Bakiye" ColumnName="Bakiye" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Doviz" ColumnName="Doviz" />
+          <ScalarProperty Name="FiyatSecenegi" ColumnName="FiyatSecenegi" />
+          <ScalarProperty Name="RiskLimit" ColumnName="RiskLimit" />
+          <ScalarProperty Name="e_mail" ColumnName="e-mail" />
+          <ScalarProperty Name="FaturaAdres" ColumnName="FaturaAdres" />
+          <ScalarProperty Name="Ulke" ColumnName="Ulke" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="Sehir" ColumnName="Sehir" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="VergiNumarasi" ColumnName="VergiNumarasi" />
+          <ScalarProperty Name="VergiDairesi" ColumnName="VergiDairesi" />
+          <ScalarProperty Name="CepTelefon" ColumnName="CepTelefon" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="MusteriAdi" ColumnName="MusteriAdi" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

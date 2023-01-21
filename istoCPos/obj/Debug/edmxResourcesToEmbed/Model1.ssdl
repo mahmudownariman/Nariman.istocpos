@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="istocDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HizliUrun">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Barkod" Type="nvarchar" MaxLength="50" />
+    <Property Name="UrunAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="float" />
+  </EntityType>
+  <EntityType Name="Islem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IslemNo" Type="int" />
+  </EntityType>
+  <EntityType Name="IslemOzet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IslemNo" Type="int" />
+    <Property Name="Iade" Type="bit" />
+    <Property Name="OdemeSekli" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nakit" Type="float" />
+    <Property Name="Kart" Type="float" />
+    <Property Name="Gelir" Type="float" />
+    <Property Name="Gider" Type="float" />
+    <Property Name="AlisFiyatiToplam" Type="float" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="200" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Kullanci" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Musteriler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusteriAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CepTelefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiDairesi" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiNumarasi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="100" />
+    <Property Name="Sehir" Type="nvarchar" MaxLength="50" />
+    <Property Name="ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ulke" Type="nvarchar" MaxLength="50" />
+    <Property Name="FaturaAdres" Type="nvarchar" MaxLength="50" />
+    <Property Name="e-mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="RiskLimit" Type="nvarchar" MaxLength="50" />
+    <Property Name="FiyatSecenegi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Doviz" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bakiye" Type="float" />
+  </EntityType>
+  <EntityType Name="Satis1">
+    <Key>
+      <PropertyRef Name="SatisId" />
+    </Key>
+    <Property Name="SatisId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IslemNo" Type="int" />
+    <Property Name="UrunAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Barkod" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Birim" Type="nvarchar" MaxLength="50" />
+    <Property Name="AlisFiyat" Type="float" />
+    <Property Name="SatisFiyat" Type="float" />
+    <Property Name="Miktar" Type="int" />
+    <Property Name="Toplam" Type="float" />
+    <Property Name="KdvTutari" Type="float" />
+    <Property Name="OdemeSekli" Type="nvarchar" MaxLength="50" />
+    <Property Name="Iade" Type="bit" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Kullanici" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UrunAdi" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UrunBarkod" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Birim" Type="nvarchar" MaxLength="50" />
+    <Property Name="KdvOrani" Type="float" />
+    <Property Name="KdvTutari" Type="float" />
+    <Property Name="AlisFiyati" Type="float" />
+    <Property Name="SatisFiyati1" Type="float" />
+    <Property Name="SatisFiyati2" Type="float" />
+    <Property Name="SatisFiyati3" Type="float" />
+    <Property Name="SatisFiyati4" Type="float" />
+    <Property Name="Grup1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Grup3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="100" />
+    <Property Name="KritikSeviye" Type="float" />
+    <Property Name="MaximumSeviye" Type="float" />
+    <Property Name="Kullanici" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="StokMiktari" Type="float" />
+  </EntityType>
+  <EntityContainer Name="istocDBModelStoreContainer">
+    <EntitySet Name="HizliUrun" EntityType="Self.HizliUrun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Islem" EntityType="Self.Islem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IslemOzet" EntityType="Self.IslemOzet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Musteriler" EntityType="Self.Musteriler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Satis1" EntityType="Self.Satis1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urunler" EntityType="Self.Urunler" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
