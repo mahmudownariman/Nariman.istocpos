@@ -336,6 +336,7 @@ namespace istoCPos
         private void BarkodTextBox1_TextChanged(object sender, EventArgs e)
         {
 
+
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -356,6 +357,17 @@ namespace istoCPos
         private void Musteributton1_KeyDown(object sender, KeyEventArgs e)
         {
 
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            MusteriEkle MusteriKayit = new MusteriEkle();
+            MusteriKayit.ShowDialog();
+        }
+
+        private void UrunBildirButon_MouseDown(object sender, MouseEventArgs e)
+        {
+            MusteriEkleme();
         }
     }
 }

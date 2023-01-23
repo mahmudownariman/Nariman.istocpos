@@ -69,5 +69,25 @@ namespace istoCPos.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap bayi_tahsilat_1 {
+            get {
+                object obj = ResourceManager.GetObject("bayi-tahsilat-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap musteri_sadakati_5_364x205 {
+            get {
+                object obj = ResourceManager.GetObject("musteri-sadakati-5-364x205", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -29,48 +29,48 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Düğüm0");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Düğüm2");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Düğüm3");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Düğüm4");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Düğüm1", new System.Windows.Forms.TreeNode[] {
+            treeNode27,
+            treeNode28,
+            treeNode29});
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Düğüm5");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Düğüm6");
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Bekleyen Sipariş Liste");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Sipariş Durumu");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("İptal Edilen Siparişler");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Sevk Fişi");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Sipariş işlemleri", new System.Windows.Forms.TreeNode[] {
+            treeNode35,
+            treeNode36,
+            treeNode37,
+            treeNode38,
+            treeNode39});
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Extreler");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Satış Fsturası");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("İade Faturası");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Fatura Listele");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", new System.Windows.Forms.TreeNode[] {
+            treeNode43,
+            treeNode44,
+            treeNode45});
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Dekontlar");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Bekleyen Sipariş Liste");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Sipariş Durumu");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("İptal Edilen Siparişler");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Sevk Fişi");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Sipariş işlemleri", new System.Windows.Forms.TreeNode[] {
-            treeNode10,
-            treeNode11,
-            treeNode12,
-            treeNode13,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Extreler");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Satış Fsturası");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("İade Faturası");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Fatura Listele");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", new System.Windows.Forms.TreeNode[] {
-            treeNode18,
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Dekontlar");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al");
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Düğüm0");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Düğüm2");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Düğüm3");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Düğüm4");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Düğüm1", new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode3,
-            treeNode4});
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Düğüm5");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Düğüm6");
             this.label6 = new System.Windows.Forms.Label();
             this.Hbutton24 = new System.Windows.Forms.Button();
             this.Hbutton23 = new System.Windows.Forms.Button();
@@ -109,7 +109,6 @@
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.KdvTutari = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tutar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Sil = new System.Windows.Forms.DataGridViewImageColumn();
             this.AlisFiyati = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -118,7 +117,6 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -126,7 +124,6 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -134,7 +131,6 @@
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.SatisFiyat3Buton = new System.Windows.Forms.Button();
             this.SatisFiyat2Buton = new System.Windows.Forms.Button();
             this.SFiyat1Buton = new System.Windows.Forms.Button();
@@ -146,15 +142,29 @@
             this.NakitButon = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.treeView2 = new System.Windows.Forms.TreeView();
             this.EkleButon = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.button1 = new System.Windows.Forms.Button();
-            this.AraButon = new System.Windows.Forms.Button();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.Musteripanel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Bakiye = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Musteripanel3 = new System.Windows.Forms.Panel();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.Musteripanel2 = new System.Windows.Forms.Panel();
+            this.Musteributton1 = new System.Windows.Forms.Button();
             this.MustericomboBox3 = new System.Windows.Forms.ComboBox();
             this.MustericomboBox2 = new System.Windows.Forms.ComboBox();
             this.MustericomboBox1 = new System.Windows.Forms.ComboBox();
@@ -163,7 +173,6 @@
             this.Musterilabel2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Musterilabel1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -181,28 +190,20 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.UrunTutarTextBox = new System.Windows.Forms.TextBox();
             this.UrunFiyatTextBox = new System.Windows.Forms.TextBox();
             this.MiktarTextBox1 = new System.Windows.Forms.TextBox();
             this.BarkodTextBox1 = new System.Windows.Forms.TextBox();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Bakiye = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Musteributton1 = new System.Windows.Forms.Button();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.AraButon = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Sil = new System.Windows.Forms.DataGridViewImageColumn();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -218,15 +219,19 @@
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.tabPage10.SuspendLayout();
             this.Musteripanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.Musteripanel3.SuspendLayout();
             this.Musteripanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
@@ -234,13 +239,9 @@
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -263,7 +264,7 @@
             this.Hbutton24.Location = new System.Drawing.Point(400, 390);
             this.Hbutton24.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton24.Name = "Hbutton24";
-            this.Hbutton24.Size = new System.Drawing.Size(133, 86);
+            this.Hbutton24.Size = new System.Drawing.Size(131, 84);
             this.Hbutton24.TabIndex = 23;
             this.Hbutton24.Text = "button24";
             this.Hbutton24.UseVisualStyleBackColor = false;
@@ -279,7 +280,7 @@
             this.Hbutton23.Location = new System.Drawing.Point(267, 390);
             this.Hbutton23.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton23.Name = "Hbutton23";
-            this.Hbutton23.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton23.Size = new System.Drawing.Size(131, 84);
             this.Hbutton23.TabIndex = 22;
             this.Hbutton23.Text = "button23";
             this.Hbutton23.UseVisualStyleBackColor = false;
@@ -328,7 +329,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(534, 477);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(532, 475);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Hbutton22
@@ -340,7 +341,7 @@
             this.Hbutton22.Location = new System.Drawing.Point(134, 390);
             this.Hbutton22.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton22.Name = "Hbutton22";
-            this.Hbutton22.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton22.Size = new System.Drawing.Size(131, 84);
             this.Hbutton22.TabIndex = 21;
             this.Hbutton22.Text = "button22";
             this.Hbutton22.UseVisualStyleBackColor = false;
@@ -356,7 +357,7 @@
             this.Hbutton21.Location = new System.Drawing.Point(1, 390);
             this.Hbutton21.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton21.Name = "Hbutton21";
-            this.Hbutton21.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton21.Size = new System.Drawing.Size(131, 84);
             this.Hbutton21.TabIndex = 20;
             this.Hbutton21.Text = "button21";
             this.Hbutton21.UseVisualStyleBackColor = false;
@@ -372,7 +373,7 @@
             this.Hbutton20.Location = new System.Drawing.Point(400, 305);
             this.Hbutton20.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton20.Name = "Hbutton20";
-            this.Hbutton20.Size = new System.Drawing.Size(133, 83);
+            this.Hbutton20.Size = new System.Drawing.Size(131, 83);
             this.Hbutton20.TabIndex = 19;
             this.Hbutton20.Text = "button20";
             this.Hbutton20.UseVisualStyleBackColor = false;
@@ -436,7 +437,7 @@
             this.Hbutton16.Location = new System.Drawing.Point(400, 229);
             this.Hbutton16.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton16.Name = "Hbutton16";
-            this.Hbutton16.Size = new System.Drawing.Size(133, 74);
+            this.Hbutton16.Size = new System.Drawing.Size(131, 74);
             this.Hbutton16.TabIndex = 15;
             this.Hbutton16.Text = "button16";
             this.Hbutton16.UseVisualStyleBackColor = false;
@@ -500,7 +501,7 @@
             this.Hbutton12.Location = new System.Drawing.Point(400, 153);
             this.Hbutton12.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton12.Name = "Hbutton12";
-            this.Hbutton12.Size = new System.Drawing.Size(133, 74);
+            this.Hbutton12.Size = new System.Drawing.Size(131, 74);
             this.Hbutton12.TabIndex = 11;
             this.Hbutton12.Text = "button12";
             this.Hbutton12.UseVisualStyleBackColor = false;
@@ -564,7 +565,7 @@
             this.Hbutton8.Location = new System.Drawing.Point(400, 77);
             this.Hbutton8.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton8.Name = "Hbutton8";
-            this.Hbutton8.Size = new System.Drawing.Size(133, 74);
+            this.Hbutton8.Size = new System.Drawing.Size(131, 74);
             this.Hbutton8.TabIndex = 7;
             this.Hbutton8.Text = "Hbutton8";
             this.Hbutton8.UseVisualStyleBackColor = false;
@@ -628,7 +629,7 @@
             this.Hbutton4.Location = new System.Drawing.Point(400, 1);
             this.Hbutton4.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton4.Name = "Hbutton4";
-            this.Hbutton4.Size = new System.Drawing.Size(133, 74);
+            this.Hbutton4.Size = new System.Drawing.Size(131, 74);
             this.Hbutton4.TabIndex = 3;
             this.Hbutton4.Text = "Hbutton4";
             this.Hbutton4.UseVisualStyleBackColor = false;
@@ -698,7 +699,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer2.Size = new System.Drawing.Size(1241, 477);
+            this.splitContainer2.Size = new System.Drawing.Size(1239, 475);
             this.splitContainer2.SplitterDistance = 702;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
@@ -714,7 +715,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(702, 477);
+            this.tabControl2.Size = new System.Drawing.Size(702, 475);
             this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl2.TabIndex = 1;
             // 
@@ -727,7 +728,7 @@
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(694, 448);
+            this.tabPage3.Size = new System.Drawing.Size(694, 446);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Kasa 1";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -760,15 +761,15 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -787,7 +788,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(686, 440);
+            this.dataGridView1.Size = new System.Drawing.Size(686, 438);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -832,14 +833,6 @@
             this.Tutar.MinimumWidth = 6;
             this.Tutar.Name = "Tutar";
             // 
-            // Sil
-            // 
-            this.Sil.FillWeight = 50F;
-            this.Sil.HeaderText = "Sil";
-            this.Sil.Image = ((System.Drawing.Image)(resources.GetObject("Sil.Image")));
-            this.Sil.MinimumWidth = 6;
-            this.Sil.Name = "Sil";
-            // 
             // AlisFiyati
             // 
             this.AlisFiyati.HeaderText = "Alış Fiyatı";
@@ -865,15 +858,15 @@
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -927,14 +920,6 @@
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.FillWeight = 50F;
-            this.dataGridViewImageColumn1.HeaderText = "Sil";
-            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
-            this.dataGridViewImageColumn1.MinimumWidth = 6;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.dataGridView3);
@@ -953,15 +938,15 @@
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn6,
@@ -1015,14 +1000,6 @@
             this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
-            // dataGridViewImageColumn2
-            // 
-            this.dataGridViewImageColumn2.FillWeight = 50F;
-            this.dataGridViewImageColumn2.HeaderText = "Sil";
-            this.dataGridViewImageColumn2.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn2.Image")));
-            this.dataGridViewImageColumn2.MinimumWidth = 6;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
-            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.dataGridView4);
@@ -1041,15 +1018,15 @@
             this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn11,
@@ -1102,14 +1079,6 @@
             this.dataGridViewTextBoxColumn15.HeaderText = "Tutar";
             this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            // 
-            // dataGridViewImageColumn3
-            // 
-            this.dataGridViewImageColumn3.FillWeight = 50F;
-            this.dataGridViewImageColumn3.HeaderText = "Sil";
-            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
-            this.dataGridViewImageColumn3.MinimumWidth = 6;
-            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             // 
             // SatisFiyat3Buton
             // 
@@ -1171,6 +1140,7 @@
             this.UrunBildirButon.TabIndex = 5;
             this.UrunBildirButon.Text = "UrunBildir ( F9 )";
             this.UrunBildirButon.UseVisualStyleBackColor = false;
+            this.UrunBildirButon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.UrunBildirButon_MouseDown);
             // 
             // iskontoButon
             // 
@@ -1244,10 +1214,54 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1505, 622);
+            this.tabPage1.Size = new System.Drawing.Size(1505, 624);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Ürünler";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(4, 4);
+            this.splitContainer4.Name = "splitContainer4";
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.BackColor = System.Drawing.Color.Gray;
+            this.splitContainer4.Panel1.Controls.Add(this.treeView2);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.BackColor = System.Drawing.Color.DarkGray;
+            this.splitContainer4.Size = new System.Drawing.Size(1497, 616);
+            this.splitContainer4.SplitterDistance = 499;
+            this.splitContainer4.TabIndex = 0;
+            // 
+            // treeView2
+            // 
+            this.treeView2.Location = new System.Drawing.Point(162, 145);
+            this.treeView2.Name = "treeView2";
+            treeNode26.Name = "Düğüm0";
+            treeNode26.Text = "Düğüm0";
+            treeNode27.Name = "Düğüm2";
+            treeNode27.Text = "Düğüm2";
+            treeNode28.Name = "Düğüm3";
+            treeNode28.Text = "Düğüm3";
+            treeNode29.Name = "Düğüm4";
+            treeNode29.Text = "Düğüm4";
+            treeNode30.Name = "Düğüm1";
+            treeNode30.Text = "Düğüm1";
+            treeNode31.Name = "Düğüm5";
+            treeNode31.Text = "Düğüm5";
+            treeNode32.Name = "Düğüm6";
+            treeNode32.Text = "Düğüm6";
+            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode26,
+            treeNode30,
+            treeNode31,
+            treeNode32});
+            this.treeView2.Size = new System.Drawing.Size(219, 355);
+            this.treeView2.TabIndex = 0;
             // 
             // EkleButon
             // 
@@ -1296,8 +1310,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1497, 477);
-            this.splitContainer1.SplitterDistance = 251;
+            this.splitContainer1.Size = new System.Drawing.Size(1497, 475);
+            this.splitContainer1.SplitterDistance = 253;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -1311,22 +1325,6 @@
             this.button1.Text = "iade";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // AraButon
-            // 
-            this.AraButon.BackColor = System.Drawing.Color.DarkCyan;
-            this.AraButon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AraButon.BackgroundImage")));
-            this.AraButon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.AraButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AraButon.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.AraButon.Location = new System.Drawing.Point(817, 53);
-            this.AraButon.Margin = new System.Windows.Forms.Padding(1);
-            this.AraButon.Name = "AraButon";
-            this.AraButon.Size = new System.Drawing.Size(39, 28);
-            this.AraButon.TabIndex = 28;
-            this.AraButon.Text = "...";
-            this.AraButon.UseVisualStyleBackColor = false;
-            this.AraButon.Click += new System.EventHandler(this.AraButon_Click);
             // 
             // tabPage10
             // 
@@ -1351,6 +1349,108 @@
             this.Musteripanel1.Size = new System.Drawing.Size(1497, 614);
             this.Musteripanel1.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.dataGridView5);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(327, 106);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1170, 508);
+            this.panel2.TabIndex = 2;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.AllowUserToAddRows = false;
+            this.dataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn20,
+            this.Bakiye});
+            this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView5.EnableHeadersVisualStyles = false;
+            this.dataGridView5.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView5.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.RowHeadersVisible = false;
+            this.dataGridView5.RowHeadersWidth = 51;
+            this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView5.Size = new System.Drawing.Size(1170, 508);
+            this.dataGridView5.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.FillWeight = 60F;
+            this.dataGridViewTextBoxColumn16.HeaderText = "Müş.No";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.FillWeight = 120F;
+            this.dataGridViewTextBoxColumn17.HeaderText = "Müşteri Adı";
+            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.FillWeight = 180F;
+            this.dataGridViewTextBoxColumn21.HeaderText = "Adres";
+            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.FillWeight = 80F;
+            this.dataGridViewTextBoxColumn19.HeaderText = "Ünvan";
+            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.FillWeight = 50F;
+            this.dataGridViewTextBoxColumn22.HeaderText = "Grup";
+            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.FillWeight = 80F;
+            this.dataGridViewTextBoxColumn18.HeaderText = "Telefon No";
+            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.FillWeight = 50F;
+            this.dataGridViewTextBoxColumn20.HeaderText = "E-mail";
+            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            // 
+            // Bakiye
+            // 
+            this.Bakiye.FillWeight = 50F;
+            this.Bakiye.HeaderText = "Bakiye";
+            this.Bakiye.MinimumWidth = 6;
+            this.Bakiye.Name = "Bakiye";
+            // 
             // Musteripanel3
             // 
             this.Musteripanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1360,6 +1460,110 @@
             this.Musteripanel3.Name = "Musteripanel3";
             this.Musteripanel3.Size = new System.Drawing.Size(327, 508);
             this.Musteripanel3.TabIndex = 1;
+            // 
+            // treeView1
+            // 
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.treeView1.ImageIndex = 0;
+            this.treeView1.ImageList = this.ımageList1;
+            this.treeView1.Indent = 22;
+            this.treeView1.ItemHeight = 25;
+            this.treeView1.LineColor = System.Drawing.Color.DarkGreen;
+            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Name = "treeView1";
+            treeNode33.Name = "Musteri0";
+            treeNode33.Text = "Müşteri Ekle";
+            treeNode34.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
+            treeNode34.Name = "Musteri1";
+            treeNode34.Text = "Müşteri Kartı";
+            treeNode35.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode35.Name = "musteri3";
+            treeNode35.Text = "Alınan Sipariş Liste";
+            treeNode36.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode36.Name = "musteri4";
+            treeNode36.SelectedImageKey = "(varsayılan)";
+            treeNode36.Text = "Bekleyen Sipariş Liste";
+            treeNode37.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode37.Name = "musteri5";
+            treeNode37.SelectedImageKey = "(varsayılan)";
+            treeNode37.Text = "Sipariş Durumu";
+            treeNode38.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode38.Name = "musteri6";
+            treeNode38.Text = "İptal Edilen Siparişler";
+            treeNode39.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode39.Name = "musteri7";
+            treeNode39.Text = "Sevk Fişi";
+            treeNode40.ImageKey = "T-Letter-Transparent-PNG.png";
+            treeNode40.Name = "Musteri2";
+            treeNode40.Text = "Sipariş işlemleri";
+            treeNode41.ImageKey = "bayi-tahsilat-1.png";
+            treeNode41.Name = "Musteri8";
+            treeNode41.Text = "Tahsilat İşlemleri";
+            treeNode42.ImageKey = "png-transparent-the-checklist-manifesto-application-form.png";
+            treeNode42.Name = "Musteri9";
+            treeNode42.Text = "Extreler";
+            treeNode43.ImageKey = "elektronik-fatura.png";
+            treeNode43.Name = "musteri11";
+            treeNode43.Text = "Satış Fsturası";
+            treeNode44.ImageKey = "elektronik-fatura.png";
+            treeNode44.Name = "musteri12";
+            treeNode44.Text = "İade Faturası";
+            treeNode45.ImageKey = "elektronik-fatura.png";
+            treeNode45.Name = "musteri13";
+            treeNode45.Text = "Fatura Listele";
+            treeNode46.ImageKey = "elektronik-fatura.png";
+            treeNode46.Name = "Fatura10";
+            treeNode46.Text = "Fatura İşlemleri";
+            treeNode47.ImageKey = "png-transparent--text-rectangle.png";
+            treeNode47.Name = "Musteri14";
+            treeNode47.Text = "Dekontlar";
+            treeNode48.ImageKey = "depositphotos_101574798-stock-illustration-handshake-logo-design.jpg";
+            treeNode48.Name = "Musteri15";
+            treeNode48.Text = "Müşteri Hareketleri";
+            treeNode49.ImageKey = "png-clipart-check-mark-afacere-others-miscellaneous-text.png";
+            treeNode49.Name = "Musteri16";
+            treeNode49.Text = "Müşteri İskonto Tanımlama";
+            treeNode50.ImageKey = "negative-42774_1280.png";
+            treeNode50.Name = "Musteri17";
+            treeNode50.Text = "Müşteriyi Kara Listeye Al";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode33,
+            treeNode34,
+            treeNode40,
+            treeNode41,
+            treeNode42,
+            treeNode46,
+            treeNode47,
+            treeNode48,
+            treeNode49,
+            treeNode50});
+            this.treeView1.SelectedImageIndex = 0;
+            this.treeView1.Size = new System.Drawing.Size(323, 504);
+            this.treeView1.TabIndex = 0;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            // 
+            // ımageList1
+            // 
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "arti.png");
+            this.ımageList1.Images.SetKeyName(1, "470-4703547_icon-user-icon-hd-png-download.jpg");
+            this.ımageList1.Images.SetKeyName(2, "T-Letter-Transparent-PNG.png");
+            this.ımageList1.Images.SetKeyName(3, "bayi-tahsilat-1.png");
+            this.ımageList1.Images.SetKeyName(4, "png-transparent-the-checklist-manifesto-application-form.png");
+            this.ımageList1.Images.SetKeyName(5, "elektronik-fatura.png");
+            this.ımageList1.Images.SetKeyName(6, "depositphotos_101574798-stock-illustration-handshake-logo-design.jpg");
+            this.ımageList1.Images.SetKeyName(7, "png-clipart-check-mark-afacere-others-miscellaneous-text.png");
+            this.ımageList1.Images.SetKeyName(8, "negative-42774_1280.png");
+            this.ımageList1.Images.SetKeyName(9, "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+        "ats.png");
+            this.ımageList1.Images.SetKeyName(10, "png-transparent--text-rectangle.png");
             // 
             // Musteripanel2
             // 
@@ -1379,6 +1583,22 @@
             this.Musteripanel2.Name = "Musteripanel2";
             this.Musteripanel2.Size = new System.Drawing.Size(1497, 106);
             this.Musteripanel2.TabIndex = 0;
+            // 
+            // Musteributton1
+            // 
+            this.Musteributton1.BackColor = System.Drawing.Color.DarkCyan;
+            this.Musteributton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Musteributton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Musteributton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Musteributton1.Location = new System.Drawing.Point(923, 31);
+            this.Musteributton1.Margin = new System.Windows.Forms.Padding(1);
+            this.Musteributton1.Name = "Musteributton1";
+            this.Musteributton1.Size = new System.Drawing.Size(103, 34);
+            this.Musteributton1.TabIndex = 24;
+            this.Musteributton1.Text = "Listele";
+            this.Musteributton1.UseVisualStyleBackColor = false;
+            this.Musteributton1.Click += new System.EventHandler(this.Musteributton1_Click);
+            this.Musteributton1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Musteributton1_KeyDown);
             // 
             // MustericomboBox3
             // 
@@ -1455,16 +1675,6 @@
             this.Musterilabel1.Size = new System.Drawing.Size(121, 25);
             this.Musterilabel1.TabIndex = 1;
             this.Musterilabel1.Text = "Müşteri Adı";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::istoCPos.Properties.Resources._470_4703547_icon_user_icon_hd_png_download;
-            this.pictureBox2.Location = new System.Drawing.Point(55, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 100);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // tabPage2
             // 
@@ -1556,7 +1766,7 @@
             this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage9.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage9.Size = new System.Drawing.Size(1505, 622);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "Satış Ekranı";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -1592,7 +1802,7 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer1);
-            this.splitContainer3.Size = new System.Drawing.Size(1497, 616);
+            this.splitContainer3.Size = new System.Drawing.Size(1497, 614);
             this.splitContainer3.SplitterDistance = 134;
             this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 3;
@@ -1656,18 +1866,6 @@
             this.panel1.Size = new System.Drawing.Size(609, 134);
             this.panel1.TabIndex = 18;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(391, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
             // UrunTutarTextBox
             // 
             this.UrunTutarTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -1727,270 +1925,84 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // treeView1
+            // dataGridViewImageColumn1
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.treeView1.ImageIndex = 0;
-            this.treeView1.ImageList = this.ımageList1;
-            this.treeView1.Indent = 22;
-            this.treeView1.ItemHeight = 25;
-            this.treeView1.LineColor = System.Drawing.Color.DarkGreen;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
-            this.treeView1.Name = "treeView1";
-            treeNode8.Name = "Musteri0";
-            treeNode8.Text = "Müşteri Ekle";
-            treeNode9.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
-            treeNode9.Name = "Musteri1";
-            treeNode9.Text = "Müşteri Kartı";
-            treeNode10.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode10.Name = "musteri3";
-            treeNode10.Text = "Alınan Sipariş Liste";
-            treeNode11.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode11.Name = "musteri4";
-            treeNode11.SelectedImageKey = "(varsayılan)";
-            treeNode11.Text = "Bekleyen Sipariş Liste";
-            treeNode12.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode12.Name = "musteri5";
-            treeNode12.SelectedImageKey = "(varsayılan)";
-            treeNode12.Text = "Sipariş Durumu";
-            treeNode13.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode13.Name = "musteri6";
-            treeNode13.Text = "İptal Edilen Siparişler";
-            treeNode14.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode14.Name = "musteri7";
-            treeNode14.Text = "Sevk Fişi";
-            treeNode15.ImageKey = "T-Letter-Transparent-PNG.png";
-            treeNode15.Name = "Musteri2";
-            treeNode15.Text = "Sipariş işlemleri";
-            treeNode16.ImageKey = "bayi-tahsilat-1.png";
-            treeNode16.Name = "Musteri8";
-            treeNode16.Text = "Tahsilat İşlemleri";
-            treeNode17.ImageKey = "png-transparent-the-checklist-manifesto-application-form.png";
-            treeNode17.Name = "Musteri9";
-            treeNode17.Text = "Extreler";
-            treeNode18.ImageKey = "elektronik-fatura.png";
-            treeNode18.Name = "musteri11";
-            treeNode18.Text = "Satış Fsturası";
-            treeNode19.ImageKey = "elektronik-fatura.png";
-            treeNode19.Name = "musteri12";
-            treeNode19.Text = "İade Faturası";
-            treeNode20.ImageKey = "elektronik-fatura.png";
-            treeNode20.Name = "musteri13";
-            treeNode20.Text = "Fatura Listele";
-            treeNode21.ImageKey = "elektronik-fatura.png";
-            treeNode21.Name = "Fatura10";
-            treeNode21.Text = "Fatura İşlemleri";
-            treeNode22.ImageKey = "png-transparent--text-rectangle.png";
-            treeNode22.Name = "Musteri14";
-            treeNode22.Text = "Dekontlar";
-            treeNode23.ImageKey = "depositphotos_101574798-stock-illustration-handshake-logo-design.jpg";
-            treeNode23.Name = "Musteri15";
-            treeNode23.Text = "Müşteri Hareketleri";
-            treeNode24.ImageKey = "png-clipart-check-mark-afacere-others-miscellaneous-text.png";
-            treeNode24.Name = "Musteri16";
-            treeNode24.Text = "Müşteri İskonto Tanımlama";
-            treeNode25.ImageKey = "negative-42774_1280.png";
-            treeNode25.Name = "Musteri17";
-            treeNode25.Text = "Müşteriyi Kara Listeye Al";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8,
-            treeNode9,
-            treeNode15,
-            treeNode16,
-            treeNode17,
-            treeNode21,
-            treeNode22,
-            treeNode23,
-            treeNode24,
-            treeNode25});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(323, 504);
-            this.treeView1.TabIndex = 0;
+            this.dataGridViewImageColumn1.FillWeight = 50F;
+            this.dataGridViewImageColumn1.HeaderText = "Sil";
+            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             // 
-            // ımageList1
+            // dataGridViewImageColumn2
             // 
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "arti.png");
-            this.ımageList1.Images.SetKeyName(1, "470-4703547_icon-user-icon-hd-png-download.jpg");
-            this.ımageList1.Images.SetKeyName(2, "T-Letter-Transparent-PNG.png");
-            this.ımageList1.Images.SetKeyName(3, "bayi-tahsilat-1.png");
-            this.ımageList1.Images.SetKeyName(4, "png-transparent-the-checklist-manifesto-application-form.png");
-            this.ımageList1.Images.SetKeyName(5, "elektronik-fatura.png");
-            this.ımageList1.Images.SetKeyName(6, "depositphotos_101574798-stock-illustration-handshake-logo-design.jpg");
-            this.ımageList1.Images.SetKeyName(7, "png-clipart-check-mark-afacere-others-miscellaneous-text.png");
-            this.ımageList1.Images.SetKeyName(8, "negative-42774_1280.png");
-            this.ımageList1.Images.SetKeyName(9, "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-        "ats.png");
-            this.ımageList1.Images.SetKeyName(10, "png-transparent--text-rectangle.png");
+            this.dataGridViewImageColumn2.FillWeight = 50F;
+            this.dataGridViewImageColumn2.HeaderText = "Sil";
+            this.dataGridViewImageColumn2.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn2.Image")));
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             // 
-            // panel2
+            // dataGridViewImageColumn3
             // 
-            this.panel2.Controls.Add(this.dataGridView5);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(327, 106);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1170, 508);
-            this.panel2.TabIndex = 2;
+            this.dataGridViewImageColumn3.FillWeight = 50F;
+            this.dataGridViewImageColumn3.HeaderText = "Sil";
+            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
+            this.dataGridViewImageColumn3.MinimumWidth = 6;
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             // 
-            // dataGridView5
+            // dataGridViewImageColumn4
             // 
-            this.dataGridView5.AllowUserToAddRows = false;
-            this.dataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn16,
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn20,
-            this.Bakiye});
-            this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView5.EnableHeadersVisualStyles = false;
-            this.dataGridView5.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView5.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.RowHeadersWidth = 51;
-            this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(1170, 508);
-            this.dataGridView5.TabIndex = 1;
+            this.dataGridViewImageColumn4.FillWeight = 50F;
+            this.dataGridViewImageColumn4.HeaderText = "Sil";
+            this.dataGridViewImageColumn4.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn4.Image")));
+            this.dataGridViewImageColumn4.MinimumWidth = 6;
+            this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
+            this.dataGridViewImageColumn4.Width = 70;
             // 
-            // dataGridViewTextBoxColumn16
+            // AraButon
             // 
-            this.dataGridViewTextBoxColumn16.FillWeight = 60F;
-            this.dataGridViewTextBoxColumn16.HeaderText = "Müş.No";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.AraButon.BackColor = System.Drawing.Color.DarkCyan;
+            this.AraButon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AraButon.BackgroundImage")));
+            this.AraButon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AraButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AraButon.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.AraButon.Location = new System.Drawing.Point(817, 53);
+            this.AraButon.Margin = new System.Windows.Forms.Padding(1);
+            this.AraButon.Name = "AraButon";
+            this.AraButon.Size = new System.Drawing.Size(39, 28);
+            this.AraButon.TabIndex = 28;
+            this.AraButon.Text = "...";
+            this.AraButon.UseVisualStyleBackColor = false;
+            this.AraButon.Click += new System.EventHandler(this.AraButon_Click);
             // 
-            // dataGridViewTextBoxColumn17
+            // pictureBox1
             // 
-            this.dataGridViewTextBoxColumn17.FillWeight = 120F;
-            this.dataGridViewTextBoxColumn17.HeaderText = "Müşteri Adı";
-            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(391, 134);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
             // 
-            // dataGridViewTextBoxColumn21
+            // Sil
             // 
-            this.dataGridViewTextBoxColumn21.FillWeight = 180F;
-            this.dataGridViewTextBoxColumn21.HeaderText = "Adres";
-            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.Sil.FillWeight = 50F;
+            this.Sil.HeaderText = "Sil";
+            this.Sil.Image = ((System.Drawing.Image)(resources.GetObject("Sil.Image")));
+            this.Sil.MinimumWidth = 6;
+            this.Sil.Name = "Sil";
             // 
-            // dataGridViewTextBoxColumn19
+            // pictureBox2
             // 
-            this.dataGridViewTextBoxColumn19.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn19.HeaderText = "Ünvan";
-            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn22.HeaderText = "Grup";
-            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn18.HeaderText = "Telefon No";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn20.HeaderText = "E-mail";
-            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            // 
-            // Bakiye
-            // 
-            this.Bakiye.FillWeight = 50F;
-            this.Bakiye.HeaderText = "Bakiye";
-            this.Bakiye.MinimumWidth = 6;
-            this.Bakiye.Name = "Bakiye";
-            // 
-            // Musteributton1
-            // 
-            this.Musteributton1.BackColor = System.Drawing.Color.DarkCyan;
-            this.Musteributton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Musteributton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Musteributton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Musteributton1.Location = new System.Drawing.Point(923, 31);
-            this.Musteributton1.Margin = new System.Windows.Forms.Padding(1);
-            this.Musteributton1.Name = "Musteributton1";
-            this.Musteributton1.Size = new System.Drawing.Size(103, 34);
-            this.Musteributton1.TabIndex = 24;
-            this.Musteributton1.Text = "Listele";
-            this.Musteributton1.UseVisualStyleBackColor = false;
-            this.Musteributton1.Click += new System.EventHandler(this.Musteributton1_Click);
-            this.Musteributton1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Musteributton1_KeyDown);
-            // 
-            // splitContainer4
-            // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.Location = new System.Drawing.Point(4, 4);
-            this.splitContainer4.Name = "splitContainer4";
-            // 
-            // splitContainer4.Panel1
-            // 
-            this.splitContainer4.Panel1.BackColor = System.Drawing.Color.Gray;
-            this.splitContainer4.Panel1.Controls.Add(this.treeView2);
-            // 
-            // splitContainer4.Panel2
-            // 
-            this.splitContainer4.Panel2.BackColor = System.Drawing.Color.DarkGray;
-            this.splitContainer4.Size = new System.Drawing.Size(1497, 614);
-            this.splitContainer4.SplitterDistance = 499;
-            this.splitContainer4.TabIndex = 0;
-            // 
-            // treeView2
-            // 
-            this.treeView2.Location = new System.Drawing.Point(162, 145);
-            this.treeView2.Name = "treeView2";
-            treeNode1.Name = "Düğüm0";
-            treeNode1.Text = "Düğüm0";
-            treeNode2.Name = "Düğüm2";
-            treeNode2.Text = "Düğüm2";
-            treeNode3.Name = "Düğüm3";
-            treeNode3.Text = "Düğüm3";
-            treeNode4.Name = "Düğüm4";
-            treeNode4.Text = "Düğüm4";
-            treeNode5.Name = "Düğüm1";
-            treeNode5.Text = "Düğüm1";
-            treeNode6.Name = "Düğüm5";
-            treeNode6.Text = "Düğüm5";
-            treeNode7.Name = "Düğüm6";
-            treeNode7.Text = "Düğüm6";
-            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode5,
-            treeNode6,
-            treeNode7});
-            this.treeView2.Size = new System.Drawing.Size(219, 355);
-            this.treeView2.TabIndex = 0;
+            this.pictureBox2.Image = global::istoCPos.Properties.Resources._470_4703547_icon_user_icon_hd_png_download;
+            this.pictureBox2.Location = new System.Drawing.Point(55, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(135, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -2019,16 +2031,20 @@
             this.tabPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.tabPage1.ResumeLayout(false);
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.tabPage10.ResumeLayout(false);
             this.Musteripanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.Musteripanel3.ResumeLayout(false);
             this.Musteripanel2.ResumeLayout(false);
             this.Musteripanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabPage9.ResumeLayout(false);
@@ -2039,13 +2055,9 @@
             this.splitContainer3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2185,6 +2197,7 @@
         private System.Windows.Forms.Button Musteributton1;
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn4;
     }
 }
 
