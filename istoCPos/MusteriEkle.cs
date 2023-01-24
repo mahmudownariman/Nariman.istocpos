@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace istoCPos
 {
@@ -17,7 +16,8 @@ namespace istoCPos
         {
             InitializeComponent();
         }
-        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void MüsteriEkle_Load(object sender, EventArgs e)
         {
 
         }

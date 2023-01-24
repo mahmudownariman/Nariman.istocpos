@@ -28,17 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.MusEklelebel17 = new System.Windows.Forms.Label();
-            this.MusEklelabel16 = new System.Windows.Forms.Label();
-            this.MusEklelabel19 = new System.Windows.Forms.Label();
-            this.MusEklelabel14 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
@@ -66,6 +56,16 @@
             this.MusEklelabel7 = new System.Windows.Forms.Label();
             this.MusEklelabel6 = new System.Windows.Forms.Label();
             this.MusEklelabel5 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.MusEklelebel17 = new System.Windows.Forms.Label();
+            this.MusEklelabel16 = new System.Windows.Forms.Label();
+            this.MusEklelabel19 = new System.Windows.Forms.Label();
+            this.MusEklelabel14 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -75,31 +75,14 @@
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
             this.MusEklelabel1 = new System.Windows.Forms.Label();
-            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.textBox8);
-            this.panel6.Controls.Add(this.textBox7);
-            this.panel6.Controls.Add(this.textBox6);
-            this.panel6.Controls.Add(this.textBox5);
-            this.panel6.Controls.Add(this.MusEkleLabel4);
-            this.panel6.Controls.Add(this.MusEklelabel3);
-            this.panel6.Controls.Add(this.MusEklelabel2);
-            this.panel6.Controls.Add(this.MusEklelabel1);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(942, 157);
-            this.panel6.TabIndex = 0;
             // 
             // panel5
             // 
@@ -110,94 +93,8 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(946, 582);
-            this.panel5.TabIndex = 0;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.textBox14);
-            this.panel7.Controls.Add(this.comboBox9);
-            this.panel7.Controls.Add(this.comboBox8);
-            this.panel7.Controls.Add(this.textBox13);
-            this.panel7.Controls.Add(this.MusEklelebel17);
-            this.panel7.Controls.Add(this.MusEklelabel16);
-            this.panel7.Controls.Add(this.MusEklelabel19);
-            this.panel7.Controls.Add(this.MusEklelabel14);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(629, 157);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(313, 421);
-            this.panel7.TabIndex = 2;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(153, 156);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(150, 22);
-            this.textBox14.TabIndex = 40;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(153, 117);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(150, 24);
-            this.comboBox9.TabIndex = 39;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(153, 77);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(150, 24);
-            this.comboBox8.TabIndex = 38;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(153, 14);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(150, 22);
-            this.textBox13.TabIndex = 37;
-            // 
-            // MusEklelebel17
-            // 
-            this.MusEklelebel17.AutoSize = true;
-            this.MusEklelebel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelebel17.Location = new System.Drawing.Point(18, 117);
-            this.MusEklelebel17.Name = "MusEklelebel17";
-            this.MusEklelebel17.Size = new System.Drawing.Size(52, 20);
-            this.MusEklelebel17.TabIndex = 20;
-            this.MusEklelebel17.Text = "Doviz";
-            // 
-            // MusEklelabel16
-            // 
-            this.MusEklelabel16.AutoSize = true;
-            this.MusEklelabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel16.Location = new System.Drawing.Point(18, 77);
-            this.MusEklelabel16.Name = "MusEklelabel16";
-            this.MusEklelabel16.Size = new System.Drawing.Size(119, 20);
-            this.MusEklelabel16.TabIndex = 19;
-            this.MusEklelabel16.Text = "Fiyat Secenegi";
-            // 
-            // MusEklelabel19
-            // 
-            this.MusEklelabel19.AutoSize = true;
-            this.MusEklelabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel19.Location = new System.Drawing.Point(18, 16);
-            this.MusEklelabel19.Name = "MusEklelabel19";
-            this.MusEklelabel19.Size = new System.Drawing.Size(59, 20);
-            this.MusEklelabel19.TabIndex = 18;
-            this.MusEklelabel19.Text = "Bakiye";
-            // 
-            // MusEklelabel14
-            // 
-            this.MusEklelabel14.AutoSize = true;
-            this.MusEklelabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel14.Location = new System.Drawing.Point(18, 158);
-            this.MusEklelabel14.Name = "MusEklelabel14";
-            this.MusEklelabel14.Size = new System.Drawing.Size(101, 20);
-            this.MusEklelabel14.TabIndex = 11;
-            this.MusEklelabel14.Text = "FaturaAdres";
+            this.panel5.Size = new System.Drawing.Size(969, 599);
+            this.panel5.TabIndex = 1;
             // 
             // panel8
             // 
@@ -227,8 +124,8 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 157);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(629, 421);
-            this.panel8.TabIndex = 3;
+            this.panel8.Size = new System.Drawing.Size(652, 438);
+            this.panel8.TabIndex = 2;
             // 
             // textBox12
             // 
@@ -331,9 +228,9 @@
             this.panel9.BackColor = System.Drawing.Color.ForestGreen;
             this.panel9.Controls.Add(this.panel10);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 380);
+            this.panel9.Location = new System.Drawing.Point(0, 397);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(629, 41);
+            this.panel9.Size = new System.Drawing.Size(652, 41);
             this.panel9.TabIndex = 25;
             // 
             // panel10
@@ -341,7 +238,7 @@
             this.panel10.Controls.Add(this.button2);
             this.panel10.Controls.Add(this.button1);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(356, 0);
+            this.panel10.Location = new System.Drawing.Point(379, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(273, 41);
             this.panel10.TabIndex = 0;
@@ -468,100 +365,207 @@
             this.MusEklelabel5.TabIndex = 13;
             this.MusEklelabel5.Text = "Vergi Dairesi";
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.textBox14);
+            this.panel7.Controls.Add(this.comboBox9);
+            this.panel7.Controls.Add(this.comboBox8);
+            this.panel7.Controls.Add(this.textBox13);
+            this.panel7.Controls.Add(this.MusEklelebel17);
+            this.panel7.Controls.Add(this.MusEklelabel16);
+            this.panel7.Controls.Add(this.MusEklelabel19);
+            this.panel7.Controls.Add(this.MusEklelabel14);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel7.Location = new System.Drawing.Point(652, 157);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(313, 438);
+            this.panel7.TabIndex = 1;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(153, 156);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(150, 22);
+            this.textBox14.TabIndex = 40;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(153, 117);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(150, 24);
+            this.comboBox9.TabIndex = 39;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(153, 77);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(150, 24);
+            this.comboBox8.TabIndex = 38;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(153, 14);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(150, 22);
+            this.textBox13.TabIndex = 37;
+            // 
+            // MusEklelebel17
+            // 
+            this.MusEklelebel17.AutoSize = true;
+            this.MusEklelebel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusEklelebel17.Location = new System.Drawing.Point(18, 117);
+            this.MusEklelebel17.Name = "MusEklelebel17";
+            this.MusEklelebel17.Size = new System.Drawing.Size(52, 20);
+            this.MusEklelebel17.TabIndex = 20;
+            this.MusEklelebel17.Text = "Doviz";
+            // 
+            // MusEklelabel16
+            // 
+            this.MusEklelabel16.AutoSize = true;
+            this.MusEklelabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusEklelabel16.Location = new System.Drawing.Point(18, 77);
+            this.MusEklelabel16.Name = "MusEklelabel16";
+            this.MusEklelabel16.Size = new System.Drawing.Size(119, 20);
+            this.MusEklelabel16.TabIndex = 19;
+            this.MusEklelabel16.Text = "Fiyat Secenegi";
+            // 
+            // MusEklelabel19
+            // 
+            this.MusEklelabel19.AutoSize = true;
+            this.MusEklelabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusEklelabel19.Location = new System.Drawing.Point(18, 16);
+            this.MusEklelabel19.Name = "MusEklelabel19";
+            this.MusEklelabel19.Size = new System.Drawing.Size(59, 20);
+            this.MusEklelabel19.TabIndex = 18;
+            this.MusEklelabel19.Text = "Bakiye";
+            // 
+            // MusEklelabel14
+            // 
+            this.MusEklelabel14.AutoSize = true;
+            this.MusEklelabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusEklelabel14.Location = new System.Drawing.Point(18, 158);
+            this.MusEklelabel14.Name = "MusEklelabel14";
+            this.MusEklelabel14.Size = new System.Drawing.Size(101, 20);
+            this.MusEklelabel14.TabIndex = 11;
+            this.MusEklelabel14.Text = "FaturaAdres";
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.pictureBox1);
+            this.panel6.Controls.Add(this.textBox8);
+            this.panel6.Controls.Add(this.textBox7);
+            this.panel6.Controls.Add(this.textBox6);
+            this.panel6.Controls.Add(this.textBox5);
+            this.panel6.Controls.Add(this.MusEkleLabel4);
+            this.panel6.Controls.Add(this.MusEklelabel3);
+            this.panel6.Controls.Add(this.MusEklelabel2);
+            this.panel6.Controls.Add(this.MusEklelabel1);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(965, 157);
+            this.panel6.TabIndex = 0;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = global::istoCPos.Properties.Resources.bayi_tahsilat_1;
-            this.pictureBox1.Location = new System.Drawing.Point(629, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(650, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(313, 157);
+            this.pictureBox1.Size = new System.Drawing.Size(313, 155);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(120, 116);
+            this.textBox8.Location = new System.Drawing.Point(126, 116);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(150, 22);
-            this.textBox8.TabIndex = 16;
+            this.textBox8.TabIndex = 7;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(120, 85);
+            this.textBox7.Location = new System.Drawing.Point(126, 85);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(150, 22);
-            this.textBox7.TabIndex = 15;
+            this.textBox7.TabIndex = 6;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(120, 51);
+            this.textBox6.Location = new System.Drawing.Point(126, 51);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(150, 22);
-            this.textBox6.TabIndex = 14;
+            this.textBox6.TabIndex = 5;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(120, 19);
+            this.textBox5.Location = new System.Drawing.Point(126, 19);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(150, 22);
-            this.textBox5.TabIndex = 13;
+            this.textBox5.TabIndex = 4;
             // 
             // MusEkleLabel4
             // 
             this.MusEkleLabel4.AutoSize = true;
             this.MusEkleLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEkleLabel4.Location = new System.Drawing.Point(6, 116);
+            this.MusEkleLabel4.Location = new System.Drawing.Point(12, 116);
             this.MusEkleLabel4.Name = "MusEkleLabel4";
             this.MusEkleLabel4.Size = new System.Drawing.Size(55, 20);
-            this.MusEkleLabel4.TabIndex = 12;
+            this.MusEkleLabel4.TabIndex = 3;
             this.MusEkleLabel4.Text = "e-mail";
             // 
             // MusEklelabel3
             // 
             this.MusEklelabel3.AutoSize = true;
             this.MusEklelabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel3.Location = new System.Drawing.Point(6, 85);
+            this.MusEklelabel3.Location = new System.Drawing.Point(12, 85);
             this.MusEklelabel3.Name = "MusEklelabel3";
             this.MusEklelabel3.Size = new System.Drawing.Size(99, 20);
-            this.MusEklelabel3.TabIndex = 11;
+            this.MusEklelabel3.TabIndex = 2;
             this.MusEklelabel3.Text = "Cep Telefon";
             // 
             // MusEklelabel2
             // 
             this.MusEklelabel2.AutoSize = true;
             this.MusEklelabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel2.Location = new System.Drawing.Point(6, 51);
+            this.MusEklelabel2.Location = new System.Drawing.Point(12, 51);
             this.MusEklelabel2.Name = "MusEklelabel2";
             this.MusEklelabel2.Size = new System.Drawing.Size(64, 20);
-            this.MusEklelabel2.TabIndex = 10;
+            this.MusEklelabel2.TabIndex = 1;
             this.MusEklelabel2.Text = "Telefon";
             // 
             // MusEklelabel1
             // 
             this.MusEklelabel1.AutoSize = true;
             this.MusEklelabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel1.Location = new System.Drawing.Point(6, 19);
+            this.MusEklelabel1.Location = new System.Drawing.Point(12, 19);
             this.MusEklelabel1.Name = "MusEklelabel1";
             this.MusEklelabel1.Size = new System.Drawing.Size(94, 20);
-            this.MusEklelabel1.TabIndex = 9;
+            this.MusEklelabel1.TabIndex = 0;
             this.MusEklelabel1.Text = "Müşteri Adı";
             // 
             // MusteriEkle
             // 
-            this.ClientSize = new System.Drawing.Size(946, 582);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(969, 599);
             this.Controls.Add(this.panel5);
             this.Name = "MusteriEkle";
             this.Text = "Müşteri Ekle";
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            this.Load += new System.EventHandler(this.MüsteriEkle_Load);
             this.panel5.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -569,23 +573,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label MusteriEklelabel4;
-        private System.Windows.Forms.Label MusteriEklelabe3;
-        private System.Windows.Forms.Label MusteriEklelabel2;
-        private System.Windows.Forms.Label MusteriEklelabel1;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox textBox12;
@@ -623,6 +610,7 @@
         private System.Windows.Forms.Label MusEklelabel16;
         private System.Windows.Forms.Label MusEklelabel19;
         private System.Windows.Forms.Label MusEklelabel14;
+        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;

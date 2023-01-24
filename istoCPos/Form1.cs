@@ -361,13 +361,22 @@ namespace istoCPos
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            MusteriEkle MusteriKayit = new MusteriEkle();
-            MusteriKayit.ShowDialog();
+            if (treeView1.SelectedNode.Index == 0)
+            {
+                MusteriEkle MusteriKayıt = new MusteriEkle();
+                MusteriKayıt.ShowDialog();
+            }
+           
         }
 
         private void UrunBildirButon_MouseDown(object sender, MouseEventArgs e)
         {
-            MusteriEkleme();
+            
+        }
+
+        private void UrunBildirButon_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
