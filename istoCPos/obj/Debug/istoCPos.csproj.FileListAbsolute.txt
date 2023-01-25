@@ -172,3 +172,30 @@ C:\Users\90551\source\repos\v240122\istoCPos\bin\Debug\EntityFramework.xml
 C:\Users\90551\source\repos\v240122\istoCPos\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\90551\source\repos\v240122\istoCPos\obj\Debug\istoCPos.csproj.CopyComplete
 C:\Users\90551\source\repos\v240122\istoCPos\obj\Debug\istoCPos.MusteriEkle.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\istocDB.mdf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\istocDB_log.ldf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\Musteri.mdf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\Musteri_log.ldf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\Properties\istocDB.mdf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\Properties\istocDB_log.ldf
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\istoCPos.exe.config
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\istoCPos.exe
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\istoCPos.pdb
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\EntityFramework.dll
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\EntityFramework.xml
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.csproj.AssemblyReference.cache
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.csproj.SuggestedBindingRedirects.cache
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.Form1.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.MusteriEkle.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.HizliButonUrunEkle.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.KasaKartSatis.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.KasaNakitSatis.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.Properties.Resources.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.UrunAra.resources
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.csproj.GenerateResource.cache
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.csproj.CoreCompileInputs.cache
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.csproj.CopyComplete
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.exe
+C:\Users\90551\source\repos\Main 25.01.22\istoCPos\obj\Debug\istoCPos.pdb

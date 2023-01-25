@@ -349,14 +349,27 @@ namespace istoCPos
 
         }
 
-        private void Musteributton1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Musteributton1_KeyDown(object sender, KeyEventArgs e)
         {
 
+        }
+        //NARİMAN
+        string MusteriBaglanti = ("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\90551\\source\\repos\\Main 25.01.22\\istoCPos\\istocDB.mdf\";Integrated Security=True");
+        private void Musteributton1_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection verileriklonla = new SqlConnection(MusteriBaglanti))
+            {
+                verileriklonla.Open();
+
+                SqlDataAdapter musteriDataAdapter = new SqlDataAdapter("select *from Musteriler", verileriklonla);
+                DataTable musteriDataSet = new DataTable();
+                musteriDataAdapter.Fill(musteriDataSet);
+
+                dataGridView5.AutoGenerateColumns = false;
+                dataGridView5.DataSource = musteriDataSet;
+            }
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
