@@ -356,19 +356,23 @@ namespace istoCPos
 
         }
         //NARİMAN
-        string MusteriBaglanti = ("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\90551\\source\\repos\\Main 25.01.22\\istoCPos\\istocDB.mdf\";Integrated Security=True");
+        
         private void Musteributton1_Click(object sender, EventArgs e)
         {
-            using (SqlConnection verileriklonla = new SqlConnection(MusteriBaglanti))
+            if (textBox1.Text != "")
             {
-                verileriklonla.Open();
-
-                SqlDataAdapter musteriDataAdapter = new SqlDataAdapter("select *from Musteriler", verileriklonla);
-                DataTable musteriDataSet = new DataTable();
-                musteriDataAdapter.Fill(musteriDataSet);
-
+                string musteri = textBox1.Text;
+                var Musteriler = db.Musteriler.Where(a => a.MusteriAdi.Contains(musteri)).ToList();
+                
+                dataGridView5.AutoGenerateColumns = false;// bu kod datagridwiew de secili degil olanları görünmemesini saglıyor  
+                dataGridView5.DataSource = Musteriler;
+            }
+            else if(MustericomboBox1.Text !="")
+            {
+                string musteri = MustericomboBox1.Text;
+                var Musteriler = db.Musteriler.Where(a => a.FirmaAdi.Contains(musteri)).ToList();
                 dataGridView5.AutoGenerateColumns = false;
-                dataGridView5.DataSource = musteriDataSet;
+                dataGridView5.DataSource = Musteriler;
             }
         }
 

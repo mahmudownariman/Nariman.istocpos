@@ -34,5 +34,7 @@ namespace istoCPos
         public string Doviz { get; set; }
         public string Aciklama { get; set; }
         public Nullable<double> Bakiye { get; set; }
+        public string Unvan { get; set; }
+        public string FirmaAdi { get; set; }
     }
 }

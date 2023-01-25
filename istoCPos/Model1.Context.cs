@@ -31,5 +31,8 @@ namespace istoCPos
         public virtual DbSet<IslemOzet> IslemOzet { get; set; }
         public virtual DbSet<Satis1> Satis1 { get; set; }
         public virtual DbSet<Musteriler> Musteriler { get; set; }
+        public virtual DbSet<Satis> Satis { get; set; }
+        public virtual DbSet<SatisKayit> SatisKayit { get; set; }
+        public virtual DbSet<Table> Table { get; set; }
     }
 }

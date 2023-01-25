@@ -11,6 +11,9 @@
         <EntityTypeShape EntityType="istocDBModel.IslemOzet" Width="1.5" PointX="5.625" PointY="0.75" />
         <EntityTypeShape EntityType="istocDBModel.Satis1" Width="1.5" PointX="7.25" PointY="0.75" />
         <EntityTypeShape EntityType="istocDBModel.Musteriler" Width="1.5" PointX="9" PointY="0.75" />
+        <EntityTypeShape EntityType="istocDBModel.Satis" Width="1.5" PointX="3.75" PointY="5.75" />
+        <EntityTypeShape EntityType="istocDBModel.SatisKayit" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="istocDBModel.Table" Width="1.5" PointX="5.75" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

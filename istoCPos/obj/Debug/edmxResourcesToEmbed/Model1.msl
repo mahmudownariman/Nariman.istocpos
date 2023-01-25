@@ -89,6 +89,8 @@
     <EntitySetMapping Name="Musteriler">
       <EntityTypeMapping TypeName="istocDBModel.Musteriler">
         <MappingFragment StoreEntitySet="Musteriler">
+          <ScalarProperty Name="FirmaAdi" ColumnName="FirmaAdi" />
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
           <ScalarProperty Name="Bakiye" ColumnName="Bakiye" />
           <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
           <ScalarProperty Name="Doviz" ColumnName="Doviz" />
@@ -108,6 +110,58 @@
           <ScalarProperty Name="CepTelefon" ColumnName="CepTelefon" />
           <ScalarProperty Name="Telefon" ColumnName="Telefon" />
           <ScalarProperty Name="MusteriAdi" ColumnName="MusteriAdi" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Satis">
+      <EntityTypeMapping TypeName="istocDBModel.Satis">
+        <MappingFragment StoreEntitySet="Satis">
+          <ScalarProperty Name="Kulanici" ColumnName="Kulanici" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Iade" ColumnName="Iade" />
+          <ScalarProperty Name="OdemeSekli" ColumnName="OdemeSekli" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="Toplam" ColumnName="Toplam" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="SatisFiyat" ColumnName="SatisFiyat" />
+          <ScalarProperty Name="AlisFiyat" ColumnName="AlisFiyat" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="UrunAd" ColumnName="UrunAd" />
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+          <ScalarProperty Name="SatisId" ColumnName="SatisId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SatisKayit">
+      <EntityTypeMapping TypeName="istocDBModel.SatisKayit">
+        <MappingFragment StoreEntitySet="SatisKayit">
+          <ScalarProperty Name="Kullanici" ColumnName="Kullanici" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Iade" ColumnName="Iade" />
+          <ScalarProperty Name="OdemeSekli" ColumnName="OdemeSekli" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="SatisFiyat" ColumnName="SatisFiyat" />
+          <ScalarProperty Name="AlisFiyat" ColumnName="AlisFiyat" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+          <ScalarProperty Name="SatisId" ColumnName="SatisId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="istocDBModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>

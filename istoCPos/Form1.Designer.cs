@@ -156,6 +156,14 @@
             this.Musteripanel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Bakiye = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Musteripanel3 = new System.Windows.Forms.Panel();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -196,14 +204,6 @@
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Bakiye = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -855,7 +855,7 @@
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(694, 446);
+            this.tabPage4.Size = new System.Drawing.Size(694, 448);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Kasa 2";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -891,7 +891,7 @@
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView2.Size = new System.Drawing.Size(686, 440);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -943,7 +943,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage5.Size = new System.Drawing.Size(694, 446);
+            this.tabPage5.Size = new System.Drawing.Size(694, 448);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Kasa  3";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -979,7 +979,7 @@
             this.dataGridView3.RowHeadersVisible = false;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView3.Size = new System.Drawing.Size(686, 440);
             this.dataGridView3.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn6
@@ -1031,7 +1031,7 @@
             this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage6.Size = new System.Drawing.Size(694, 446);
+            this.tabPage6.Size = new System.Drawing.Size(694, 448);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Kasa 4";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1067,7 +1067,7 @@
             this.dataGridView4.RowHeadersVisible = false;
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView4.Size = new System.Drawing.Size(686, 440);
             this.dataGridView4.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn11
@@ -1427,6 +1427,70 @@
             this.dataGridView5.Size = new System.Drawing.Size(1170, 510);
             this.dataGridView5.TabIndex = 1;
             // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Id";
+            this.dataGridViewTextBoxColumn16.FillWeight = 60F;
+            this.dataGridViewTextBoxColumn16.HeaderText = "Müş.No";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "MusteriAdi";
+            this.dataGridViewTextBoxColumn17.FillWeight = 120F;
+            this.dataGridViewTextBoxColumn17.HeaderText = "Müşteri Adı";
+            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Adres";
+            this.dataGridViewTextBoxColumn21.FillWeight = 180F;
+            this.dataGridViewTextBoxColumn21.HeaderText = "Adres";
+            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "Unvan";
+            this.dataGridViewTextBoxColumn19.FillWeight = 80F;
+            this.dataGridViewTextBoxColumn19.HeaderText = "Ünvan";
+            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "Grup1";
+            this.dataGridViewTextBoxColumn22.FillWeight = 50F;
+            this.dataGridViewTextBoxColumn22.HeaderText = "Grup";
+            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Telefon";
+            this.dataGridViewTextBoxColumn18.FillWeight = 80F;
+            this.dataGridViewTextBoxColumn18.HeaderText = "Telefon No";
+            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "e-mail";
+            this.dataGridViewTextBoxColumn20.FillWeight = 50F;
+            this.dataGridViewTextBoxColumn20.HeaderText = "E-mail";
+            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            // 
+            // Bakiye
+            // 
+            this.Bakiye.DataPropertyName = "Bakiye";
+            this.Bakiye.FillWeight = 50F;
+            this.Bakiye.HeaderText = "Bakiye";
+            this.Bakiye.MinimumWidth = 6;
+            this.Bakiye.Name = "Bakiye";
+            // 
             // Musteripanel3
             // 
             this.Musteripanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1598,6 +1662,10 @@
             // 
             this.MustericomboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MustericomboBox1.FormattingEnabled = true;
+            this.MustericomboBox1.Items.AddRange(new object[] {
+            "Nike",
+            "Adidas",
+            "Fila"});
             this.MustericomboBox1.Location = new System.Drawing.Point(418, 35);
             this.MustericomboBox1.Name = "MustericomboBox1";
             this.MustericomboBox1.Size = new System.Drawing.Size(163, 30);
@@ -1947,70 +2015,6 @@
             this.dataGridViewImageColumn4.MinimumWidth = 6;
             this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
             this.dataGridViewImageColumn4.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn16.FillWeight = 60F;
-            this.dataGridViewTextBoxColumn16.HeaderText = "Müş.No";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            // 
-            // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "MusteriAdi";
-            this.dataGridViewTextBoxColumn17.FillWeight = 120F;
-            this.dataGridViewTextBoxColumn17.HeaderText = "Müşteri Adı";
-            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "Adres";
-            this.dataGridViewTextBoxColumn21.FillWeight = 180F;
-            this.dataGridViewTextBoxColumn21.HeaderText = "Adres";
-            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "Unvan";
-            this.dataGridViewTextBoxColumn19.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn19.HeaderText = "Ünvan";
-            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "Grup1";
-            this.dataGridViewTextBoxColumn22.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn22.HeaderText = "Grup";
-            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "Telefon";
-            this.dataGridViewTextBoxColumn18.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn18.HeaderText = "Telefon No";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "e-mail";
-            this.dataGridViewTextBoxColumn20.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn20.HeaderText = "E-mail";
-            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            // 
-            // Bakiye
-            // 
-            this.Bakiye.DataPropertyName = "Bakiye";
-            this.Bakiye.FillWeight = 50F;
-            this.Bakiye.HeaderText = "Bakiye";
-            this.Bakiye.MinimumWidth = 6;
-            this.Bakiye.Name = "Bakiye";
             // 
             // Form1
             // 
