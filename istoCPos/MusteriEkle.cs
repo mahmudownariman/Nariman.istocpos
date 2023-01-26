@@ -28,7 +28,7 @@ namespace istoCPos
         {
 
         }
-        Form1 cek = new Form1();
+        
         
         
         private void button1_Click(object sender, EventArgs e)
@@ -82,8 +82,9 @@ namespace istoCPos
                 MustericomboBox7.Text = "";
                 MustericomboBox8.Text = "";
                 MustericomboBox9.Text = "";
-
+                
                 MessageBox.Show("Kayıt Edildi");
+                
             }
 
         }
