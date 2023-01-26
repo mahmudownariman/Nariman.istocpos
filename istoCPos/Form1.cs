@@ -355,25 +355,47 @@ namespace istoCPos
         {
 
         }
-        //NARİMAN
-        
-        private void Musteributton1_Click(object sender, EventArgs e)
+        private void UrunBildirButon_MouseDown(object sender, MouseEventArgs e)
         {
-            if (textBox1.Text != "")
+
+        }
+
+        private void UrunBildirButon_Click(object sender, EventArgs e)
+        {
+
+        }
+        //NARİMAN
+
+        private void Musteributton1_Click(object sender, EventArgs e)
+        { 
+
+            if (MusteritextBox.Text != "")
             {
-                string musteri = textBox1.Text;
+                string musteri = MusteritextBox.Text;
                 var Musteriler = db.Musteriler.Where(a => a.MusteriAdi.Contains(musteri)).ToList();
                 
-                dataGridView5.AutoGenerateColumns = false;// bu kod datagridwiew de secili degil olanları görünmemesini saglıyor  
-                dataGridView5.DataSource = Musteriler;
+                MusteridataGridView5.AutoGenerateColumns = false;// bu kod datagridwiew de secili degil olanları görünmemesini saglıyor  
+                MusteridataGridView5.DataSource = Musteriler;
+
             }
             else if(MustericomboBox1.Text !="")
             {
                 string musteri = MustericomboBox1.Text;
                 var Musteriler = db.Musteriler.Where(a => a.FirmaAdi.Contains(musteri)).ToList();
-                dataGridView5.AutoGenerateColumns = false;
-                dataGridView5.DataSource = Musteriler;
+
+                MusteridataGridView5.AutoGenerateColumns = false;// bu kod datagridwiew de secili degil olanları görünmemesini saglıyor   
+                MusteridataGridView5.DataSource = Musteriler;
             }
+            else if (MustericomboBox2.Text != "")
+            {
+                string musteri = MustericomboBox2.Text;
+                var Musteriler = db.Musteriler.Where(a => a.Adres.Contains(musteri)).ToList();
+
+                MusteridataGridView5.AutoGenerateColumns = false;// bu kod datagridwiew de secili degil olanları görünmemesini saglıyor   
+                MusteridataGridView5.DataSource = Musteriler;
+            }
+            
+
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
@@ -383,16 +405,29 @@ namespace istoCPos
                 MusteriEkle MusteriKayıt = new MusteriEkle();
                 MusteriKayıt.ShowDialog();
             }
-           
+            if(treeView1.SelectedNode.Index == 1)
+            {
+                MusteriKarti musteriKarti = new MusteriKarti();
+                musteriKarti.ShowDialog();
+            }
         }
 
-        private void UrunBildirButon_MouseDown(object sender, MouseEventArgs e)
+        
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            
+            if (checkBox1.Checked == true)
+            {
+                Column9.Visible = true;
+            }else Column9.Visible = false;
         }
 
-        private void UrunBildirButon_Click(object sender, EventArgs e)
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBox2.Checked == true)
+            {
+                Column10.Visible = true;
+            }else Column10.Visible = false;
 
         }
     }

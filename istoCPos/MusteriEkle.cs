@@ -28,10 +28,12 @@ namespace istoCPos
         {
 
         }
-
+        Form1 cek = new Form1();
+        
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 open = new Form1();
+            
             if (MusteritextBox1.Text != "" && MusteritextBox2.Text != "")
             {
                 Musteriler MusteriKaydet = new Musteriler();
@@ -59,9 +61,29 @@ namespace istoCPos
 
                 database.Musteriler.Add(MusteriKaydet);
                 database.SaveChanges();
+                MusteritextBox1.Clear();
+                MusteritextBox2.Clear();
+                MusteritextBox3.Clear();
+                MusteritextBox4.Clear();
+                MusteritextBox5.Clear();
+                MusteritextBox6.Clear();
+                MusteritextBox7.Clear();
+                MusteritextBox8.Clear();
+                MusteritextBox9.Clear();
+                MusteritextBox10.Clear();
+                MusteritextBox11.Clear();
+                MusteritextBox12.Clear();
+                MustericomboBox1.Text = "";
+                MustericomboBox2.Text = "";
+                MustericomboBox3.Text = "";
+                MustericomboBox4.Text = "";
+                MustericomboBox5.Text = "";
+                MustericomboBox6.Text = "";
+                MustericomboBox7.Text = "";
+                MustericomboBox8.Text = "";
+                MustericomboBox9.Text = "";
 
-                
-
+                MessageBox.Show("Kayıt Edildi");
             }
 
         }
