@@ -418,13 +418,126 @@ namespace istoCPos
         {
             if (checkBox1.Checked == true)
             {
-                Column9.Visible = true;
-            }else Column9.Visible = false;
+                Column22.Visible = true;
+            }
+            else Column22.Visible = false;
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            
+            if (checkBox2.Checked == true)
+            {
+                Column14.Visible = true;
+            }
+            else Column14.Visible = false;
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == true)
+            {
+                Column15.Visible = true;
+            }
+            else Column15.Visible = false;
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked == true)
+            {
+                Column16.Visible = true;
+            }
+            else Column16.Visible = false;
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked == true)
+            {
+                Column12.Visible = true;
+            }
+            else Column12.Visible = false;
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox6.Checked == true)
+            {
+                Column13.Visible = true;
+            }
+            else Column13.Visible = false;
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox7.Checked == true)
+            {
+                Column9.Visible = true;
+            }
+            else Column9.Visible = false;
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox8.Checked == true)
+            {
+                Column17.Visible = true;
+            }
+            else Column17.Visible = false;
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox9.Checked == true)
+            {
+                Column18.Visible = true;
+            }
+            else Column18.Visible = false;
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox10.Checked == true)
+            {
+                Column19.Visible = true;
+            }
+            else Column19.Visible = false;
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox11.Checked == true)
+            {
+                Column10.Visible = true;
+            }
+            else Column10.Visible = false;
+        }
+
+        private void checkBox12_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox12.Checked == true)
+            {
+                Column11.Visible = true;
+            }
+            else Column11.Visible = false;
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox13.Checked == true)
+            {
+                Column20.Visible = true;
+            }
+            else Column20.Visible = false;
+        }
+
+        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox14.Checked == true)
+            {
+                Column21.Visible = true;
+            }
+            else Column21.Visible = false;
         }
     }
 }
