@@ -69,7 +69,7 @@ namespace istoCPos
                 MusteritextBox6.Clear();
                 MusteritextBox7.Clear();
                 MusteritextBox8.Clear();
-                MusteritextBox9.Clear();
+
                 MusteritextBox10.Clear();
                 MusteritextBox11.Clear();
                 MusteritextBox12.Clear();

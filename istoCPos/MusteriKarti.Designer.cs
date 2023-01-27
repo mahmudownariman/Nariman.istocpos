@@ -30,22 +30,22 @@
         {
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.MusteritextBox7 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox8 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox6 = new System.Windows.Forms.TextBox();
-            this.MustericomboBox7 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox6 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox5 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox4 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox3 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox2 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox1 = new System.Windows.Forms.ComboBox();
-            this.MusteritextBox5 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox7 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox8 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox6 = new System.Windows.Forms.TextBox();
+            this.MusteriKarticomboBox7 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox6 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox5 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox4 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox3 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox2 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox1 = new System.Windows.Forms.ComboBox();
+            this.MusteriKartitextBox5 = new System.Windows.Forms.TextBox();
             this.MusEklelabel15 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.MusteriKartibutton2 = new System.Windows.Forms.Button();
+            this.MusteriKartibutton1 = new System.Windows.Forms.Button();
             this.MusEklelabel13 = new System.Windows.Forms.Label();
             this.MusEklelabel12 = new System.Windows.Forms.Label();
             this.MusEklelabel18 = new System.Windows.Forms.Label();
@@ -57,24 +57,24 @@
             this.MusEklelabel6 = new System.Windows.Forms.Label();
             this.MusEklelabel5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.MusteritextBox12 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox11 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox12 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox11 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.MusteritextBox10 = new System.Windows.Forms.TextBox();
-            this.MustericomboBox9 = new System.Windows.Forms.ComboBox();
-            this.MustericomboBox8 = new System.Windows.Forms.ComboBox();
-            this.MusteritextBox9 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox10 = new System.Windows.Forms.TextBox();
+            this.MusteriKarticomboBox9 = new System.Windows.Forms.ComboBox();
+            this.MusteriKarticomboBox8 = new System.Windows.Forms.ComboBox();
+            this.MusteriKartitextBox9 = new System.Windows.Forms.TextBox();
             this.MusEklelebel17 = new System.Windows.Forms.Label();
             this.MusEklelabel16 = new System.Windows.Forms.Label();
             this.MusEklelabel19 = new System.Windows.Forms.Label();
             this.MusEklelabel14 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.MusteritextBox4 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox3 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox2 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox1 = new System.Windows.Forms.TextBox();
+            this.MusteriKaritextBox4 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox3 = new System.Windows.Forms.TextBox();
+            this.MusterKartiitextBox2 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox1 = new System.Windows.Forms.TextBox();
             this.MusEkleLabel4 = new System.Windows.Forms.Label();
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
@@ -102,17 +102,17 @@
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.MusteritextBox7);
-            this.panel8.Controls.Add(this.MusteritextBox8);
-            this.panel8.Controls.Add(this.MusteritextBox6);
-            this.panel8.Controls.Add(this.MustericomboBox7);
-            this.panel8.Controls.Add(this.MustericomboBox6);
-            this.panel8.Controls.Add(this.MustericomboBox5);
-            this.panel8.Controls.Add(this.MustericomboBox4);
-            this.panel8.Controls.Add(this.MustericomboBox3);
-            this.panel8.Controls.Add(this.MustericomboBox2);
-            this.panel8.Controls.Add(this.MustericomboBox1);
-            this.panel8.Controls.Add(this.MusteritextBox5);
+            this.panel8.Controls.Add(this.MusteriKartitextBox7);
+            this.panel8.Controls.Add(this.MusteriKartitextBox8);
+            this.panel8.Controls.Add(this.MusteriKartitextBox6);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox7);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox6);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox5);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox4);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox3);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox2);
+            this.panel8.Controls.Add(this.MusteriKarticomboBox1);
+            this.panel8.Controls.Add(this.MusteriKartitextBox5);
             this.panel8.Controls.Add(this.MusEklelabel15);
             this.panel8.Controls.Add(this.panel9);
             this.panel8.Controls.Add(this.MusEklelabel13);
@@ -131,94 +131,94 @@
             this.panel8.Size = new System.Drawing.Size(652, 438);
             this.panel8.TabIndex = 2;
             // 
-            // MusteritextBox7
+            // MusteriKartitextBox7
             // 
-            this.MusteritextBox7.Location = new System.Drawing.Point(413, 61);
-            this.MusteritextBox7.Name = "MusteritextBox7";
-            this.MusteritextBox7.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox7.TabIndex = 47;
+            this.MusteriKartitextBox7.Location = new System.Drawing.Point(413, 53);
+            this.MusteriKartitextBox7.Name = "MusteriKartitextBox7";
+            this.MusteriKartitextBox7.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox7.TabIndex = 47;
             // 
-            // MusteritextBox8
+            // MusteriKartitextBox8
             // 
-            this.MusteritextBox8.Location = new System.Drawing.Point(390, 121);
-            this.MusteritextBox8.Multiline = true;
-            this.MusteritextBox8.Name = "MusteritextBox8";
-            this.MusteritextBox8.Size = new System.Drawing.Size(173, 115);
-            this.MusteritextBox8.TabIndex = 46;
+            this.MusteriKartitextBox8.Location = new System.Drawing.Point(390, 121);
+            this.MusteriKartitextBox8.Multiline = true;
+            this.MusteriKartitextBox8.Name = "MusteriKartitextBox8";
+            this.MusteriKartitextBox8.Size = new System.Drawing.Size(173, 115);
+            this.MusteriKartitextBox8.TabIndex = 46;
             // 
-            // MusteritextBox6
+            // MusteriKartitextBox6
             // 
-            this.MusteritextBox6.Location = new System.Drawing.Point(413, 22);
-            this.MusteritextBox6.Name = "MusteritextBox6";
-            this.MusteritextBox6.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox6.TabIndex = 45;
+            this.MusteriKartitextBox6.Location = new System.Drawing.Point(413, 14);
+            this.MusteriKartitextBox6.Name = "MusteriKartitextBox6";
+            this.MusteriKartitextBox6.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox6.TabIndex = 45;
             // 
-            // MustericomboBox7
+            // MusteriKarticomboBox7
             // 
-            this.MustericomboBox7.FormattingEnabled = true;
-            this.MustericomboBox7.Location = new System.Drawing.Point(127, 302);
-            this.MustericomboBox7.Name = "MustericomboBox7";
-            this.MustericomboBox7.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox7.TabIndex = 44;
+            this.MusteriKarticomboBox7.FormattingEnabled = true;
+            this.MusteriKarticomboBox7.Location = new System.Drawing.Point(127, 302);
+            this.MusteriKarticomboBox7.Name = "MusteriKarticomboBox7";
+            this.MusteriKarticomboBox7.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox7.TabIndex = 44;
             // 
-            // MustericomboBox6
+            // MusteriKarticomboBox6
             // 
-            this.MustericomboBox6.FormattingEnabled = true;
-            this.MustericomboBox6.Location = new System.Drawing.Point(127, 270);
-            this.MustericomboBox6.Name = "MustericomboBox6";
-            this.MustericomboBox6.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox6.TabIndex = 43;
+            this.MusteriKarticomboBox6.FormattingEnabled = true;
+            this.MusteriKarticomboBox6.Location = new System.Drawing.Point(127, 270);
+            this.MusteriKarticomboBox6.Name = "MusteriKarticomboBox6";
+            this.MusteriKarticomboBox6.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox6.TabIndex = 43;
             // 
-            // MustericomboBox5
+            // MusteriKarticomboBox5
             // 
-            this.MustericomboBox5.FormattingEnabled = true;
-            this.MustericomboBox5.Location = new System.Drawing.Point(127, 237);
-            this.MustericomboBox5.Name = "MustericomboBox5";
-            this.MustericomboBox5.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox5.TabIndex = 42;
+            this.MusteriKarticomboBox5.FormattingEnabled = true;
+            this.MusteriKarticomboBox5.Location = new System.Drawing.Point(127, 237);
+            this.MusteriKarticomboBox5.Name = "MusteriKarticomboBox5";
+            this.MusteriKarticomboBox5.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox5.TabIndex = 42;
             // 
-            // MustericomboBox4
+            // MusteriKarticomboBox4
             // 
-            this.MustericomboBox4.FormattingEnabled = true;
-            this.MustericomboBox4.Location = new System.Drawing.Point(127, 113);
-            this.MustericomboBox4.Name = "MustericomboBox4";
-            this.MustericomboBox4.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox4.TabIndex = 41;
+            this.MusteriKarticomboBox4.FormattingEnabled = true;
+            this.MusteriKarticomboBox4.Location = new System.Drawing.Point(127, 113);
+            this.MusteriKarticomboBox4.Name = "MusteriKarticomboBox4";
+            this.MusteriKarticomboBox4.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox4.TabIndex = 41;
             // 
-            // MustericomboBox3
+            // MusteriKarticomboBox3
             // 
-            this.MustericomboBox3.FormattingEnabled = true;
-            this.MustericomboBox3.Location = new System.Drawing.Point(125, 81);
-            this.MustericomboBox3.Name = "MustericomboBox3";
-            this.MustericomboBox3.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox3.TabIndex = 40;
+            this.MusteriKarticomboBox3.FormattingEnabled = true;
+            this.MusteriKarticomboBox3.Location = new System.Drawing.Point(125, 81);
+            this.MusteriKarticomboBox3.Name = "MusteriKarticomboBox3";
+            this.MusteriKarticomboBox3.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox3.TabIndex = 40;
             // 
-            // MustericomboBox2
+            // MusteriKarticomboBox2
             // 
-            this.MustericomboBox2.FormattingEnabled = true;
-            this.MustericomboBox2.Location = new System.Drawing.Point(127, 49);
-            this.MustericomboBox2.Name = "MustericomboBox2";
-            this.MustericomboBox2.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox2.TabIndex = 39;
+            this.MusteriKarticomboBox2.FormattingEnabled = true;
+            this.MusteriKarticomboBox2.Location = new System.Drawing.Point(127, 49);
+            this.MusteriKarticomboBox2.Name = "MusteriKarticomboBox2";
+            this.MusteriKarticomboBox2.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox2.TabIndex = 39;
             // 
-            // MustericomboBox1
+            // MusteriKarticomboBox1
             // 
-            this.MustericomboBox1.FormattingEnabled = true;
-            this.MustericomboBox1.Items.AddRange(new object[] {
+            this.MusteriKarticomboBox1.FormattingEnabled = true;
+            this.MusteriKarticomboBox1.Items.AddRange(new object[] {
             "daire1",
             "daire2"});
-            this.MustericomboBox1.Location = new System.Drawing.Point(127, 16);
-            this.MustericomboBox1.Name = "MustericomboBox1";
-            this.MustericomboBox1.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox1.TabIndex = 38;
+            this.MusteriKarticomboBox1.Location = new System.Drawing.Point(127, 16);
+            this.MusteriKarticomboBox1.Name = "MusteriKarticomboBox1";
+            this.MusteriKarticomboBox1.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox1.TabIndex = 38;
             // 
-            // MusteritextBox5
+            // MusteriKartitextBox5
             // 
-            this.MusteritextBox5.Location = new System.Drawing.Point(72, 170);
-            this.MusteritextBox5.Multiline = true;
-            this.MusteritextBox5.Name = "MusteritextBox5";
-            this.MusteritextBox5.Size = new System.Drawing.Size(205, 58);
-            this.MusteritextBox5.TabIndex = 37;
+            this.MusteriKartitextBox5.Location = new System.Drawing.Point(72, 170);
+            this.MusteriKartitextBox5.Multiline = true;
+            this.MusteriKartitextBox5.Name = "MusteriKartitextBox5";
+            this.MusteriKartitextBox5.Size = new System.Drawing.Size(205, 58);
+            this.MusteriKartitextBox5.TabIndex = 37;
             // 
             // MusEklelabel15
             // 
@@ -242,35 +242,35 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.button2);
-            this.panel10.Controls.Add(this.button1);
+            this.panel10.Controls.Add(this.MusteriKartibutton2);
+            this.panel10.Controls.Add(this.MusteriKartibutton1);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel10.Location = new System.Drawing.Point(379, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(273, 41);
             this.panel10.TabIndex = 0;
             // 
-            // button2
+            // MusteriKartibutton2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(189, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 28);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "İptal";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.MusteriKartibutton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriKartibutton2.Location = new System.Drawing.Point(189, 6);
+            this.MusteriKartibutton2.Name = "MusteriKartibutton2";
+            this.MusteriKartibutton2.Size = new System.Drawing.Size(74, 28);
+            this.MusteriKartibutton2.TabIndex = 1;
+            this.MusteriKartibutton2.Text = "İptal";
+            this.MusteriKartibutton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.MusteriKartibutton2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // MusteriKartibutton1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(63, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kayıt [F2]";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.MusteriKartibutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriKartibutton1.Location = new System.Drawing.Point(63, 6);
+            this.MusteriKartibutton1.Name = "MusteriKartibutton1";
+            this.MusteriKartibutton1.Size = new System.Drawing.Size(114, 28);
+            this.MusteriKartibutton1.TabIndex = 0;
+            this.MusteriKartibutton1.Text = "Kayıt [F2]";
+            this.MusteriKartibutton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.MusteriKartibutton1.UseVisualStyleBackColor = true;
             // 
             // MusEklelabel13
             // 
@@ -374,14 +374,14 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.MusteritextBox12);
-            this.panel7.Controls.Add(this.MusteritextBox11);
+            this.panel7.Controls.Add(this.MusteriKartitextBox12);
+            this.panel7.Controls.Add(this.MusteriKartitextBox11);
             this.panel7.Controls.Add(this.label2);
             this.panel7.Controls.Add(this.label1);
-            this.panel7.Controls.Add(this.MusteritextBox10);
-            this.panel7.Controls.Add(this.MustericomboBox9);
-            this.panel7.Controls.Add(this.MustericomboBox8);
-            this.panel7.Controls.Add(this.MusteritextBox9);
+            this.panel7.Controls.Add(this.MusteriKartitextBox10);
+            this.panel7.Controls.Add(this.MusteriKarticomboBox9);
+            this.panel7.Controls.Add(this.MusteriKarticomboBox8);
+            this.panel7.Controls.Add(this.MusteriKartitextBox9);
             this.panel7.Controls.Add(this.MusEklelebel17);
             this.panel7.Controls.Add(this.MusEklelabel16);
             this.panel7.Controls.Add(this.MusEklelabel19);
@@ -392,19 +392,19 @@
             this.panel7.Size = new System.Drawing.Size(313, 438);
             this.panel7.TabIndex = 1;
             // 
-            // MusteritextBox12
+            // MusteriKartitextBox12
             // 
-            this.MusteritextBox12.Location = new System.Drawing.Point(143, 237);
-            this.MusteritextBox12.Name = "MusteritextBox12";
-            this.MusteritextBox12.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox12.TabIndex = 48;
+            this.MusteriKartitextBox12.Location = new System.Drawing.Point(143, 237);
+            this.MusteriKartitextBox12.Name = "MusteriKartitextBox12";
+            this.MusteriKartitextBox12.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox12.TabIndex = 48;
             // 
-            // MusteritextBox11
+            // MusteriKartitextBox11
             // 
-            this.MusteritextBox11.Location = new System.Drawing.Point(143, 196);
-            this.MusteritextBox11.Name = "MusteritextBox11";
-            this.MusteritextBox11.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox11.TabIndex = 47;
+            this.MusteriKartitextBox11.Location = new System.Drawing.Point(143, 196);
+            this.MusteriKartitextBox11.Name = "MusteriKartitextBox11";
+            this.MusteriKartitextBox11.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox11.TabIndex = 47;
             // 
             // label2
             // 
@@ -426,35 +426,35 @@
             this.label1.TabIndex = 45;
             this.label1.Text = "Unvan";
             // 
-            // MusteritextBox10
+            // MusteriKartitextBox10
             // 
-            this.MusteritextBox10.Location = new System.Drawing.Point(143, 156);
-            this.MusteritextBox10.Name = "MusteritextBox10";
-            this.MusteritextBox10.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox10.TabIndex = 44;
+            this.MusteriKartitextBox10.Location = new System.Drawing.Point(143, 156);
+            this.MusteriKartitextBox10.Name = "MusteriKartitextBox10";
+            this.MusteriKartitextBox10.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox10.TabIndex = 44;
             // 
-            // MustericomboBox9
+            // MusteriKarticomboBox9
             // 
-            this.MustericomboBox9.FormattingEnabled = true;
-            this.MustericomboBox9.Location = new System.Drawing.Point(143, 117);
-            this.MustericomboBox9.Name = "MustericomboBox9";
-            this.MustericomboBox9.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox9.TabIndex = 43;
+            this.MusteriKarticomboBox9.FormattingEnabled = true;
+            this.MusteriKarticomboBox9.Location = new System.Drawing.Point(143, 117);
+            this.MusteriKarticomboBox9.Name = "MusteriKarticomboBox9";
+            this.MusteriKarticomboBox9.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox9.TabIndex = 43;
             // 
-            // MustericomboBox8
+            // MusteriKarticomboBox8
             // 
-            this.MustericomboBox8.FormattingEnabled = true;
-            this.MustericomboBox8.Location = new System.Drawing.Point(143, 77);
-            this.MustericomboBox8.Name = "MustericomboBox8";
-            this.MustericomboBox8.Size = new System.Drawing.Size(150, 24);
-            this.MustericomboBox8.TabIndex = 42;
+            this.MusteriKarticomboBox8.FormattingEnabled = true;
+            this.MusteriKarticomboBox8.Location = new System.Drawing.Point(143, 77);
+            this.MusteriKarticomboBox8.Name = "MusteriKarticomboBox8";
+            this.MusteriKarticomboBox8.Size = new System.Drawing.Size(150, 24);
+            this.MusteriKarticomboBox8.TabIndex = 42;
             // 
-            // MusteritextBox9
+            // MusteriKartitextBox9
             // 
-            this.MusteritextBox9.Location = new System.Drawing.Point(143, 14);
-            this.MusteritextBox9.Name = "MusteritextBox9";
-            this.MusteritextBox9.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox9.TabIndex = 41;
+            this.MusteriKartitextBox9.Location = new System.Drawing.Point(143, 14);
+            this.MusteriKartitextBox9.Name = "MusteriKartitextBox9";
+            this.MusteriKartitextBox9.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox9.TabIndex = 41;
             // 
             // MusEklelebel17
             // 
@@ -500,10 +500,10 @@
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.MusteritextBox4);
-            this.panel6.Controls.Add(this.MusteritextBox3);
-            this.panel6.Controls.Add(this.MusteritextBox2);
-            this.panel6.Controls.Add(this.MusteritextBox1);
+            this.panel6.Controls.Add(this.MusteriKaritextBox4);
+            this.panel6.Controls.Add(this.MusteriKartitextBox3);
+            this.panel6.Controls.Add(this.MusterKartiitextBox2);
+            this.panel6.Controls.Add(this.MusteriKartitextBox1);
             this.panel6.Controls.Add(this.MusEkleLabel4);
             this.panel6.Controls.Add(this.MusEklelabel3);
             this.panel6.Controls.Add(this.MusEklelabel2);
@@ -524,33 +524,33 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // MusteritextBox4
+            // MusteriKaritextBox4
             // 
-            this.MusteritextBox4.Location = new System.Drawing.Point(126, 116);
-            this.MusteritextBox4.Name = "MusteritextBox4";
-            this.MusteritextBox4.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox4.TabIndex = 12;
+            this.MusteriKaritextBox4.Location = new System.Drawing.Point(126, 116);
+            this.MusteriKaritextBox4.Name = "MusteriKaritextBox4";
+            this.MusteriKaritextBox4.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKaritextBox4.TabIndex = 12;
             // 
-            // MusteritextBox3
+            // MusteriKartitextBox3
             // 
-            this.MusteritextBox3.Location = new System.Drawing.Point(126, 85);
-            this.MusteritextBox3.Name = "MusteritextBox3";
-            this.MusteritextBox3.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox3.TabIndex = 11;
+            this.MusteriKartitextBox3.Location = new System.Drawing.Point(126, 85);
+            this.MusteriKartitextBox3.Name = "MusteriKartitextBox3";
+            this.MusteriKartitextBox3.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox3.TabIndex = 11;
             // 
-            // MusteritextBox2
+            // MusterKartiitextBox2
             // 
-            this.MusteritextBox2.Location = new System.Drawing.Point(126, 51);
-            this.MusteritextBox2.Name = "MusteritextBox2";
-            this.MusteritextBox2.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox2.TabIndex = 10;
+            this.MusterKartiitextBox2.Location = new System.Drawing.Point(126, 51);
+            this.MusterKartiitextBox2.Name = "MusterKartiitextBox2";
+            this.MusterKartiitextBox2.Size = new System.Drawing.Size(150, 22);
+            this.MusterKartiitextBox2.TabIndex = 10;
             // 
-            // MusteritextBox1
+            // MusteriKartitextBox1
             // 
-            this.MusteritextBox1.Location = new System.Drawing.Point(126, 19);
-            this.MusteritextBox1.Name = "MusteritextBox1";
-            this.MusteritextBox1.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox1.TabIndex = 9;
+            this.MusteriKartitextBox1.Location = new System.Drawing.Point(126, 19);
+            this.MusteriKartitextBox1.Name = "MusteriKartitextBox1";
+            this.MusteriKartitextBox1.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox1.TabIndex = 9;
             // 
             // MusEkleLabel4
             // 
@@ -600,6 +600,7 @@
             this.Controls.Add(this.panel5);
             this.Name = "MusteriKarti";
             this.Text = "Müşteri Kartı";
+            this.Load += new System.EventHandler(this.MusteriKarti_Load);
             this.panel5.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
@@ -618,22 +619,22 @@
 
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox MusteritextBox7;
-        private System.Windows.Forms.TextBox MusteritextBox8;
-        private System.Windows.Forms.TextBox MusteritextBox6;
-        private System.Windows.Forms.ComboBox MustericomboBox7;
-        private System.Windows.Forms.ComboBox MustericomboBox6;
-        private System.Windows.Forms.ComboBox MustericomboBox5;
-        private System.Windows.Forms.ComboBox MustericomboBox4;
-        private System.Windows.Forms.ComboBox MustericomboBox3;
-        private System.Windows.Forms.ComboBox MustericomboBox2;
-        private System.Windows.Forms.ComboBox MustericomboBox1;
-        private System.Windows.Forms.TextBox MusteritextBox5;
+        private System.Windows.Forms.TextBox MusteriKartitextBox7;
+        private System.Windows.Forms.TextBox MusteriKartitextBox8;
+        private System.Windows.Forms.TextBox MusteriKartitextBox6;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox7;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox6;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox5;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox4;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox3;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox2;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox1;
+        private System.Windows.Forms.TextBox MusteriKartitextBox5;
         private System.Windows.Forms.Label MusEklelabel15;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button MusteriKartibutton2;
+        private System.Windows.Forms.Button MusteriKartibutton1;
         private System.Windows.Forms.Label MusEklelabel13;
         private System.Windows.Forms.Label MusEklelabel12;
         private System.Windows.Forms.Label MusEklelabel18;
@@ -645,24 +646,24 @@
         private System.Windows.Forms.Label MusEklelabel6;
         private System.Windows.Forms.Label MusEklelabel5;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox MusteritextBox12;
-        private System.Windows.Forms.TextBox MusteritextBox11;
+        private System.Windows.Forms.TextBox MusteriKartitextBox12;
+        private System.Windows.Forms.TextBox MusteriKartitextBox11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox MusteritextBox10;
-        private System.Windows.Forms.ComboBox MustericomboBox9;
-        private System.Windows.Forms.ComboBox MustericomboBox8;
-        private System.Windows.Forms.TextBox MusteritextBox9;
+        private System.Windows.Forms.TextBox MusteriKartitextBox10;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox9;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox8;
+        private System.Windows.Forms.TextBox MusteriKartitextBox9;
         private System.Windows.Forms.Label MusEklelebel17;
         private System.Windows.Forms.Label MusEklelabel16;
         private System.Windows.Forms.Label MusEklelabel19;
         private System.Windows.Forms.Label MusEklelabel14;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox MusteritextBox4;
-        private System.Windows.Forms.TextBox MusteritextBox3;
-        private System.Windows.Forms.TextBox MusteritextBox2;
-        private System.Windows.Forms.TextBox MusteritextBox1;
+        private System.Windows.Forms.TextBox MusteriKaritextBox4;
+        private System.Windows.Forms.TextBox MusteriKartitextBox3;
+        private System.Windows.Forms.TextBox MusterKartiitextBox2;
+        private System.Windows.Forms.TextBox MusteriKartitextBox1;
         private System.Windows.Forms.Label MusEkleLabel4;
         private System.Windows.Forms.Label MusEklelabel3;
         private System.Windows.Forms.Label MusEklelabel2;

@@ -29,48 +29,48 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("Düğüm0");
-            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("Düğüm2");
-            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("Düğüm3");
-            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Düğüm4");
-            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("Düğüm1", new System.Windows.Forms.TreeNode[] {
-            treeNode97,
-            treeNode98,
-            treeNode99});
-            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("Düğüm5");
-            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("Düğüm6");
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
-            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
-            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
-            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("Bekleyen Sipariş Liste");
-            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Sipariş Durumu");
-            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("İptal Edilen Siparişler");
-            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("Sevk Fişi");
-            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Sipariş işlemleri", new System.Windows.Forms.TreeNode[] {
-            treeNode112,
-            treeNode113,
-            treeNode121,
-            treeNode122,
-            treeNode123});
-            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri");
-            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("Extreler");
-            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Satış Fsturası");
-            System.Windows.Forms.TreeNode treeNode135 = new System.Windows.Forms.TreeNode("İade Faturası");
-            System.Windows.Forms.TreeNode treeNode136 = new System.Windows.Forms.TreeNode("Fatura Listele");
-            System.Windows.Forms.TreeNode treeNode137 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", new System.Windows.Forms.TreeNode[] {
-            treeNode127,
-            treeNode135,
-            treeNode136});
-            System.Windows.Forms.TreeNode treeNode138 = new System.Windows.Forms.TreeNode("Dekontlar");
-            System.Windows.Forms.TreeNode treeNode139 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri");
-            System.Windows.Forms.TreeNode treeNode140 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama");
-            System.Windows.Forms.TreeNode treeNode141 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al");
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Düğüm0");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Düğüm2");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Düğüm3");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Düğüm4");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Düğüm1", new System.Windows.Forms.TreeNode[] {
+            treeNode2,
+            treeNode3,
+            treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Düğüm5");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Düğüm6");
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Bekleyen Sipariş Liste");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Sipariş Durumu", 9, 9);
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("İptal Edilen Siparişler", 9, 9);
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Sevk Fişi", 9, 9);
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Sipariş işlemleri", 2, 2, new System.Windows.Forms.TreeNode[] {
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri", 3, 3);
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Extreler", 4, 4);
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Satış Fsturası", 5, 5);
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("İade Faturası", 5, 5);
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Fatura Listele", 5, 5);
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", 5, 5, new System.Windows.Forms.TreeNode[] {
+            treeNode18,
+            treeNode19,
+            treeNode20});
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Dekontlar", 10, 10);
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri", 6, 6);
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama", 7, 7);
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al", 8, 8);
             this.label6 = new System.Windows.Forms.Label();
             this.Hbutton24 = new System.Windows.Forms.Button();
             this.Hbutton23 = new System.Windows.Forms.Button();
@@ -156,6 +156,28 @@
             this.Musteripanel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.MusteridataGridView5 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Musteripanel3 = new System.Windows.Forms.Panel();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -210,28 +232,6 @@
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -292,7 +292,7 @@
             this.Hbutton24.Location = new System.Drawing.Point(400, 390);
             this.Hbutton24.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton24.Name = "Hbutton24";
-            this.Hbutton24.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton24.Size = new System.Drawing.Size(131, 84);
             this.Hbutton24.TabIndex = 23;
             this.Hbutton24.Text = "button24";
             this.Hbutton24.UseVisualStyleBackColor = false;
@@ -308,7 +308,7 @@
             this.Hbutton23.Location = new System.Drawing.Point(267, 390);
             this.Hbutton23.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton23.Name = "Hbutton23";
-            this.Hbutton23.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton23.Size = new System.Drawing.Size(131, 84);
             this.Hbutton23.TabIndex = 22;
             this.Hbutton23.Text = "button23";
             this.Hbutton23.UseVisualStyleBackColor = false;
@@ -357,7 +357,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(532, 477);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(532, 475);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Hbutton22
@@ -369,7 +369,7 @@
             this.Hbutton22.Location = new System.Drawing.Point(134, 390);
             this.Hbutton22.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton22.Name = "Hbutton22";
-            this.Hbutton22.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton22.Size = new System.Drawing.Size(131, 84);
             this.Hbutton22.TabIndex = 21;
             this.Hbutton22.Text = "button22";
             this.Hbutton22.UseVisualStyleBackColor = false;
@@ -385,7 +385,7 @@
             this.Hbutton21.Location = new System.Drawing.Point(1, 390);
             this.Hbutton21.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton21.Name = "Hbutton21";
-            this.Hbutton21.Size = new System.Drawing.Size(131, 86);
+            this.Hbutton21.Size = new System.Drawing.Size(131, 84);
             this.Hbutton21.TabIndex = 20;
             this.Hbutton21.Text = "button21";
             this.Hbutton21.UseVisualStyleBackColor = false;
@@ -727,7 +727,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer2.Size = new System.Drawing.Size(1239, 477);
+            this.splitContainer2.Size = new System.Drawing.Size(1239, 475);
             this.splitContainer2.SplitterDistance = 702;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
@@ -743,7 +743,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(702, 477);
+            this.tabControl2.Size = new System.Drawing.Size(702, 475);
             this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl2.TabIndex = 1;
             // 
@@ -756,7 +756,7 @@
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(694, 448);
+            this.tabPage3.Size = new System.Drawing.Size(694, 446);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Kasa 1";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -789,15 +789,15 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle71.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle71.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle71.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -816,7 +816,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(686, 440);
+            this.dataGridView1.Size = new System.Drawing.Size(686, 438);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -883,7 +883,7 @@
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(694, 446);
+            this.tabPage4.Size = new System.Drawing.Size(694, 448);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Kasa 2";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -894,15 +894,15 @@
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle72.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle72.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle72.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -919,7 +919,7 @@
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView2.Size = new System.Drawing.Size(686, 440);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -971,7 +971,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage5.Size = new System.Drawing.Size(694, 446);
+            this.tabPage5.Size = new System.Drawing.Size(694, 448);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Kasa  3";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -982,15 +982,15 @@
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle73.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle73.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle73.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn6,
@@ -1007,7 +1007,7 @@
             this.dataGridView3.RowHeadersVisible = false;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView3.Size = new System.Drawing.Size(686, 440);
             this.dataGridView3.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn6
@@ -1059,7 +1059,7 @@
             this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage6.Size = new System.Drawing.Size(694, 446);
+            this.tabPage6.Size = new System.Drawing.Size(694, 448);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Kasa 4";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1070,15 +1070,15 @@
             this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle74.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle74.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle74.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn11,
@@ -1095,7 +1095,7 @@
             this.dataGridView4.RowHeadersVisible = false;
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView4.Size = new System.Drawing.Size(686, 440);
             this.dataGridView4.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn11
@@ -1275,7 +1275,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage1.Size = new System.Drawing.Size(1505, 622);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Ürünler";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1294,7 +1294,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.BackColor = System.Drawing.Color.DarkGray;
-            this.splitContainer4.Size = new System.Drawing.Size(1497, 616);
+            this.splitContainer4.Size = new System.Drawing.Size(1497, 614);
             this.splitContainer4.SplitterDistance = 499;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -1302,25 +1302,25 @@
             // 
             this.treeView2.Location = new System.Drawing.Point(162, 145);
             this.treeView2.Name = "treeView2";
-            treeNode96.Name = "Düğüm0";
-            treeNode96.Text = "Düğüm0";
-            treeNode97.Name = "Düğüm2";
-            treeNode97.Text = "Düğüm2";
-            treeNode98.Name = "Düğüm3";
-            treeNode98.Text = "Düğüm3";
-            treeNode99.Name = "Düğüm4";
-            treeNode99.Text = "Düğüm4";
-            treeNode107.Name = "Düğüm1";
-            treeNode107.Text = "Düğüm1";
-            treeNode108.Name = "Düğüm5";
-            treeNode108.Text = "Düğüm5";
-            treeNode109.Name = "Düğüm6";
-            treeNode109.Text = "Düğüm6";
+            treeNode1.Name = "Düğüm0";
+            treeNode1.Text = "Düğüm0";
+            treeNode2.Name = "Düğüm2";
+            treeNode2.Text = "Düğüm2";
+            treeNode3.Name = "Düğüm3";
+            treeNode3.Text = "Düğüm3";
+            treeNode4.Name = "Düğüm4";
+            treeNode4.Text = "Düğüm4";
+            treeNode5.Name = "Düğüm1";
+            treeNode5.Text = "Düğüm1";
+            treeNode6.Name = "Düğüm5";
+            treeNode6.Text = "Düğüm5";
+            treeNode7.Name = "Düğüm6";
+            treeNode7.Text = "Düğüm6";
             this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode96,
-            treeNode107,
-            treeNode108,
-            treeNode109});
+            treeNode1,
+            treeNode5,
+            treeNode6,
+            treeNode7});
             this.treeView2.Size = new System.Drawing.Size(219, 355);
             this.treeView2.TabIndex = 0;
             // 
@@ -1371,7 +1371,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1497, 477);
+            this.splitContainer1.Size = new System.Drawing.Size(1497, 475);
             this.splitContainer1.SplitterDistance = 253;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 2;
@@ -1425,15 +1425,15 @@
             this.MusteridataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.MusteridataGridView5.BackgroundColor = System.Drawing.SystemColors.Control;
             this.MusteridataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle75.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle75.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle75.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.MusteridataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.MusteridataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.MusteridataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.MusteridataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1469,6 +1469,183 @@
             this.MusteridataGridView5.Size = new System.Drawing.Size(1170, 485);
             this.MusteridataGridView5.TabIndex = 1;
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.FillWeight = 60F;
+            this.Column1.HeaderText = "Müş.No";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "MusteriAdi";
+            this.Column2.FillWeight = 120F;
+            this.Column2.HeaderText = "Müşteri Adı";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column22
+            // 
+            this.Column22.DataPropertyName = "FirmaAdi";
+            this.Column22.HeaderText = "Firma Adı";
+            this.Column22.MinimumWidth = 6;
+            this.Column22.Name = "Column22";
+            this.Column22.Visible = false;
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Adres";
+            this.Column3.FillWeight = 180F;
+            this.Column3.HeaderText = "Adres";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Visible = false;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "Unvan";
+            this.Column4.FillWeight = 80F;
+            this.Column4.HeaderText = "Ünvan";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            // 
+            // Column14
+            // 
+            this.Column14.DataPropertyName = "sehir";
+            this.Column14.HeaderText = "Şehir";
+            this.Column14.MinimumWidth = 6;
+            this.Column14.Name = "Column14";
+            this.Column14.Visible = false;
+            // 
+            // Column15
+            // 
+            this.Column15.DataPropertyName = "ilce";
+            this.Column15.HeaderText = "İlce";
+            this.Column15.MinimumWidth = 6;
+            this.Column15.Name = "Column15";
+            this.Column15.Visible = false;
+            // 
+            // Column16
+            // 
+            this.Column16.DataPropertyName = "Ulke";
+            this.Column16.HeaderText = "Ulke";
+            this.Column16.MinimumWidth = 6;
+            this.Column16.Name = "Column16";
+            this.Column16.Visible = false;
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "Grup1";
+            this.Column5.FillWeight = 50F;
+            this.Column5.HeaderText = "Grup 1";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            // 
+            // Column12
+            // 
+            this.Column12.DataPropertyName = "Grup2";
+            this.Column12.HeaderText = "Grup 2";
+            this.Column12.MinimumWidth = 6;
+            this.Column12.Name = "Column12";
+            this.Column12.Visible = false;
+            // 
+            // Column13
+            // 
+            this.Column13.DataPropertyName = "Grup3";
+            this.Column13.HeaderText = "Grup 3";
+            this.Column13.MinimumWidth = 6;
+            this.Column13.Name = "Column13";
+            this.Column13.Visible = false;
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "Telefon";
+            this.Column6.FillWeight = 80F;
+            this.Column6.HeaderText = "Telefon No";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "CepTelefon";
+            this.Column9.HeaderText = "Cep Telefon";
+            this.Column9.MinimumWidth = 6;
+            this.Column9.Name = "Column9";
+            this.Column9.Visible = false;
+            // 
+            // Column7
+            // 
+            this.Column7.DataPropertyName = "e-mail";
+            this.Column7.FillWeight = 50F;
+            this.Column7.HeaderText = "e-mail";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            // 
+            // Column17
+            // 
+            this.Column17.DataPropertyName = "FaturaAdres";
+            this.Column17.HeaderText = "Fatura Adres";
+            this.Column17.MinimumWidth = 6;
+            this.Column17.Name = "Column17";
+            this.Column17.Visible = false;
+            // 
+            // Column18
+            // 
+            this.Column18.DataPropertyName = "RiskLimit";
+            this.Column18.HeaderText = "Risk Limiti";
+            this.Column18.MinimumWidth = 6;
+            this.Column18.Name = "Column18";
+            this.Column18.Visible = false;
+            // 
+            // Column19
+            // 
+            this.Column19.DataPropertyName = "FiyatSecenegi";
+            this.Column19.HeaderText = "Fiyat Secenegi";
+            this.Column19.MinimumWidth = 6;
+            this.Column19.Name = "Column19";
+            this.Column19.Visible = false;
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "Bakiye";
+            this.Column8.FillWeight = 50F;
+            this.Column8.HeaderText = "Bakiye";
+            this.Column8.MinimumWidth = 6;
+            this.Column8.Name = "Column8";
+            // 
+            // Column20
+            // 
+            this.Column20.DataPropertyName = "Doviz";
+            this.Column20.HeaderText = "Doviz";
+            this.Column20.MinimumWidth = 6;
+            this.Column20.Name = "Column20";
+            this.Column20.Visible = false;
+            // 
+            // Column21
+            // 
+            this.Column21.DataPropertyName = "Aciklama";
+            this.Column21.HeaderText = "Açiklama";
+            this.Column21.MinimumWidth = 6;
+            this.Column21.Name = "Column21";
+            this.Column21.Visible = false;
+            // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "VergiDairesi";
+            this.Column10.HeaderText = "Vergi Dairesi";
+            this.Column10.MinimumWidth = 6;
+            this.Column10.Name = "Column10";
+            this.Column10.Visible = false;
+            // 
+            // Column11
+            // 
+            this.Column11.DataPropertyName = "VergiNumarasi";
+            this.Column11.HeaderText = "Vergi Numarasi";
+            this.Column11.MinimumWidth = 6;
+            this.Column11.Name = "Column11";
+            this.Column11.Visible = false;
+            // 
             // Musteripanel3
             // 
             this.Musteripanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1490,77 +1667,89 @@
             this.treeView1.LineColor = System.Drawing.Color.DarkGreen;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode110.Name = "Musteri0";
-            treeNode110.Text = "Müşteri Ekle";
-            treeNode111.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
-            treeNode111.Name = "Musteri1";
-            treeNode111.Text = "Müşteri Kartı";
-            treeNode112.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+            treeNode8.Name = "Musteri0";
+            treeNode8.Text = "Müşteri Ekle";
+            treeNode9.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
+            treeNode9.Name = "Musteri1";
+            treeNode9.SelectedImageIndex = 1;
+            treeNode9.Text = "Müşteri Kartı";
+            treeNode10.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
     "ats.png";
-            treeNode112.Name = "musteri3";
-            treeNode112.Text = "Alınan Sipariş Liste";
-            treeNode113.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+            treeNode10.Name = "musteri3";
+            treeNode10.SelectedImageIndex = 9;
+            treeNode10.Text = "Alınan Sipariş Liste";
+            treeNode11.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
     "ats.png";
-            treeNode113.Name = "musteri4";
-            treeNode113.SelectedImageKey = "(varsayılan)";
-            treeNode113.Text = "Bekleyen Sipariş Liste";
-            treeNode121.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode121.Name = "musteri5";
-            treeNode121.SelectedImageKey = "(varsayılan)";
-            treeNode121.Text = "Sipariş Durumu";
-            treeNode122.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode122.Name = "musteri6";
-            treeNode122.Text = "İptal Edilen Siparişler";
-            treeNode123.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode123.Name = "musteri7";
-            treeNode123.Text = "Sevk Fişi";
-            treeNode124.ImageKey = "T-Letter-Transparent-PNG.png";
-            treeNode124.Name = "Musteri2";
-            treeNode124.Text = "Sipariş işlemleri";
-            treeNode125.ImageKey = "bayi-tahsilat-1.png";
-            treeNode125.Name = "Musteri8";
-            treeNode125.Text = "Tahsilat İşlemleri";
-            treeNode126.ImageKey = "png-transparent-the-checklist-manifesto-application-form.png";
-            treeNode126.Name = "Musteri9";
-            treeNode126.Text = "Extreler";
-            treeNode127.ImageKey = "elektronik-fatura.png";
-            treeNode127.Name = "musteri11";
-            treeNode127.Text = "Satış Fsturası";
-            treeNode135.ImageKey = "elektronik-fatura.png";
-            treeNode135.Name = "musteri12";
-            treeNode135.Text = "İade Faturası";
-            treeNode136.ImageKey = "elektronik-fatura.png";
-            treeNode136.Name = "musteri13";
-            treeNode136.Text = "Fatura Listele";
-            treeNode137.ImageKey = "elektronik-fatura.png";
-            treeNode137.Name = "Fatura10";
-            treeNode137.Text = "Fatura İşlemleri";
-            treeNode138.ImageKey = "png-transparent--text-rectangle.png";
-            treeNode138.Name = "Musteri14";
-            treeNode138.Text = "Dekontlar";
-            treeNode139.ImageKey = "depositphotos_101574798-stock-illustration-handshake-logo-design.jpg";
-            treeNode139.Name = "Musteri15";
-            treeNode139.Text = "Müşteri Hareketleri";
-            treeNode140.ImageKey = "png-clipart-check-mark-afacere-others-miscellaneous-text.png";
-            treeNode140.Name = "Musteri16";
-            treeNode140.Text = "Müşteri İskonto Tanımlama";
-            treeNode141.ImageKey = "negative-42774_1280.png";
-            treeNode141.Name = "Musteri17";
-            treeNode141.Text = "Müşteriyi Kara Listeye Al";
+            treeNode11.Name = "musteri4";
+            treeNode11.SelectedImageIndex = 9;
+            treeNode11.Text = "Bekleyen Sipariş Liste";
+            treeNode12.ImageIndex = 9;
+            treeNode12.Name = "musteri5";
+            treeNode12.SelectedImageIndex = 9;
+            treeNode12.Text = "Sipariş Durumu";
+            treeNode13.ImageIndex = 9;
+            treeNode13.Name = "musteri6";
+            treeNode13.SelectedImageIndex = 9;
+            treeNode13.Text = "İptal Edilen Siparişler";
+            treeNode14.ImageIndex = 9;
+            treeNode14.Name = "musteri7";
+            treeNode14.SelectedImageIndex = 9;
+            treeNode14.Text = "Sevk Fişi";
+            treeNode15.ImageIndex = 2;
+            treeNode15.Name = "Musteri2";
+            treeNode15.SelectedImageIndex = 2;
+            treeNode15.Text = "Sipariş işlemleri";
+            treeNode16.ImageIndex = 3;
+            treeNode16.Name = "Musteri8";
+            treeNode16.SelectedImageIndex = 3;
+            treeNode16.Text = "Tahsilat İşlemleri";
+            treeNode17.ImageIndex = 4;
+            treeNode17.Name = "Musteri9";
+            treeNode17.SelectedImageIndex = 4;
+            treeNode17.Text = "Extreler";
+            treeNode18.ImageIndex = 5;
+            treeNode18.Name = "musteri11";
+            treeNode18.SelectedImageIndex = 5;
+            treeNode18.Text = "Satış Fsturası";
+            treeNode19.ImageIndex = 5;
+            treeNode19.Name = "musteri12";
+            treeNode19.SelectedImageIndex = 5;
+            treeNode19.Text = "İade Faturası";
+            treeNode20.ImageIndex = 5;
+            treeNode20.Name = "musteri13";
+            treeNode20.SelectedImageIndex = 5;
+            treeNode20.Text = "Fatura Listele";
+            treeNode21.ImageIndex = 5;
+            treeNode21.Name = "Fatura10";
+            treeNode21.SelectedImageIndex = 5;
+            treeNode21.Text = "Fatura İşlemleri";
+            treeNode22.ImageIndex = 10;
+            treeNode22.Name = "Musteri14";
+            treeNode22.SelectedImageIndex = 10;
+            treeNode22.Text = "Dekontlar";
+            treeNode23.ImageIndex = 6;
+            treeNode23.Name = "Musteri15";
+            treeNode23.SelectedImageIndex = 6;
+            treeNode23.Text = "Müşteri Hareketleri";
+            treeNode24.ImageIndex = 7;
+            treeNode24.Name = "Musteri16";
+            treeNode24.SelectedImageIndex = 7;
+            treeNode24.Text = "Müşteri İskonto Tanımlama";
+            treeNode25.ImageIndex = 8;
+            treeNode25.Name = "Musteri17";
+            treeNode25.SelectedImageIndex = 8;
+            treeNode25.Text = "Müşteriyi Kara Listeye Al";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode110,
-            treeNode111,
-            treeNode124,
-            treeNode125,
-            treeNode126,
-            treeNode137,
-            treeNode138,
-            treeNode139,
-            treeNode140,
-            treeNode141});
+            treeNode8,
+            treeNode9,
+            treeNode15,
+            treeNode16,
+            treeNode17,
+            treeNode21,
+            treeNode22,
+            treeNode23,
+            treeNode24,
+            treeNode25});
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.Size = new System.Drawing.Size(323, 481);
             this.treeView1.TabIndex = 0;
@@ -1900,7 +2089,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage2.Size = new System.Drawing.Size(1505, 622);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Toptan Mal Alım";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1984,7 +2173,7 @@
             this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage9.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage9.Size = new System.Drawing.Size(1505, 622);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "Satış Ekranı";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -2020,7 +2209,7 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer1);
-            this.splitContainer3.Size = new System.Drawing.Size(1497, 616);
+            this.splitContainer3.Size = new System.Drawing.Size(1497, 614);
             this.splitContainer3.SplitterDistance = 134;
             this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 3;
@@ -2179,183 +2368,6 @@
             this.dataGridViewImageColumn4.MinimumWidth = 6;
             this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
             this.dataGridViewImageColumn4.Width = 70;
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Id";
-            this.Column1.FillWeight = 60F;
-            this.Column1.HeaderText = "Müş.No";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "MusteriAdi";
-            this.Column2.FillWeight = 120F;
-            this.Column2.HeaderText = "Müşteri Adı";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column22
-            // 
-            this.Column22.DataPropertyName = "FirmaAdi";
-            this.Column22.HeaderText = "Firma Adı";
-            this.Column22.MinimumWidth = 6;
-            this.Column22.Name = "Column22";
-            this.Column22.Visible = false;
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "Adres";
-            this.Column3.FillWeight = 180F;
-            this.Column3.HeaderText = "Adres";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Visible = false;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "Unvan";
-            this.Column4.FillWeight = 80F;
-            this.Column4.HeaderText = "Ünvan";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            // 
-            // Column14
-            // 
-            this.Column14.DataPropertyName = "sehir";
-            this.Column14.HeaderText = "Şehir";
-            this.Column14.MinimumWidth = 6;
-            this.Column14.Name = "Column14";
-            this.Column14.Visible = false;
-            // 
-            // Column15
-            // 
-            this.Column15.DataPropertyName = "ilce";
-            this.Column15.HeaderText = "İlce";
-            this.Column15.MinimumWidth = 6;
-            this.Column15.Name = "Column15";
-            this.Column15.Visible = false;
-            // 
-            // Column16
-            // 
-            this.Column16.DataPropertyName = "Ulke";
-            this.Column16.HeaderText = "Ulke";
-            this.Column16.MinimumWidth = 6;
-            this.Column16.Name = "Column16";
-            this.Column16.Visible = false;
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "Grup1";
-            this.Column5.FillWeight = 50F;
-            this.Column5.HeaderText = "Grup 1";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "Grup2";
-            this.Column12.HeaderText = "Grup 2";
-            this.Column12.MinimumWidth = 6;
-            this.Column12.Name = "Column12";
-            this.Column12.Visible = false;
-            // 
-            // Column13
-            // 
-            this.Column13.DataPropertyName = "Grup3";
-            this.Column13.HeaderText = "Grup 3";
-            this.Column13.MinimumWidth = 6;
-            this.Column13.Name = "Column13";
-            this.Column13.Visible = false;
-            // 
-            // Column6
-            // 
-            this.Column6.DataPropertyName = "Telefon";
-            this.Column6.FillWeight = 80F;
-            this.Column6.HeaderText = "Telefon No";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "CepTelefon";
-            this.Column9.HeaderText = "Cep Telefon";
-            this.Column9.MinimumWidth = 6;
-            this.Column9.Name = "Column9";
-            this.Column9.Visible = false;
-            // 
-            // Column7
-            // 
-            this.Column7.DataPropertyName = "e-mail";
-            this.Column7.FillWeight = 50F;
-            this.Column7.HeaderText = "E-mail";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            // 
-            // Column17
-            // 
-            this.Column17.DataPropertyName = "FaturaAdres";
-            this.Column17.HeaderText = "Fatura Adres";
-            this.Column17.MinimumWidth = 6;
-            this.Column17.Name = "Column17";
-            this.Column17.Visible = false;
-            // 
-            // Column18
-            // 
-            this.Column18.DataPropertyName = "RiskLimit";
-            this.Column18.HeaderText = "Risk Limiti";
-            this.Column18.MinimumWidth = 6;
-            this.Column18.Name = "Column18";
-            this.Column18.Visible = false;
-            // 
-            // Column19
-            // 
-            this.Column19.DataPropertyName = "FiyatSecenegi";
-            this.Column19.HeaderText = "Fiyat Secenegi";
-            this.Column19.MinimumWidth = 6;
-            this.Column19.Name = "Column19";
-            this.Column19.Visible = false;
-            // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "Bakiye";
-            this.Column8.FillWeight = 50F;
-            this.Column8.HeaderText = "Bakiye";
-            this.Column8.MinimumWidth = 6;
-            this.Column8.Name = "Column8";
-            // 
-            // Column20
-            // 
-            this.Column20.DataPropertyName = "Doviz";
-            this.Column20.HeaderText = "Doviz";
-            this.Column20.MinimumWidth = 6;
-            this.Column20.Name = "Column20";
-            this.Column20.Visible = false;
-            // 
-            // Column21
-            // 
-            this.Column21.DataPropertyName = "Aciklama";
-            this.Column21.HeaderText = "Açiklama";
-            this.Column21.MinimumWidth = 6;
-            this.Column21.Name = "Column21";
-            this.Column21.Visible = false;
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "VergiDairesi";
-            this.Column10.HeaderText = "Vergi Dairesi";
-            this.Column10.MinimumWidth = 6;
-            this.Column10.Name = "Column10";
-            this.Column10.Visible = false;
-            // 
-            // Column11
-            // 
-            this.Column11.DataPropertyName = "VergiNumarasi";
-            this.Column11.HeaderText = "Vergi Numarasi";
-            this.Column11.MinimumWidth = 6;
-            this.Column11.Name = "Column11";
-            this.Column11.Visible = false;
             // 
             // Form1
             // 

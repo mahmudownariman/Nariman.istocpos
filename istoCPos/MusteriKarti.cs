@@ -16,5 +16,10 @@ namespace istoCPos
         {
             InitializeComponent();
         }
+
+        private void MusteriKarti_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

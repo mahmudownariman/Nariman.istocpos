@@ -57,15 +57,18 @@
             this.MusEklelabel6 = new System.Windows.Forms.Label();
             this.MusEklelabel5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.MusteritextBox12 = new System.Windows.Forms.TextBox();
+            this.MusteritextBox11 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.MusteritextBox10 = new System.Windows.Forms.TextBox();
             this.MustericomboBox9 = new System.Windows.Forms.ComboBox();
             this.MustericomboBox8 = new System.Windows.Forms.ComboBox();
-            this.MusteritextBox9 = new System.Windows.Forms.TextBox();
             this.MusEklelebel17 = new System.Windows.Forms.Label();
             this.MusEklelabel16 = new System.Windows.Forms.Label();
-            this.MusEklelabel19 = new System.Windows.Forms.Label();
             this.MusEklelabel14 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MusteritextBox4 = new System.Windows.Forms.TextBox();
             this.MusteritextBox3 = new System.Windows.Forms.TextBox();
             this.MusteritextBox2 = new System.Windows.Forms.TextBox();
@@ -74,11 +77,6 @@
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
             this.MusEklelabel1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.MusteritextBox11 = new System.Windows.Forms.TextBox();
-            this.MusteritextBox12 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -383,16 +381,48 @@
             this.panel7.Controls.Add(this.MusteritextBox10);
             this.panel7.Controls.Add(this.MustericomboBox9);
             this.panel7.Controls.Add(this.MustericomboBox8);
-            this.panel7.Controls.Add(this.MusteritextBox9);
             this.panel7.Controls.Add(this.MusEklelebel17);
             this.panel7.Controls.Add(this.MusEklelabel16);
-            this.panel7.Controls.Add(this.MusEklelabel19);
             this.panel7.Controls.Add(this.MusEklelabel14);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel7.Location = new System.Drawing.Point(652, 157);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(313, 438);
             this.panel7.TabIndex = 1;
+            // 
+            // MusteritextBox12
+            // 
+            this.MusteritextBox12.Location = new System.Drawing.Point(143, 237);
+            this.MusteritextBox12.Name = "MusteritextBox12";
+            this.MusteritextBox12.Size = new System.Drawing.Size(150, 22);
+            this.MusteritextBox12.TabIndex = 48;
+            // 
+            // MusteritextBox11
+            // 
+            this.MusteritextBox11.Location = new System.Drawing.Point(143, 196);
+            this.MusteritextBox11.Name = "MusteritextBox11";
+            this.MusteritextBox11.Size = new System.Drawing.Size(150, 22);
+            this.MusteritextBox11.TabIndex = 47;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(18, 237);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 20);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "Firma Adı";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(18, 196);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 20);
+            this.label1.TabIndex = 45;
+            this.label1.Text = "Unvan";
             // 
             // MusteritextBox10
             // 
@@ -417,13 +447,6 @@
             this.MustericomboBox8.Size = new System.Drawing.Size(150, 24);
             this.MustericomboBox8.TabIndex = 42;
             // 
-            // MusteritextBox9
-            // 
-            this.MusteritextBox9.Location = new System.Drawing.Point(143, 14);
-            this.MusteritextBox9.Name = "MusteritextBox9";
-            this.MusteritextBox9.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox9.TabIndex = 41;
-            // 
             // MusEklelebel17
             // 
             this.MusEklelebel17.AutoSize = true;
@@ -443,16 +466,6 @@
             this.MusEklelabel16.Size = new System.Drawing.Size(119, 20);
             this.MusEklelabel16.TabIndex = 19;
             this.MusEklelabel16.Text = "Fiyat Secenegi";
-            // 
-            // MusEklelabel19
-            // 
-            this.MusEklelabel19.AutoSize = true;
-            this.MusEklelabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusEklelabel19.Location = new System.Drawing.Point(18, 16);
-            this.MusEklelabel19.Name = "MusEklelabel19";
-            this.MusEklelabel19.Size = new System.Drawing.Size(59, 20);
-            this.MusEklelabel19.TabIndex = 18;
-            this.MusEklelabel19.Text = "Bakiye";
             // 
             // MusEklelabel14
             // 
@@ -481,6 +494,16 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(965, 157);
             this.panel6.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::istoCPos.Properties.Resources.bayi_tahsilat_11;
+            this.pictureBox1.Location = new System.Drawing.Point(567, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(393, 147);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
             // 
             // MusteritextBox4
             // 
@@ -550,50 +573,6 @@
             this.MusEklelabel1.TabIndex = 0;
             this.MusEklelabel1.Text = "Müşteri Adı";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(18, 196);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 20);
-            this.label1.TabIndex = 45;
-            this.label1.Text = "Unvan";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(18, 237);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
-            this.label2.TabIndex = 46;
-            this.label2.Text = "Firma Adı";
-            // 
-            // MusteritextBox11
-            // 
-            this.MusteritextBox11.Location = new System.Drawing.Point(143, 196);
-            this.MusteritextBox11.Name = "MusteritextBox11";
-            this.MusteritextBox11.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox11.TabIndex = 47;
-            // 
-            // MusteritextBox12
-            // 
-            this.MusteritextBox12.Location = new System.Drawing.Point(143, 237);
-            this.MusteritextBox12.Name = "MusteritextBox12";
-            this.MusteritextBox12.Size = new System.Drawing.Size(150, 22);
-            this.MusteritextBox12.TabIndex = 48;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::istoCPos.Properties.Resources.bayi_tahsilat_11;
-            this.pictureBox1.Location = new System.Drawing.Point(567, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(393, 147);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // MusteriEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -639,7 +618,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label MusEklelebel17;
         private System.Windows.Forms.Label MusEklelabel16;
-        private System.Windows.Forms.Label MusEklelabel19;
         private System.Windows.Forms.Label MusEklelabel14;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label MusEkleLabel4;
@@ -660,7 +638,6 @@
         private System.Windows.Forms.TextBox MusteritextBox10;
         private System.Windows.Forms.ComboBox MustericomboBox9;
         private System.Windows.Forms.ComboBox MustericomboBox8;
-        private System.Windows.Forms.TextBox MusteritextBox9;
         private System.Windows.Forms.TextBox MusteritextBox4;
         private System.Windows.Forms.TextBox MusteritextBox3;
         private System.Windows.Forms.TextBox MusteritextBox2;
