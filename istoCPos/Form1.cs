@@ -541,9 +541,7 @@ namespace istoCPos
             else Column21.Visible = false;
         }
 
-        private void MusteridataGridView5_MouseClick(object sender, MouseEventArgs e)
-        {
-        }
+       
 
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -552,6 +550,11 @@ namespace istoCPos
             musteriKarti.ShowDialog();
             var sonSatırdaki = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
             MessageBox.Show(sonSatırdaki.ToString());
+        }
+
+        private void Musteributton2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

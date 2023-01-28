@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace istoCPos
 {
-    public partial class Form2 : Form
+    public partial class TabloSecenekleri : Form
     {
-        public Form2()
+        public TabloSecenekleri()
         {
             InitializeComponent();
         }
+        
+        private void TabloSecenekleri_Load(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }

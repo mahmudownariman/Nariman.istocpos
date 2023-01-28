@@ -255,3 +255,4 @@ C:\Users\90551\source\repos\Yeni klasör (3)\istoCPos\obj\Debug\istoCPos.csproj.
 C:\Users\90551\source\repos\Yeni klasör (3)\istoCPos\obj\Debug\istoCPos.csproj.CopyComplete
 C:\Users\90551\source\repos\Yeni klasör (3)\istoCPos\obj\Debug\istoCPos.exe
 C:\Users\90551\source\repos\Yeni klasör (3)\istoCPos\obj\Debug\istoCPos.pdb
+C:\Users\90551\source\repos\Yeni klasör (3)\istoCPos\obj\Debug\istoCPos.TabloSecenekleri.resources
