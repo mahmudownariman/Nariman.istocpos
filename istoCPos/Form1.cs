@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
@@ -538,6 +539,19 @@ namespace istoCPos
                 Column21.Visible = true;
             }
             else Column21.Visible = false;
+        }
+
+        private void MusteridataGridView5_MouseClick(object sender, MouseEventArgs e)
+        {
+        }
+
+        private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            MusteriKarti musteriKarti = new MusteriKarti();
+            musteriKarti.ShowDialog();
+            var sonSatırdaki = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
+            MessageBox.Show(sonSatırdaki.ToString());
         }
     }
 }
