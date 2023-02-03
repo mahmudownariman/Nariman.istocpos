@@ -411,6 +411,12 @@ namespace istoCPos
                 MusteriKarti musteriKarti = new MusteriKarti();
                 musteriKarti.ShowDialog();
             }
+            if(treeView1.SelectedNode.Index == 9)
+            {
+                NakitTahsilat nakitTahsilat = new NakitTahsilat();
+                nakitTahsilat.ShowDialog();
+            }
+
         }
 
         
@@ -549,8 +555,8 @@ namespace istoCPos
             label7.Text = secilisatir.ToString();
             MusteriKarti musteriKarti = new MusteriKarti();
             musteriKarti.ShowDialog();
-            var sonSatırdaki = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
-            MessageBox.Show(sonSatırdaki.ToString());
+
+
         }
 
         private void Musteributton2_Click(object sender, EventArgs e)

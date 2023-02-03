@@ -18,12 +18,7 @@ namespace istoCPos
             InitializeComponent();
         }
         istocDBEntities database = new istocDBEntities();
-        public void musteriVerileriKaydet(string veriler)
-        {
-           
-
-
-        }
+       
         private void MüsteriEkle_Load(object sender, EventArgs e)
         {
 

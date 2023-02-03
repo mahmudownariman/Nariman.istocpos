@@ -79,6 +79,8 @@
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
             this.MusEklelabel1 = new System.Windows.Forms.Label();
+            this.Idlabel2 = new System.Windows.Forms.Label();
+            this.Musteriidlabel1 = new System.Windows.Forms.Label();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -499,6 +501,8 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.Idlabel2);
+            this.panel6.Controls.Add(this.Musteriidlabel1);
             this.panel6.Controls.Add(this.pictureBox1);
             this.panel6.Controls.Add(this.MusteriKaritextBox4);
             this.panel6.Controls.Add(this.MusteriKartitextBox3);
@@ -592,6 +596,26 @@
             this.MusEklelabel1.TabIndex = 0;
             this.MusEklelabel1.Text = "Müşteri Adı";
             // 
+            // Idlabel2
+            // 
+            this.Idlabel2.AutoSize = true;
+            this.Idlabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Idlabel2.Location = new System.Drawing.Point(429, 21);
+            this.Idlabel2.Name = "Idlabel2";
+            this.Idlabel2.Size = new System.Drawing.Size(22, 20);
+            this.Idlabel2.TabIndex = 17;
+            this.Idlabel2.Text = "Id";
+            // 
+            // Musteriidlabel1
+            // 
+            this.Musteriidlabel1.AutoSize = true;
+            this.Musteriidlabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Musteriidlabel1.Location = new System.Drawing.Point(328, 21);
+            this.Musteriidlabel1.Name = "Musteriidlabel1";
+            this.Musteriidlabel1.Size = new System.Drawing.Size(93, 20);
+            this.Musteriidlabel1.TabIndex = 16;
+            this.Musteriidlabel1.Text = "Musteri Id :";
+            // 
             // MusteriKarti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -668,5 +692,7 @@
         private System.Windows.Forms.Label MusEklelabel3;
         private System.Windows.Forms.Label MusEklelabel2;
         private System.Windows.Forms.Label MusEklelabel1;
+        public System.Windows.Forms.Label Idlabel2;
+        private System.Windows.Forms.Label Musteriidlabel1;
     }
 }

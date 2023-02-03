@@ -16,10 +16,17 @@ namespace istoCPos
         {
             InitializeComponent();
         }
+        istocDBEntities musteriler = new istocDBEntities();
+        Form1 f = (Form1)Application.OpenForms["Form1"];
 
         private void MusteriKarti_Load(object sender, EventArgs e)
         {
+            
+            Idlabel2.Text = f.label7.Text;
+            if (Idlabel2.Text == f.MusteridataGridView5.cor)
+            {
 
+            }
         }
     }
 }
