@@ -541,7 +541,6 @@ namespace istoCPos
             else Column21.Visible = false;
         }
 
-       
 
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
