@@ -545,6 +545,8 @@ namespace istoCPos
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
+            var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
+            label7.Text = secilisatir.ToString();
             MusteriKarti musteriKarti = new MusteriKarti();
             musteriKarti.ShowDialog();
             var sonSatırdaki = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
