@@ -408,8 +408,7 @@ namespace istoCPos
             }
             if(treeView1.SelectedNode.Index == 1)
             {
-                MusteriKarti musteriKarti = new MusteriKarti();
-                musteriKarti.ShowDialog();
+                MessageBox.Show("Müşteri Seçin");
             }
             if(treeView1.SelectedNode.Index == 9)
             {
@@ -563,8 +562,8 @@ namespace istoCPos
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column2")
             {
                 var secilisutun = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
-                NakitTahsilat nakitTahsilat = new NakitTahsilat();
-                nakitTahsilat.ShowDialog();
+                MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
+                musteriHareketleri.ShowDialog();
             }
         }
         public void musteriCek()

@@ -76,6 +76,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusteriHareketleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriHareketleri.Designer.cs">
+      <DependentUpon>MusteriHareketleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="NakitTahsilat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KrediKartiTahsilat.resx">
       <DependentUpon>KrediKartiTahsilat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriHareketleri.resx">
+      <DependentUpon>MusteriHareketleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NakitTahsilat.resx">
       <DependentUpon>NakitTahsilat.cs</DependentUpon>
