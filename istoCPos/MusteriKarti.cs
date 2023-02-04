@@ -21,7 +21,7 @@ namespace istoCPos
 
         private void MusteriKarti_Load(object sender, EventArgs e)
         {
-            
+            f.musteriCek();
             Idlabel2.Text = f.label7.Text;
         }
     }

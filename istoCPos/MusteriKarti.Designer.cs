@@ -70,6 +70,8 @@
             this.MusEklelabel19 = new System.Windows.Forms.Label();
             this.MusEklelabel14 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.Idlabel2 = new System.Windows.Forms.Label();
+            this.Musteriidlabel1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MusteriKaritextBox4 = new System.Windows.Forms.TextBox();
             this.MusteriKartitextBox3 = new System.Windows.Forms.TextBox();
@@ -79,8 +81,6 @@
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
             this.MusEklelabel1 = new System.Windows.Forms.Label();
-            this.Idlabel2 = new System.Windows.Forms.Label();
-            this.Musteriidlabel1 = new System.Windows.Forms.Label();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -518,6 +518,26 @@
             this.panel6.Size = new System.Drawing.Size(965, 157);
             this.panel6.TabIndex = 0;
             // 
+            // Idlabel2
+            // 
+            this.Idlabel2.AutoSize = true;
+            this.Idlabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Idlabel2.Location = new System.Drawing.Point(429, 21);
+            this.Idlabel2.Name = "Idlabel2";
+            this.Idlabel2.Size = new System.Drawing.Size(22, 20);
+            this.Idlabel2.TabIndex = 17;
+            this.Idlabel2.Text = "Id";
+            // 
+            // Musteriidlabel1
+            // 
+            this.Musteriidlabel1.AutoSize = true;
+            this.Musteriidlabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Musteriidlabel1.Location = new System.Drawing.Point(328, 21);
+            this.Musteriidlabel1.Name = "Musteriidlabel1";
+            this.Musteriidlabel1.Size = new System.Drawing.Size(93, 20);
+            this.Musteriidlabel1.TabIndex = 16;
+            this.Musteriidlabel1.Text = "Musteri Id :";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::istoCPos.Properties.Resources.bayi_tahsilat_11;
@@ -596,26 +616,6 @@
             this.MusEklelabel1.TabIndex = 0;
             this.MusEklelabel1.Text = "Müşteri Adı";
             // 
-            // Idlabel2
-            // 
-            this.Idlabel2.AutoSize = true;
-            this.Idlabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Idlabel2.Location = new System.Drawing.Point(429, 21);
-            this.Idlabel2.Name = "Idlabel2";
-            this.Idlabel2.Size = new System.Drawing.Size(22, 20);
-            this.Idlabel2.TabIndex = 17;
-            this.Idlabel2.Text = "Id";
-            // 
-            // Musteriidlabel1
-            // 
-            this.Musteriidlabel1.AutoSize = true;
-            this.Musteriidlabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Musteriidlabel1.Location = new System.Drawing.Point(328, 21);
-            this.Musteriidlabel1.Name = "Musteriidlabel1";
-            this.Musteriidlabel1.Size = new System.Drawing.Size(93, 20);
-            this.Musteriidlabel1.TabIndex = 16;
-            this.Musteriidlabel1.Text = "Musteri Id :";
-            // 
             // MusteriKarti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -643,17 +643,6 @@
 
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox MusteriKartitextBox7;
-        private System.Windows.Forms.TextBox MusteriKartitextBox8;
-        private System.Windows.Forms.TextBox MusteriKartitextBox6;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox7;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox6;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox5;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox4;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox3;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox2;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox1;
-        private System.Windows.Forms.TextBox MusteriKartitextBox5;
         private System.Windows.Forms.Label MusEklelabel15;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
@@ -670,29 +659,40 @@
         private System.Windows.Forms.Label MusEklelabel6;
         private System.Windows.Forms.Label MusEklelabel5;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox MusteriKartitextBox12;
-        private System.Windows.Forms.TextBox MusteriKartitextBox11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox MusteriKartitextBox10;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox9;
-        private System.Windows.Forms.ComboBox MusteriKarticomboBox8;
-        private System.Windows.Forms.TextBox MusteriKartitextBox9;
         private System.Windows.Forms.Label MusEklelebel17;
         private System.Windows.Forms.Label MusEklelabel16;
         private System.Windows.Forms.Label MusEklelabel19;
         private System.Windows.Forms.Label MusEklelabel14;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox MusteriKaritextBox4;
-        private System.Windows.Forms.TextBox MusteriKartitextBox3;
-        private System.Windows.Forms.TextBox MusterKartiitextBox2;
-        private System.Windows.Forms.TextBox MusteriKartitextBox1;
         private System.Windows.Forms.Label MusEkleLabel4;
         private System.Windows.Forms.Label MusEklelabel3;
         private System.Windows.Forms.Label MusEklelabel2;
         private System.Windows.Forms.Label MusEklelabel1;
         public System.Windows.Forms.Label Idlabel2;
         private System.Windows.Forms.Label Musteriidlabel1;
+        public System.Windows.Forms.TextBox MusteriKartitextBox7;
+        public System.Windows.Forms.TextBox MusteriKartitextBox8;
+        public System.Windows.Forms.TextBox MusteriKartitextBox6;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox7;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox6;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox5;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox4;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox3;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox2;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox1;
+        public System.Windows.Forms.TextBox MusteriKartitextBox5;
+        public System.Windows.Forms.TextBox MusteriKartitextBox12;
+        public System.Windows.Forms.TextBox MusteriKartitextBox11;
+        public System.Windows.Forms.TextBox MusteriKartitextBox10;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox9;
+        public System.Windows.Forms.ComboBox MusteriKarticomboBox8;
+        public System.Windows.Forms.TextBox MusteriKartitextBox9;
+        public System.Windows.Forms.TextBox MusteriKaritextBox4;
+        public System.Windows.Forms.TextBox MusteriKartitextBox3;
+        public System.Windows.Forms.TextBox MusterKartiitextBox2;
+        public System.Windows.Forms.TextBox MusteriKartitextBox1;
     }
 }

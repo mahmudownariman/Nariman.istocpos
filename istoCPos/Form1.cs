@@ -556,7 +556,20 @@ namespace istoCPos
             MusteriKarti musteriKarti = new MusteriKarti();
             musteriKarti.ShowDialog();
 
+            var secilisutun = MusteridataGridView5.Rows[e.RowIndex].Cells[1].Value;
+            NakitTahsilat nakitTahsilat = new NakitTahsilat();
+            nakitTahsilat.ShowDialog();
+        }
+        public void musteriCek()
+        {
+            string a = "", b = "", c = "", d = "";
+            MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
+            a = MusteridataGridView5.CurrentRow.Cells[1].Value.ToString();
+            b = MusteridataGridView5.CurrentRow.Cells[2].Value.ToString();
 
+            f.MusteriKartitextBox1.Text = a;
+
+            f.MusteriKartitextBox12.Text = b;
         }
 
         private void Musteributton2_Click(object sender, EventArgs e)

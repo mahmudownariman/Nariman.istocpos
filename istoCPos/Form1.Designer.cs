@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -44,7 +45,6 @@
             System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Düğüm5");
             System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Düğüm6");
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
             System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
             System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
@@ -113,6 +113,7 @@
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.KdvTutari = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tutar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sil = new System.Windows.Forms.DataGridViewImageColumn();
             this.AlisFiyati = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -121,6 +122,7 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -128,6 +130,7 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -135,6 +138,7 @@
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.SatisFiyat3Buton = new System.Windows.Forms.Button();
             this.SatisFiyat2Buton = new System.Windows.Forms.Button();
             this.SFiyat1Buton = new System.Windows.Forms.Button();
@@ -179,8 +183,10 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Musteripanel3 = new System.Windows.Forms.Panel();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.Musteripanel2 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
@@ -205,6 +211,7 @@
             this.Musterilabel2 = new System.Windows.Forms.Label();
             this.MusteritextBox = new System.Windows.Forms.TextBox();
             this.Musterilabel1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -219,25 +226,18 @@
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.kullaniciLabel = new System.Windows.Forms.Label();
             this.checkBoxIade = new System.Windows.Forms.CheckBox();
+            this.AraButon = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.UrunTutarTextBox = new System.Windows.Forms.TextBox();
             this.UrunFiyatTextBox = new System.Windows.Forms.TextBox();
             this.MiktarTextBox1 = new System.Windows.Forms.TextBox();
             this.BarkodTextBox1 = new System.Windows.Forms.TextBox();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label7 = new System.Windows.Forms.Label();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.AraButon = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Sil = new System.Windows.Forms.DataGridViewImageColumn();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.treeView1 = new System.Windows.Forms.TreeView();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -266,6 +266,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.MusteridataGridView5)).BeginInit();
             this.Musteripanel3.SuspendLayout();
             this.Musteripanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
@@ -273,9 +274,8 @@
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tabControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabControl3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label6
@@ -298,7 +298,7 @@
             this.Hbutton24.Location = new System.Drawing.Point(400, 390);
             this.Hbutton24.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton24.Name = "Hbutton24";
-            this.Hbutton24.Size = new System.Drawing.Size(131, 84);
+            this.Hbutton24.Size = new System.Drawing.Size(131, 86);
             this.Hbutton24.TabIndex = 23;
             this.Hbutton24.Text = "button24";
             this.Hbutton24.UseVisualStyleBackColor = false;
@@ -314,7 +314,7 @@
             this.Hbutton23.Location = new System.Drawing.Point(267, 390);
             this.Hbutton23.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton23.Name = "Hbutton23";
-            this.Hbutton23.Size = new System.Drawing.Size(131, 84);
+            this.Hbutton23.Size = new System.Drawing.Size(131, 86);
             this.Hbutton23.TabIndex = 22;
             this.Hbutton23.Text = "button23";
             this.Hbutton23.UseVisualStyleBackColor = false;
@@ -363,7 +363,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(532, 475);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(532, 477);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Hbutton22
@@ -375,7 +375,7 @@
             this.Hbutton22.Location = new System.Drawing.Point(134, 390);
             this.Hbutton22.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton22.Name = "Hbutton22";
-            this.Hbutton22.Size = new System.Drawing.Size(131, 84);
+            this.Hbutton22.Size = new System.Drawing.Size(131, 86);
             this.Hbutton22.TabIndex = 21;
             this.Hbutton22.Text = "button22";
             this.Hbutton22.UseVisualStyleBackColor = false;
@@ -391,7 +391,7 @@
             this.Hbutton21.Location = new System.Drawing.Point(1, 390);
             this.Hbutton21.Margin = new System.Windows.Forms.Padding(1);
             this.Hbutton21.Name = "Hbutton21";
-            this.Hbutton21.Size = new System.Drawing.Size(131, 84);
+            this.Hbutton21.Size = new System.Drawing.Size(131, 86);
             this.Hbutton21.TabIndex = 20;
             this.Hbutton21.Text = "button21";
             this.Hbutton21.UseVisualStyleBackColor = false;
@@ -733,7 +733,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer2.Size = new System.Drawing.Size(1239, 475);
+            this.splitContainer2.Size = new System.Drawing.Size(1239, 477);
             this.splitContainer2.SplitterDistance = 702;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
@@ -749,7 +749,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(702, 475);
+            this.tabControl2.Size = new System.Drawing.Size(702, 477);
             this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl2.TabIndex = 1;
             // 
@@ -762,7 +762,7 @@
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(694, 446);
+            this.tabPage3.Size = new System.Drawing.Size(694, 448);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Kasa 1";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -822,7 +822,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView1.Size = new System.Drawing.Size(686, 440);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -866,6 +866,14 @@
             this.Tutar.HeaderText = "Tutar";
             this.Tutar.MinimumWidth = 6;
             this.Tutar.Name = "Tutar";
+            // 
+            // Sil
+            // 
+            this.Sil.FillWeight = 50F;
+            this.Sil.HeaderText = "Sil";
+            this.Sil.Image = ((System.Drawing.Image)(resources.GetObject("Sil.Image")));
+            this.Sil.MinimumWidth = 6;
+            this.Sil.Name = "Sil";
             // 
             // AlisFiyati
             // 
@@ -954,6 +962,14 @@
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.FillWeight = 50F;
+            this.dataGridViewImageColumn1.HeaderText = "Sil";
+            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.dataGridView3);
@@ -1034,6 +1050,14 @@
             this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
+            // dataGridViewImageColumn2
+            // 
+            this.dataGridViewImageColumn2.FillWeight = 50F;
+            this.dataGridViewImageColumn2.HeaderText = "Sil";
+            this.dataGridViewImageColumn2.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn2.Image")));
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.dataGridView4);
@@ -1113,6 +1137,14 @@
             this.dataGridViewTextBoxColumn15.HeaderText = "Tutar";
             this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            // 
+            // dataGridViewImageColumn3
+            // 
+            this.dataGridViewImageColumn3.FillWeight = 50F;
+            this.dataGridViewImageColumn3.HeaderText = "Sil";
+            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
+            this.dataGridViewImageColumn3.MinimumWidth = 6;
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             // 
             // SatisFiyat3Buton
             // 
@@ -1249,7 +1281,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1505, 622);
+            this.tabPage1.Size = new System.Drawing.Size(1505, 624);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Ürünler";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1268,7 +1300,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.BackColor = System.Drawing.Color.DarkGray;
-            this.splitContainer4.Size = new System.Drawing.Size(1497, 614);
+            this.splitContainer4.Size = new System.Drawing.Size(1497, 616);
             this.splitContainer4.SplitterDistance = 499;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -1345,7 +1377,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1497, 475);
+            this.splitContainer1.Size = new System.Drawing.Size(1497, 477);
             this.splitContainer1.SplitterDistance = 253;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 2;
@@ -1631,6 +1663,113 @@
             this.Musteripanel3.Size = new System.Drawing.Size(327, 487);
             this.Musteripanel3.TabIndex = 1;
             // 
+            // treeView1
+            // 
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.treeView1.ImageIndex = 0;
+            this.treeView1.ImageList = this.ımageList1;
+            this.treeView1.Indent = 22;
+            this.treeView1.ItemHeight = 25;
+            this.treeView1.LineColor = System.Drawing.Color.DarkGreen;
+            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Name = "treeView1";
+            treeNode8.Name = "Musteri0";
+            treeNode8.Text = "Müşteri Ekle";
+            treeNode9.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
+            treeNode9.Name = "Musteri1";
+            treeNode9.SelectedImageIndex = 1;
+            treeNode9.Text = "Müşteri Kartı";
+            treeNode10.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode10.Name = "musteri3";
+            treeNode10.SelectedImageIndex = 9;
+            treeNode10.Text = "Alınan Sipariş Liste";
+            treeNode11.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
+    "ats.png";
+            treeNode11.Name = "musteri4";
+            treeNode11.SelectedImageIndex = 9;
+            treeNode11.Text = "Bekleyen Sipariş Liste";
+            treeNode12.ImageIndex = 9;
+            treeNode12.Name = "musteri5";
+            treeNode12.SelectedImageIndex = 9;
+            treeNode12.Text = "Sipariş Durumu";
+            treeNode13.ImageIndex = 9;
+            treeNode13.Name = "musteri6";
+            treeNode13.SelectedImageIndex = 9;
+            treeNode13.Text = "İptal Edilen Siparişler";
+            treeNode14.ImageIndex = 9;
+            treeNode14.Name = "musteri7";
+            treeNode14.SelectedImageIndex = 9;
+            treeNode14.Text = "Sevk Fişi";
+            treeNode15.ImageIndex = 2;
+            treeNode15.Name = "Musteri2";
+            treeNode15.SelectedImageIndex = 2;
+            treeNode15.Text = "Sipariş işlemleri";
+            treeNode16.ImageIndex = 3;
+            treeNode16.Name = "MusteriDüğüm0";
+            treeNode16.SelectedImageIndex = 3;
+            treeNode16.Text = "Nakit Tahsilat";
+            treeNode17.ImageIndex = 3;
+            treeNode17.Name = "MusteriDüğüm1";
+            treeNode17.SelectedImageIndex = 3;
+            treeNode17.Text = "Kredi Kart İle Tahsilat";
+            treeNode18.ImageIndex = 3;
+            treeNode18.Name = "Musteri8";
+            treeNode18.SelectedImageIndex = 3;
+            treeNode18.Text = "Tahsilat İşlemleri";
+            treeNode19.ImageIndex = 4;
+            treeNode19.Name = "Musteri9";
+            treeNode19.SelectedImageIndex = 4;
+            treeNode19.Text = "Extreler";
+            treeNode20.ImageIndex = 5;
+            treeNode20.Name = "musteri11";
+            treeNode20.SelectedImageIndex = 5;
+            treeNode20.Text = "Satış Fsturası";
+            treeNode21.ImageIndex = 5;
+            treeNode21.Name = "musteri12";
+            treeNode21.SelectedImageIndex = 5;
+            treeNode21.Text = "İade Faturası";
+            treeNode22.ImageIndex = 5;
+            treeNode22.Name = "musteri13";
+            treeNode22.SelectedImageIndex = 5;
+            treeNode22.Text = "Fatura Listele";
+            treeNode23.ImageIndex = 5;
+            treeNode23.Name = "Fatura10";
+            treeNode23.SelectedImageIndex = 5;
+            treeNode23.Text = "Fatura İşlemleri";
+            treeNode24.ImageIndex = 10;
+            treeNode24.Name = "Musteri14";
+            treeNode24.SelectedImageIndex = 10;
+            treeNode24.Text = "Dekontlar";
+            treeNode25.ImageIndex = 6;
+            treeNode25.Name = "Musteri15";
+            treeNode25.SelectedImageIndex = 6;
+            treeNode25.Text = "Müşteri Hareketleri";
+            treeNode26.ImageIndex = 7;
+            treeNode26.Name = "Musteri16";
+            treeNode26.SelectedImageIndex = 7;
+            treeNode26.Text = "Müşteri İskonto Tanımlama";
+            treeNode27.ImageIndex = 8;
+            treeNode27.Name = "Musteri17";
+            treeNode27.SelectedImageIndex = 8;
+            treeNode27.Text = "Müşteriyi Kara Listeye Al";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9,
+            treeNode15,
+            treeNode18,
+            treeNode19,
+            treeNode23,
+            treeNode24,
+            treeNode25,
+            treeNode26,
+            treeNode27});
+            this.treeView1.SelectedImageIndex = 0;
+            this.treeView1.Size = new System.Drawing.Size(323, 483);
+            this.treeView1.TabIndex = 1;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            // 
             // ımageList1
             // 
             this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
@@ -1682,6 +1821,16 @@
             this.Musteripanel2.Name = "Musteripanel2";
             this.Musteripanel2.Size = new System.Drawing.Size(1497, 129);
             this.Musteripanel2.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(1088, 95);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 20);
+            this.label7.TabIndex = 59;
+            this.label7.Text = "Id";
             // 
             // checkBox14
             // 
@@ -1966,13 +2115,23 @@
             this.Musterilabel1.TabIndex = 1;
             this.Musterilabel1.Text = "Müşteri Adı";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::istoCPos.Properties.Resources._470_4703547_icon_user_icon_hd_png_download;
+            this.pictureBox2.Location = new System.Drawing.Point(55, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(135, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1505, 622);
+            this.tabPage2.Size = new System.Drawing.Size(1505, 624);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Toptan Mal Alım";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2056,7 +2215,7 @@
             this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage9.Size = new System.Drawing.Size(1505, 622);
+            this.tabPage9.Size = new System.Drawing.Size(1505, 624);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "Satış Ekranı";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -2092,7 +2251,7 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer1);
-            this.splitContainer3.Size = new System.Drawing.Size(1497, 614);
+            this.splitContainer3.Size = new System.Drawing.Size(1497, 616);
             this.splitContainer3.SplitterDistance = 134;
             this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 3;
@@ -2122,6 +2281,22 @@
             this.checkBoxIade.UseVisualStyleBackColor = false;
             this.checkBoxIade.Visible = false;
             this.checkBoxIade.CheckedChanged += new System.EventHandler(this.checkBoxIade_CheckedChanged);
+            // 
+            // AraButon
+            // 
+            this.AraButon.BackColor = System.Drawing.Color.DarkCyan;
+            this.AraButon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AraButon.BackgroundImage")));
+            this.AraButon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AraButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AraButon.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.AraButon.Location = new System.Drawing.Point(817, 53);
+            this.AraButon.Margin = new System.Windows.Forms.Padding(1);
+            this.AraButon.Name = "AraButon";
+            this.AraButon.Size = new System.Drawing.Size(39, 28);
+            this.AraButon.TabIndex = 28;
+            this.AraButon.Text = "...";
+            this.AraButon.UseVisualStyleBackColor = false;
+            this.AraButon.Click += new System.EventHandler(this.AraButon_Click);
             // 
             // label2
             // 
@@ -2155,6 +2330,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(609, 134);
             this.panel1.TabIndex = 18;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(391, 134);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
             // 
             // UrunTutarTextBox
             // 
@@ -2215,40 +2402,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(1088, 95);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 20);
-            this.label7.TabIndex = 59;
-            this.label7.Text = "Id";
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.FillWeight = 50F;
-            this.dataGridViewImageColumn1.HeaderText = "Sil";
-            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
-            this.dataGridViewImageColumn1.MinimumWidth = 6;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            // 
-            // dataGridViewImageColumn2
-            // 
-            this.dataGridViewImageColumn2.FillWeight = 50F;
-            this.dataGridViewImageColumn2.HeaderText = "Sil";
-            this.dataGridViewImageColumn2.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn2.Image")));
-            this.dataGridViewImageColumn2.MinimumWidth = 6;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
-            // 
-            // dataGridViewImageColumn3
-            // 
-            this.dataGridViewImageColumn3.FillWeight = 50F;
-            this.dataGridViewImageColumn3.HeaderText = "Sil";
-            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
-            this.dataGridViewImageColumn3.MinimumWidth = 6;
-            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
-            // 
             // dataGridViewImageColumn4
             // 
             this.dataGridViewImageColumn4.FillWeight = 50F;
@@ -2257,158 +2410,6 @@
             this.dataGridViewImageColumn4.MinimumWidth = 6;
             this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
             this.dataGridViewImageColumn4.Width = 70;
-            // 
-            // AraButon
-            // 
-            this.AraButon.BackColor = System.Drawing.Color.DarkCyan;
-            this.AraButon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AraButon.BackgroundImage")));
-            this.AraButon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.AraButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AraButon.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.AraButon.Location = new System.Drawing.Point(817, 53);
-            this.AraButon.Margin = new System.Windows.Forms.Padding(1);
-            this.AraButon.Name = "AraButon";
-            this.AraButon.Size = new System.Drawing.Size(39, 28);
-            this.AraButon.TabIndex = 28;
-            this.AraButon.Text = "...";
-            this.AraButon.UseVisualStyleBackColor = false;
-            this.AraButon.Click += new System.EventHandler(this.AraButon_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(391, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Sil
-            // 
-            this.Sil.FillWeight = 50F;
-            this.Sil.HeaderText = "Sil";
-            this.Sil.Image = ((System.Drawing.Image)(resources.GetObject("Sil.Image")));
-            this.Sil.MinimumWidth = 6;
-            this.Sil.Name = "Sil";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::istoCPos.Properties.Resources._470_4703547_icon_user_icon_hd_png_download;
-            this.pictureBox2.Location = new System.Drawing.Point(55, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 100);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // treeView1
-            // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.treeView1.ImageIndex = 0;
-            this.treeView1.ImageList = this.ımageList1;
-            this.treeView1.Indent = 22;
-            this.treeView1.ItemHeight = 25;
-            this.treeView1.LineColor = System.Drawing.Color.DarkGreen;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
-            this.treeView1.Name = "treeView1";
-            treeNode8.Name = "Musteri0";
-            treeNode8.Text = "Müşteri Ekle";
-            treeNode9.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
-            treeNode9.Name = "Musteri1";
-            treeNode9.SelectedImageIndex = 1;
-            treeNode9.Text = "Müşteri Kartı";
-            treeNode10.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode10.Name = "musteri3";
-            treeNode10.SelectedImageIndex = 9;
-            treeNode10.Text = "Alınan Sipariş Liste";
-            treeNode11.ImageKey = "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
-    "ats.png";
-            treeNode11.Name = "musteri4";
-            treeNode11.SelectedImageIndex = 9;
-            treeNode11.Text = "Bekleyen Sipariş Liste";
-            treeNode12.ImageIndex = 9;
-            treeNode12.Name = "musteri5";
-            treeNode12.SelectedImageIndex = 9;
-            treeNode12.Text = "Sipariş Durumu";
-            treeNode13.ImageIndex = 9;
-            treeNode13.Name = "musteri6";
-            treeNode13.SelectedImageIndex = 9;
-            treeNode13.Text = "İptal Edilen Siparişler";
-            treeNode14.ImageIndex = 9;
-            treeNode14.Name = "musteri7";
-            treeNode14.SelectedImageIndex = 9;
-            treeNode14.Text = "Sevk Fişi";
-            treeNode15.ImageIndex = 2;
-            treeNode15.Name = "Musteri2";
-            treeNode15.SelectedImageIndex = 2;
-            treeNode15.Text = "Sipariş işlemleri";
-            treeNode16.ImageIndex = 3;
-            treeNode16.Name = "MusteriDüğüm0";
-            treeNode16.SelectedImageIndex = 3;
-            treeNode16.Text = "Nakit Tahsilat";
-            treeNode17.ImageIndex = 3;
-            treeNode17.Name = "MusteriDüğüm1";
-            treeNode17.SelectedImageIndex = 3;
-            treeNode17.Text = "Kredi Kart İle Tahsilat";
-            treeNode18.ImageIndex = 3;
-            treeNode18.Name = "Musteri8";
-            treeNode18.SelectedImageIndex = 3;
-            treeNode18.Text = "Tahsilat İşlemleri";
-            treeNode19.ImageIndex = 4;
-            treeNode19.Name = "Musteri9";
-            treeNode19.SelectedImageIndex = 4;
-            treeNode19.Text = "Extreler";
-            treeNode20.ImageIndex = 5;
-            treeNode20.Name = "musteri11";
-            treeNode20.SelectedImageIndex = 5;
-            treeNode20.Text = "Satış Fsturası";
-            treeNode21.ImageIndex = 5;
-            treeNode21.Name = "musteri12";
-            treeNode21.SelectedImageIndex = 5;
-            treeNode21.Text = "İade Faturası";
-            treeNode22.ImageIndex = 5;
-            treeNode22.Name = "musteri13";
-            treeNode22.SelectedImageIndex = 5;
-            treeNode22.Text = "Fatura Listele";
-            treeNode23.ImageIndex = 5;
-            treeNode23.Name = "Fatura10";
-            treeNode23.SelectedImageIndex = 5;
-            treeNode23.Text = "Fatura İşlemleri";
-            treeNode24.ImageIndex = 10;
-            treeNode24.Name = "Musteri14";
-            treeNode24.SelectedImageIndex = 10;
-            treeNode24.Text = "Dekontlar";
-            treeNode25.ImageIndex = 6;
-            treeNode25.Name = "Musteri15";
-            treeNode25.SelectedImageIndex = 6;
-            treeNode25.Text = "Müşteri Hareketleri";
-            treeNode26.ImageIndex = 7;
-            treeNode26.Name = "Musteri16";
-            treeNode26.SelectedImageIndex = 7;
-            treeNode26.Text = "Müşteri İskonto Tanımlama";
-            treeNode27.ImageIndex = 8;
-            treeNode27.Name = "Musteri17";
-            treeNode27.SelectedImageIndex = 8;
-            treeNode27.Text = "Müşteriyi Kara Listeye Al";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8,
-            treeNode9,
-            treeNode15,
-            treeNode18,
-            treeNode19,
-            treeNode23,
-            treeNode24,
-            treeNode25,
-            treeNode26,
-            treeNode27});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(323, 483);
-            this.treeView1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -2451,6 +2452,7 @@
             this.Musteripanel3.ResumeLayout(false);
             this.Musteripanel2.ResumeLayout(false);
             this.Musteripanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabPage9.ResumeLayout(false);
@@ -2461,9 +2463,8 @@
             this.splitContainer3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.tabControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabControl3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
