@@ -551,14 +551,21 @@ namespace istoCPos
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
-            label7.Text = secilisatir.ToString();
-            MusteriKarti musteriKarti = new MusteriKarti();
-            musteriKarti.ShowDialog();
+            if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column1")
+            {
+                var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
+                label7.Text = secilisatir.ToString();
 
-            var secilisutun = MusteridataGridView5.Rows[e.RowIndex].Cells[1].Value;
-            NakitTahsilat nakitTahsilat = new NakitTahsilat();
-            nakitTahsilat.ShowDialog();
+                MusteriKarti musteriKarti = new MusteriKarti();
+                musteriKarti.ShowDialog();
+            }
+
+            if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column2")
+            {
+                var secilisutun = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
+                NakitTahsilat nakitTahsilat = new NakitTahsilat();
+                nakitTahsilat.ShowDialog();
+            }
         }
         public void musteriCek()
         {
