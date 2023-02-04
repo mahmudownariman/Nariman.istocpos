@@ -46,7 +46,7 @@
             System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Düğüm6");
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Müşteri Ekle");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Müşteri Kartı");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Müşteri Kartı", 1, 1);
             System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Alınan Sipariş Liste");
             System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Bekleyen Sipariş Liste");
             System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Sipariş Durumu", 9, 9);
@@ -63,18 +63,24 @@
             System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri", 3, 3, new System.Windows.Forms.TreeNode[] {
             treeNode16,
             treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Extreler", 4, 4);
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Satış Fsturası", 5, 5);
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("İade Faturası", 5, 5);
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Fatura Listele", 5, 5);
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", 5, 5, new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Genel Extre", 11, 11);
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Detay Extre", 11, 11);
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Ürün Extre", 11, 11);
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Extreler", 11, 11, new System.Windows.Forms.TreeNode[] {
+            treeNode19,
             treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Dekontlar", 10, 10);
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri", 6, 6);
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama", 7, 7);
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al", 8, 8);
+            treeNode21});
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Satış Fsturası", 5, 5);
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("İade Faturası", 5, 5);
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Fatura Listele", 5, 5);
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", 5, 5, new System.Windows.Forms.TreeNode[] {
+            treeNode23,
+            treeNode24,
+            treeNode25});
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Dekontlar", 10, 10);
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Müşteri Hareketleri", 6, 6);
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Müşteri İskonto Tanımlama", 7, 7);
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Müşteriyi Kara Listeye Al", 8, 8);
             this.label6 = new System.Windows.Forms.Label();
             this.Hbutton24 = new System.Windows.Forms.Button();
             this.Hbutton23 = new System.Windows.Forms.Button();
@@ -1676,7 +1682,7 @@
             this.treeView1.Name = "treeView1";
             treeNode8.Name = "Musteri0";
             treeNode8.Text = "Müşteri Ekle";
-            treeNode9.ImageKey = "470-4703547_icon-user-icon-hd-png-download.jpg";
+            treeNode9.ImageIndex = 1;
             treeNode9.Name = "Musteri1";
             treeNode9.SelectedImageIndex = 1;
             treeNode9.Text = "Müşteri Kartı";
@@ -1718,53 +1724,65 @@
             treeNode18.Name = "Musteri8";
             treeNode18.SelectedImageIndex = 3;
             treeNode18.Text = "Tahsilat İşlemleri";
-            treeNode19.ImageIndex = 4;
-            treeNode19.Name = "Musteri9";
-            treeNode19.SelectedImageIndex = 4;
-            treeNode19.Text = "Extreler";
-            treeNode20.ImageIndex = 5;
-            treeNode20.Name = "musteri11";
-            treeNode20.SelectedImageIndex = 5;
-            treeNode20.Text = "Satış Fsturası";
-            treeNode21.ImageIndex = 5;
-            treeNode21.Name = "musteri12";
-            treeNode21.SelectedImageIndex = 5;
-            treeNode21.Text = "İade Faturası";
-            treeNode22.ImageIndex = 5;
-            treeNode22.Name = "musteri13";
-            treeNode22.SelectedImageIndex = 5;
-            treeNode22.Text = "Fatura Listele";
+            treeNode19.ImageIndex = 11;
+            treeNode19.Name = "MusteriDüğüm2";
+            treeNode19.SelectedImageIndex = 11;
+            treeNode19.Text = "Genel Extre";
+            treeNode20.ImageIndex = 11;
+            treeNode20.Name = "MusteriDüğüm3";
+            treeNode20.SelectedImageIndex = 11;
+            treeNode20.Text = "Detay Extre";
+            treeNode21.ImageIndex = 11;
+            treeNode21.Name = "MusteriDüğüm4";
+            treeNode21.SelectedImageIndex = 11;
+            treeNode21.Text = "Ürün Extre";
+            treeNode22.ImageIndex = 11;
+            treeNode22.Name = "Musteri9";
+            treeNode22.SelectedImageIndex = 11;
+            treeNode22.Text = "Extreler";
             treeNode23.ImageIndex = 5;
-            treeNode23.Name = "Fatura10";
+            treeNode23.Name = "musteri11";
             treeNode23.SelectedImageIndex = 5;
-            treeNode23.Text = "Fatura İşlemleri";
-            treeNode24.ImageIndex = 10;
-            treeNode24.Name = "Musteri14";
-            treeNode24.SelectedImageIndex = 10;
-            treeNode24.Text = "Dekontlar";
-            treeNode25.ImageIndex = 6;
-            treeNode25.Name = "Musteri15";
-            treeNode25.SelectedImageIndex = 6;
-            treeNode25.Text = "Müşteri Hareketleri";
-            treeNode26.ImageIndex = 7;
-            treeNode26.Name = "Musteri16";
-            treeNode26.SelectedImageIndex = 7;
-            treeNode26.Text = "Müşteri İskonto Tanımlama";
-            treeNode27.ImageIndex = 8;
-            treeNode27.Name = "Musteri17";
-            treeNode27.SelectedImageIndex = 8;
-            treeNode27.Text = "Müşteriyi Kara Listeye Al";
+            treeNode23.Text = "Satış Fsturası";
+            treeNode24.ImageIndex = 5;
+            treeNode24.Name = "musteri12";
+            treeNode24.SelectedImageIndex = 5;
+            treeNode24.Text = "İade Faturası";
+            treeNode25.ImageIndex = 5;
+            treeNode25.Name = "musteri13";
+            treeNode25.SelectedImageIndex = 5;
+            treeNode25.Text = "Fatura Listele";
+            treeNode26.ImageIndex = 5;
+            treeNode26.Name = "Fatura10";
+            treeNode26.SelectedImageIndex = 5;
+            treeNode26.Text = "Fatura İşlemleri";
+            treeNode27.ImageIndex = 10;
+            treeNode27.Name = "Musteri14";
+            treeNode27.SelectedImageIndex = 10;
+            treeNode27.Text = "Dekontlar";
+            treeNode28.ImageIndex = 6;
+            treeNode28.Name = "Musteri15";
+            treeNode28.SelectedImageIndex = 6;
+            treeNode28.Text = "Müşteri Hareketleri";
+            treeNode29.ImageIndex = 7;
+            treeNode29.Name = "Musteri16";
+            treeNode29.SelectedImageIndex = 7;
+            treeNode29.Text = "Müşteri İskonto Tanımlama";
+            treeNode30.ImageIndex = 8;
+            treeNode30.Name = "Musteri17";
+            treeNode30.SelectedImageIndex = 8;
+            treeNode30.Text = "Müşteriyi Kara Listeye Al";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode8,
             treeNode9,
             treeNode15,
             treeNode18,
-            treeNode19,
-            treeNode23,
-            treeNode24,
-            treeNode25,
+            treeNode22,
             treeNode26,
-            treeNode27});
+            treeNode27,
+            treeNode28,
+            treeNode29,
+            treeNode30});
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.Size = new System.Drawing.Size(323, 483);
             this.treeView1.TabIndex = 1;
@@ -1786,6 +1804,9 @@
             this.ımageList1.Images.SetKeyName(9, "png-transparent-computer-icons-checklist-list-miscellaneous-angle-image-file-form" +
         "ats.png");
             this.ımageList1.Images.SetKeyName(10, "png-transparent--text-rectangle.png");
+            this.ımageList1.Images.SetKeyName(11, "png-transparent-laptop-computer-repair-logo-illustration-computer-programming-pro" +
+        "gramming-language-icon-software-technology-icon-miscellaneous-camera-icon-comput" +
+        "er.png");
             // 
             // Musteripanel2
             // 
