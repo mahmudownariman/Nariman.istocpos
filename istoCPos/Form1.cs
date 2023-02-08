@@ -406,10 +406,16 @@ namespace istoCPos
                 MusteriEkle MusteriKayıt = new MusteriEkle();
                 MusteriKayıt.ShowDialog();
             }
-            if(treeView1.SelectedNode.Index == 1)
+            if (MusteridataGridView5.CurrentRow != null)
             {
-                MessageBox.Show("Müşteri Seçin");
+                if (treeView1.SelectedNode.Index == 1)
+                {
+                    MusteriKarti musteriKarti = new MusteriKarti();
+                    musteriKarti.ShowDialog();
+                }
             }
+            else { MessageBox.Show("Müşteri Seçin"); }
+            
             if(treeView1.SelectedNode.Index == 9)
             {
                 NakitTahsilat nakitTahsilat = new NakitTahsilat();
