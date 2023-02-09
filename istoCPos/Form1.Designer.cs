@@ -895,7 +895,7 @@
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(694, 446);
+            this.tabPage4.Size = new System.Drawing.Size(694, 448);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Kasa 2";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -931,7 +931,7 @@
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView2.Size = new System.Drawing.Size(686, 440);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -983,7 +983,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage5.Size = new System.Drawing.Size(694, 446);
+            this.tabPage5.Size = new System.Drawing.Size(694, 448);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Kasa  3";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1019,7 +1019,7 @@
             this.dataGridView3.RowHeadersVisible = false;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView3.Size = new System.Drawing.Size(686, 440);
             this.dataGridView3.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn6
@@ -1071,7 +1071,7 @@
             this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage6.Size = new System.Drawing.Size(694, 446);
+            this.tabPage6.Size = new System.Drawing.Size(694, 448);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Kasa 4";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1107,7 +1107,7 @@
             this.dataGridView4.RowHeadersVisible = false;
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(686, 438);
+            this.dataGridView4.Size = new System.Drawing.Size(686, 440);
             this.dataGridView4.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn11
@@ -1287,7 +1287,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage1.Size = new System.Drawing.Size(1505, 622);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Ürünler";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1306,7 +1306,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.BackColor = System.Drawing.Color.DarkGray;
-            this.splitContainer4.Size = new System.Drawing.Size(1497, 616);
+            this.splitContainer4.Size = new System.Drawing.Size(1497, 614);
             this.splitContainer4.SplitterDistance = 499;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -1406,7 +1406,7 @@
             this.tabPage10.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage10.Size = new System.Drawing.Size(1505, 622);
+            this.tabPage10.Size = new System.Drawing.Size(1505, 624);
             this.tabPage10.TabIndex = 1;
             this.tabPage10.Text = "Müşteri Satış";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -1419,7 +1419,7 @@
             this.Musteripanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Musteripanel1.Location = new System.Drawing.Point(4, 4);
             this.Musteripanel1.Name = "Musteripanel1";
-            this.Musteripanel1.Size = new System.Drawing.Size(1497, 614);
+            this.Musteripanel1.Size = new System.Drawing.Size(1497, 616);
             this.Musteripanel1.TabIndex = 0;
             // 
             // panel2
@@ -1428,7 +1428,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(327, 129);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1170, 485);
+            this.panel2.Size = new System.Drawing.Size(1170, 487);
             this.panel2.TabIndex = 2;
             // 
             // MusteridataGridView5
@@ -1478,7 +1478,7 @@
             this.MusteridataGridView5.RowHeadersVisible = false;
             this.MusteridataGridView5.RowHeadersWidth = 51;
             this.MusteridataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.MusteridataGridView5.Size = new System.Drawing.Size(1170, 485);
+            this.MusteridataGridView5.Size = new System.Drawing.Size(1170, 487);
             this.MusteridataGridView5.TabIndex = 1;
             this.MusteridataGridView5.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.MusteridataGridView5_CellClick);
             // 
@@ -1666,7 +1666,7 @@
             this.Musteripanel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.Musteripanel3.Location = new System.Drawing.Point(0, 129);
             this.Musteripanel3.Name = "Musteripanel3";
-            this.Musteripanel3.Size = new System.Drawing.Size(327, 485);
+            this.Musteripanel3.Size = new System.Drawing.Size(327, 487);
             this.Musteripanel3.TabIndex = 1;
             // 
             // treeView1
@@ -1784,7 +1784,7 @@
             treeNode29,
             treeNode30});
             this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(323, 481);
+            this.treeView1.Size = new System.Drawing.Size(323, 483);
             this.treeView1.TabIndex = 1;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -2152,7 +2152,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1505, 624);
+            this.tabPage2.Size = new System.Drawing.Size(1505, 622);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Toptan Mal Alım";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2171,37 +2171,37 @@
             // yardımToolStripMenuItem
             // 
             this.yardımToolStripMenuItem.Name = "yardımToolStripMenuItem";
-            this.yardımToolStripMenuItem.Size = new System.Drawing.Size(69, 26);
+            this.yardımToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.yardımToolStripMenuItem.Text = "Yardım";
             // 
             // hakkımızdaToolStripMenuItem
             // 
             this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.hakkımızdaToolStripMenuItem.Text = "Hakkımızda";
             // 
             // whatsapToolStripMenuItem
             // 
             this.whatsapToolStripMenuItem.Name = "whatsapToolStripMenuItem";
-            this.whatsapToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
+            this.whatsapToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.whatsapToolStripMenuItem.Text = "Whatsap";
             // 
             // raporlarToolStripMenuItem
             // 
             this.raporlarToolStripMenuItem.Name = "raporlarToolStripMenuItem";
-            this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(80, 26);
+            this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
             this.raporlarToolStripMenuItem.Text = "Raporlar";
             // 
             // işlemlerToolStripMenuItem
             // 
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
-            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
             // 
             // araçlarToolStripMenuItem
             // 
             this.araçlarToolStripMenuItem.Name = "araçlarToolStripMenuItem";
-            this.araçlarToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
+            this.araçlarToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.araçlarToolStripMenuItem.Text = "Araçlar";
             // 
             // menuStrip1
@@ -2216,7 +2216,7 @@
             this.yardımToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1513, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1513, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -2409,12 +2409,12 @@
             this.tabControl3.Controls.Add(this.tabPage1);
             this.tabControl3.Controls.Add(this.tabPage2);
             this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl3.Location = new System.Drawing.Point(0, 30);
+            this.tabControl3.Location = new System.Drawing.Point(0, 28);
             this.tabControl3.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl3.Multiline = true;
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(1513, 651);
+            this.tabControl3.Size = new System.Drawing.Size(1513, 653);
             this.tabControl3.TabIndex = 5;
             // 
             // contextMenuStrip1

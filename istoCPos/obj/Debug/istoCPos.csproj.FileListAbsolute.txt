@@ -288,6 +288,6 @@ C:\Users\90551\source\repos\Deneme0301\istoCPos\obj\Debug\istoCPos.pdb
 C:\Users\90551\source\repos\Deneme0301\istoCPos\obj\Debug\istoCPos.KrediKartiTahsilat.resources
 C:\Users\90551\source\repos\Deneme0301\istoCPos\obj\Debug\istoCPos.NakitTahsilat.resources
 C:\Users\90551\Source\Repos\Nariman.istocpos\istoCPos\obj\Debug\istoCPos.KrediKartiTahsilat.resources
-C:\Users\90551\Source\Repos\Nariman.istocpos\istoCPos\obj\Debug\istoCPos.NakitTahsilat.resources
 C:\Users\90551\Source\Repos\Nariman.istocpos\istoCPos\obj\Debug\istoCPos.TabloSecenekleri.resources
 C:\Users\90551\Source\Repos\Nariman.istocpos\istoCPos\obj\Debug\istoCPos.MusteriHareketleri.resources
+C:\Users\90551\Source\Repos\Nariman.istocpos\istoCPos\obj\Debug\istoCPos.TahsilatIslemleri.resources

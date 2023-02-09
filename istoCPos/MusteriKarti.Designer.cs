@@ -73,9 +73,9 @@
             this.Idlabel2 = new System.Windows.Forms.Label();
             this.Musteriidlabel1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.MusteriKaritextBox4 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox4 = new System.Windows.Forms.TextBox();
             this.MusteriKartitextBox3 = new System.Windows.Forms.TextBox();
-            this.MusterKartiitextBox2 = new System.Windows.Forms.TextBox();
+            this.MusteriKartitextBox2 = new System.Windows.Forms.TextBox();
             this.MusteriKartitextBox1 = new System.Windows.Forms.TextBox();
             this.MusEkleLabel4 = new System.Windows.Forms.Label();
             this.MusEklelabel3 = new System.Windows.Forms.Label();
@@ -504,9 +504,9 @@
             this.panel6.Controls.Add(this.Idlabel2);
             this.panel6.Controls.Add(this.Musteriidlabel1);
             this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.MusteriKaritextBox4);
+            this.panel6.Controls.Add(this.MusteriKartitextBox4);
             this.panel6.Controls.Add(this.MusteriKartitextBox3);
-            this.panel6.Controls.Add(this.MusterKartiitextBox2);
+            this.panel6.Controls.Add(this.MusteriKartitextBox2);
             this.panel6.Controls.Add(this.MusteriKartitextBox1);
             this.panel6.Controls.Add(this.MusEkleLabel4);
             this.panel6.Controls.Add(this.MusEklelabel3);
@@ -548,12 +548,12 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // MusteriKaritextBox4
+            // MusteriKartitextBox4
             // 
-            this.MusteriKaritextBox4.Location = new System.Drawing.Point(126, 116);
-            this.MusteriKaritextBox4.Name = "MusteriKaritextBox4";
-            this.MusteriKaritextBox4.Size = new System.Drawing.Size(150, 22);
-            this.MusteriKaritextBox4.TabIndex = 12;
+            this.MusteriKartitextBox4.Location = new System.Drawing.Point(126, 116);
+            this.MusteriKartitextBox4.Name = "MusteriKartitextBox4";
+            this.MusteriKartitextBox4.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox4.TabIndex = 12;
             // 
             // MusteriKartitextBox3
             // 
@@ -562,12 +562,12 @@
             this.MusteriKartitextBox3.Size = new System.Drawing.Size(150, 22);
             this.MusteriKartitextBox3.TabIndex = 11;
             // 
-            // MusterKartiitextBox2
+            // MusteriKartitextBox2
             // 
-            this.MusterKartiitextBox2.Location = new System.Drawing.Point(126, 51);
-            this.MusterKartiitextBox2.Name = "MusterKartiitextBox2";
-            this.MusterKartiitextBox2.Size = new System.Drawing.Size(150, 22);
-            this.MusterKartiitextBox2.TabIndex = 10;
+            this.MusteriKartitextBox2.Location = new System.Drawing.Point(126, 51);
+            this.MusteriKartitextBox2.Name = "MusteriKartitextBox2";
+            this.MusteriKartitextBox2.Size = new System.Drawing.Size(150, 22);
+            this.MusteriKartitextBox2.TabIndex = 10;
             // 
             // MusteriKartitextBox1
             // 
@@ -673,26 +673,26 @@
         private System.Windows.Forms.Label MusEklelabel1;
         public System.Windows.Forms.Label Idlabel2;
         private System.Windows.Forms.Label Musteriidlabel1;
-        public System.Windows.Forms.TextBox MusteriKartitextBox7;
-        public System.Windows.Forms.TextBox MusteriKartitextBox8;
-        public System.Windows.Forms.TextBox MusteriKartitextBox6;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox7;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox6;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox5;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox4;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox3;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox2;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox1;
-        public System.Windows.Forms.TextBox MusteriKartitextBox5;
-        public System.Windows.Forms.TextBox MusteriKartitextBox12;
-        public System.Windows.Forms.TextBox MusteriKartitextBox11;
-        public System.Windows.Forms.TextBox MusteriKartitextBox10;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox9;
-        public System.Windows.Forms.ComboBox MusteriKarticomboBox8;
-        public System.Windows.Forms.TextBox MusteriKartitextBox9;
-        public System.Windows.Forms.TextBox MusteriKaritextBox4;
-        public System.Windows.Forms.TextBox MusteriKartitextBox3;
-        public System.Windows.Forms.TextBox MusterKartiitextBox2;
+        private System.Windows.Forms.TextBox MusteriKartitextBox7;
+        private System.Windows.Forms.TextBox MusteriKartitextBox8;
+        private System.Windows.Forms.TextBox MusteriKartitextBox6;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox7;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox6;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox5;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox4;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox3;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox2;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox1;
+        private System.Windows.Forms.TextBox MusteriKartitextBox5;
+        private System.Windows.Forms.TextBox MusteriKartitextBox11;
+        private System.Windows.Forms.TextBox MusteriKartitextBox10;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox9;
+        private System.Windows.Forms.ComboBox MusteriKarticomboBox8;
+        private System.Windows.Forms.TextBox MusteriKartitextBox9;
+        private System.Windows.Forms.TextBox MusteriKartitextBox4;
+        private System.Windows.Forms.TextBox MusteriKartitextBox3;
+        public System.Windows.Forms.TextBox MusteriKartitextBox2;
         public System.Windows.Forms.TextBox MusteriKartitextBox1;
+        public System.Windows.Forms.TextBox MusteriKartitextBox12;
     }
 }

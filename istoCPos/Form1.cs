@@ -369,7 +369,7 @@ namespace istoCPos
 
         private void Musteributton1_Click(object sender, EventArgs e)
         { 
-
+            
             if (MusteritextBox.Text != "")
             {
                 string musteri = MusteritextBox.Text;
@@ -404,23 +404,25 @@ namespace istoCPos
             if (treeView1.SelectedNode.Index == 0)
             {
                 MusteriEkle MusteriKayıt = new MusteriEkle();
-                MusteriKayıt.ShowDialog();
+                MusteriKayıt.ShowDialog(this);
             }
-            if (MusteridataGridView5.CurrentRow != null)
+            if (treeView1.SelectedNode.Index == 1 && MusteridataGridView5.CurrentRow != null)
             {
-                if (treeView1.SelectedNode.Index == 1)
-                {
-                    MusteriKarti musteriKarti = new MusteriKarti();
-                    musteriKarti.ShowDialog();
-                }
+                
+                MusteriKarti musteriKarti = new MusteriKarti();
+                musteriKarti.ShowDialog(this);
             }
-            else { MessageBox.Show("Müşteri Seçin"); }
+            if (treeView1.SelectedNode.Index == 3)
+            {
+                TahsilatIslemleri tahsilatIslemleri = new TahsilatIslemleri();
+                tahsilatIslemleri.ShowDialog(this);
+            }
+            if(treeView1.SelectedNode.Index == 7 && MusteridataGridView5.CurrentRow != null)
+            {
+                MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
+                musteriHareketleri.ShowDialog(this);
+            }
             
-            if(treeView1.SelectedNode.Index == 9)
-            {
-                NakitTahsilat nakitTahsilat = new NakitTahsilat();
-                nakitTahsilat.ShowDialog();
-            }
 
         }
 
@@ -560,7 +562,7 @@ namespace istoCPos
             {
                 var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
                 label7.Text = secilisatir.ToString();
-
+                
                 MusteriKarti musteriKarti = new MusteriKarti();
                 musteriKarti.ShowDialog();
             }
@@ -574,14 +576,36 @@ namespace istoCPos
         }
         public void musteriCek()
         {
-            string a = "", b = "", c = "", d = "";
+            
             MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
-            a = MusteridataGridView5.CurrentRow.Cells[1].Value.ToString();
-            b = MusteridataGridView5.CurrentRow.Cells[2].Value.ToString();
+            
+            f.a = MusteridataGridView5.CurrentRow.Cells[0].Value.ToString();
+            f.b = MusteridataGridView5.CurrentRow.Cells[1].Value.ToString();
+            f.g = MusteridataGridView5.CurrentRow.Cells[2].Value.ToString();
+            f.m = MusteridataGridView5.CurrentRow.Cells[3].Value.ToString();
+            f.s = MusteridataGridView5.CurrentRow.Cells[4].Value.ToString();
+            f.t = MusteridataGridView5.CurrentRow.Cells[5].Value.ToString();
+            f.u = MusteridataGridView5.CurrentRow.Cells[6].Value.ToString();
+            f.p = MusteridataGridView5.CurrentRow.Cells[7].Value.ToString();
+            f.r = MusteridataGridView5.CurrentRow.Cells[8].Value.ToString();
+            f.c = MusteridataGridView5.CurrentRow.Cells[9].Value.ToString();
+            f.d = MusteridataGridView5.CurrentRow.Cells[10].Value.ToString();
+           /* f.a = MusteridataGridView5.CurrentRow.Cells[11].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[12].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[13].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[14].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[15].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[16].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[17].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[18].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[19].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[20].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[21].Value.ToString();
+            f.a = MusteridataGridView5.CurrentRow.Cells[22].Value.ToString();*/
 
-            f.MusteriKartitextBox1.Text = a;
 
-            f.MusteriKartitextBox12.Text = b;
+
+
         }
 
         private void Musteributton2_Click(object sender, EventArgs e)
