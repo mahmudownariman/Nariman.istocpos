@@ -557,14 +557,16 @@ namespace istoCPos
 
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column1")
             {
+                
                 var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
                 label7.Text = secilisatir.ToString();
-                
+
                 MusteriKarti musteriKarti = new MusteriKarti();
                 musteriKarti.ShowDialog();
+
             }
 
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column2")
@@ -574,43 +576,12 @@ namespace istoCPos
                 musteriHareketleri.ShowDialog();
             }
         }
-        public void musteriCek()
-        {
-            
-            MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
-            
-            f.a = MusteridataGridView5.CurrentRow.Cells[0].Value.ToString();
-            f.b = MusteridataGridView5.CurrentRow.Cells[1].Value.ToString();
-            f.g = MusteridataGridView5.CurrentRow.Cells[2].Value.ToString();
-            f.m = MusteridataGridView5.CurrentRow.Cells[3].Value.ToString();
-            f.s = MusteridataGridView5.CurrentRow.Cells[4].Value.ToString();
-            f.t = MusteridataGridView5.CurrentRow.Cells[5].Value.ToString();
-            f.u = MusteridataGridView5.CurrentRow.Cells[6].Value.ToString();
-            f.p = MusteridataGridView5.CurrentRow.Cells[7].Value.ToString();
-            f.r = MusteridataGridView5.CurrentRow.Cells[8].Value.ToString();
-            f.c = MusteridataGridView5.CurrentRow.Cells[9].Value.ToString();
-            f.d = MusteridataGridView5.CurrentRow.Cells[10].Value.ToString();
-           /* f.a = MusteridataGridView5.CurrentRow.Cells[11].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[12].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[13].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[14].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[15].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[16].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[17].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[18].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[19].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[20].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[21].Value.ToString();
-            f.a = MusteridataGridView5.CurrentRow.Cells[22].Value.ToString();*/
-
-
-
-
-        }
+        
 
         private void Musteributton2_Click(object sender, EventArgs e)
         {
-
+            TabloSecenekleri tabloSecenekleri = new TabloSecenekleri();
+            tabloSecenekleri.ShowDialog();
         }
     }
 }

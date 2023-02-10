@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,7 +19,7 @@ namespace istoCPos
             InitializeComponent();
         }
         istocDBEntities database = new istocDBEntities();
-       
+        Form1 nnn = (Form1)Application.OpenForms["Form1"];
         private void MüsteriEkle_Load(object sender, EventArgs e)
         {
 
@@ -77,7 +78,7 @@ namespace istoCPos
                 MustericomboBox7.Text = "";
                 MustericomboBox8.Text = "";
                 MustericomboBox9.Text = "";
-                
+                nnn.MusteridataGridView5.DataSource = database.Musteriler.OrderByDescending(a => a.Id).Take(10).ToList();
                 MessageBox.Show("Kayıt Edildi");
                 
             }

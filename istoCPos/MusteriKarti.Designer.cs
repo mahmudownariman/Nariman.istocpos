@@ -254,7 +254,7 @@
             // 
             // MusteriKartibutton2
             // 
-            this.MusteriKartibutton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriKartibutton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MusteriKartibutton2.Location = new System.Drawing.Point(189, 6);
             this.MusteriKartibutton2.Name = "MusteriKartibutton2";
             this.MusteriKartibutton2.Size = new System.Drawing.Size(74, 28);
@@ -265,14 +265,15 @@
             // 
             // MusteriKartibutton1
             // 
-            this.MusteriKartibutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusteriKartibutton1.Location = new System.Drawing.Point(63, 6);
+            this.MusteriKartibutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriKartibutton1.Location = new System.Drawing.Point(34, 6);
             this.MusteriKartibutton1.Name = "MusteriKartibutton1";
-            this.MusteriKartibutton1.Size = new System.Drawing.Size(114, 28);
+            this.MusteriKartibutton1.Size = new System.Drawing.Size(143, 28);
             this.MusteriKartibutton1.TabIndex = 0;
-            this.MusteriKartibutton1.Text = "Kayıt [F2]";
+            this.MusteriKartibutton1.Text = "Güncelle[2]";
             this.MusteriKartibutton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.MusteriKartibutton1.UseVisualStyleBackColor = true;
+            this.MusteriKartibutton1.Click += new System.EventHandler(this.MusteriKartibutton1_Click);
             // 
             // MusEklelabel13
             // 

@@ -29,13 +29,40 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Musteri Kartı");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Düğüm3");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Düğüm4");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Düğüm5");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Satış Faturası");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Satış İade Faturası");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Faturalar Listesi");
             System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Fatura İşlemleri", new System.Windows.Forms.TreeNode[] {
             treeNode2,
             treeNode3,
             treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Satış Makbuzu");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Satış İade makbuzu");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Makbuzlar Listesi");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Makbuz İşlemleri", new System.Windows.Forms.TreeNode[] {
+            treeNode6,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Tahsilat İşlemleri");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Nakit Tahsilat");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Kredi Kartı İle Ödeme");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Ödeme İşlemleri", new System.Windows.Forms.TreeNode[] {
+            treeNode11,
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Açılış Dekontu");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Borç dekontu");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Alacak Dekontu");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Dekontlar", new System.Windows.Forms.TreeNode[] {
+            treeNode14,
+            treeNode15,
+            treeNode16});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Genel Extre");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Detay Extre");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Ürün Extreler");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Extreler", new System.Windows.Forms.TreeNode[] {
+            treeNode18,
+            treeNode19,
+            treeNode20});
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -284,21 +311,59 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.Location = new System.Drawing.Point(0, 49);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "musterihDüğüm1";
+            treeNode1.Name = "musteriHDüğüm1";
             treeNode1.Text = "Musteri Kartı";
-            treeNode2.Name = "Düğüm3";
-            treeNode2.Text = "Düğüm3";
-            treeNode3.Name = "Düğüm4";
-            treeNode3.Text = "Düğüm4";
-            treeNode4.Name = "Düğüm5";
-            treeNode4.Text = "Düğüm5";
-            treeNode5.Name = "musterihDüğüm2";
+            treeNode2.Name = "FaturaDüğüm1";
+            treeNode2.Text = "Satış Faturası";
+            treeNode3.Name = "FaturaDüğüm2";
+            treeNode3.Text = "Satış İade Faturası";
+            treeNode4.Name = "FaturaDüğüm3";
+            treeNode4.Text = "Faturalar Listesi";
+            treeNode5.Name = "musteriHDüğüm2";
             treeNode5.Text = "Fatura İşlemleri";
+            treeNode6.Name = "MakbuzDüğüm1";
+            treeNode6.Text = "Satış Makbuzu";
+            treeNode7.Name = "MakbuzDüğüm2";
+            treeNode7.Text = "Satış İade makbuzu";
+            treeNode8.Name = "MakbuzDüğüm3";
+            treeNode8.Text = "Makbuzlar Listesi";
+            treeNode9.Name = "musteriHDüğüm3";
+            treeNode9.Text = "Makbuz İşlemleri";
+            treeNode10.Name = "musteriHDüğüm4";
+            treeNode10.Text = "Tahsilat İşlemleri";
+            treeNode11.Name = "OdemeDüğüm1";
+            treeNode11.Text = "Nakit Tahsilat";
+            treeNode12.Name = "OdemeDüğüm2";
+            treeNode12.Text = "Kredi Kartı İle Ödeme";
+            treeNode13.Name = "musteriHDüğüm5";
+            treeNode13.Text = "Ödeme İşlemleri";
+            treeNode14.Name = "DekontlarDüğüm1";
+            treeNode14.Text = "Açılış Dekontu";
+            treeNode15.Name = "DekontlarDüğüm2";
+            treeNode15.Text = "Borç dekontu";
+            treeNode16.Name = "DekontlarDüğüm3";
+            treeNode16.Text = "Alacak Dekontu";
+            treeNode17.Name = "musteriHDüğüm6";
+            treeNode17.Text = "Dekontlar";
+            treeNode18.Name = "ExtrelerDüğüm1";
+            treeNode18.Text = "Genel Extre";
+            treeNode19.Name = "ExtrelerDüğüm2";
+            treeNode19.Text = "Detay Extre";
+            treeNode20.Name = "ExtrelerDüğüm3";
+            treeNode20.Text = "Ürün Extreler";
+            treeNode21.Name = "musteriHDüğüm7";
+            treeNode21.Text = "Extreler";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1,
-            treeNode5});
+            treeNode5,
+            treeNode9,
+            treeNode10,
+            treeNode13,
+            treeNode17,
+            treeNode21});
             this.treeView1.Size = new System.Drawing.Size(252, 528);
             this.treeView1.TabIndex = 3;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // button2
             // 
@@ -642,6 +707,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "MusteriHareketleri";
             this.Text = "Musteri Hareketleri";
+            this.Load += new System.EventHandler(this.MusteriHareketleri_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
