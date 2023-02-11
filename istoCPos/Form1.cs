@@ -560,10 +560,6 @@ namespace istoCPos
             MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column1")
             {
-                
-                var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
-                label7.Text = secilisatir.ToString();
-
                 MusteriKarti musteriKarti = new MusteriKarti();
                 musteriKarti.ShowDialog();
 
