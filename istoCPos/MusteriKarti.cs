@@ -23,7 +23,7 @@ namespace istoCPos
 
         private void MusteriKarti_Load(object sender, EventArgs e)
         {
-            Idlabel2.Text = cek.label7.Text;
+            Idlabel2.Text = cek.MusteridataGridView5.CurrentCell.Value.ToString();
             int barkod = Convert.ToInt32(Idlabel2.Text.Trim());
             if (musterilerdb.Musteriler.Any(a => a.Id == barkod))
             {
@@ -59,7 +59,7 @@ namespace istoCPos
             }
         private void MusteriKartibutton1_Click(object sender, EventArgs e)
         {
-            Idlabel2.Text = cek.label7.Text;
+            Idlabel2.Text = cek.MusteridataGridView5.CurrentCell.Value.ToString();
             int barkod = Convert.ToInt32(Idlabel2.Text.Trim());
             if (musterilerdb.Musteriler.Any(a => a.Id == barkod))
             {
