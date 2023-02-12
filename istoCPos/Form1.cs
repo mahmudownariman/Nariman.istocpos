@@ -406,9 +406,9 @@ namespace istoCPos
                 MusteriEkle MusteriKayıt = new MusteriEkle();
                 MusteriKayıt.ShowDialog(this);
             }
-            if (treeView1.SelectedNode.Index == 1 && MusteridataGridView5.CurrentRow != null)
+            
+            if (treeView1.SelectedNode.Index == 1)
             {
-                
                 MusteriKarti musteriKarti = new MusteriKarti();
                 musteriKarti.ShowDialog(this);
             }
@@ -422,8 +422,6 @@ namespace istoCPos
                 MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
                 musteriHareketleri.ShowDialog(this);
             }
-            
-
         }
 
         
