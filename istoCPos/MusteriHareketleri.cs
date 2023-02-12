@@ -21,7 +21,7 @@ namespace istoCPos
         Form1 cekhareketler = (Form1)Application.OpenForms["Form1"];
         private void MusteriHareketleri_Load(object sender, EventArgs e)
         {
-            label14.Text = cekhareketler.MusteridataGridView5.CurrentCell.Value.ToString();
+            label14.Text = cekhareketler.label7.Text;
             /*int barkod = Convert.ToInt32(label14.Text.Trim());
             if (dbhareketler.Musteriler.Any(a => a.Id == barkod))
             {
@@ -38,6 +38,11 @@ namespace istoCPos
                 TahsilatIslemleri tahsilatIslemleri = new TahsilatIslemleri();
                 tahsilatIslemleri.ShowDialog(this);
             }
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

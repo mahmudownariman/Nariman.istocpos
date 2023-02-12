@@ -554,20 +554,21 @@ namespace istoCPos
             else Column21.Visible = false;
         }
 
-
+        MusteriKarti cekme = (MusteriKarti)Application.OpenForms["MusteriKarti"];
         private void MusteridataGridView5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            MusteriKarti f = (MusteriKarti)Application.OpenForms["MusteriKarti"];
+           
+            var secilisatir = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value.ToString();
+            label7.Text = secilisatir.ToString();
+            
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column1")
             {
                 MusteriKarti musteriKarti = new MusteriKarti();
-                musteriKarti.ShowDialog();
-
+                musteriKarti.ShowDialog();               
             }
 
             if (this.MusteridataGridView5.Columns[e.ColumnIndex].Name == "Column2")
-            {
-                var secilisutun = MusteridataGridView5.Rows[e.RowIndex].Cells[0].Value;
+            {                
                 MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
                 musteriHareketleri.ShowDialog();
             }
@@ -576,8 +577,52 @@ namespace istoCPos
 
         private void Musteributton2_Click(object sender, EventArgs e)
         {
-            TabloSecenekleri tabloSecenekleri = new TabloSecenekleri();
-            tabloSecenekleri.ShowDialog();
+            /*TabloSecenekleri tabloSecenekleri = new TabloSecenekleri();
+            tabloSecenekleri.ShowDialog();*/
+      
+            
+          
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+           
+        }
+
+        private void toolStripMenuItem1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MustericontextMenuStrip2_Opening(object sender, CancelEventArgs e)
+        {
+           /* if (toolStripMenuItem1.Checked = true)
+            {
+                Column22.Visible = true;
+            }
+            else Column22.Visible = false;*/
+            
+            
+        }
+
+        private void Musteributton2_MouseClick(object sender, MouseEventArgs e)
+        {
+
+            
+            Muspanel3.Visible = true;
+           
+        }
+
+        private void MusteridataGridView5_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+
+        }
+
+        private void MusteridataGridView5_MouseClick(object sender, MouseEventArgs e)
+        {
+            if(e.Button ==MouseButtons.Left)
+            Muspanel3.Visible = false;
         }
     }
 }

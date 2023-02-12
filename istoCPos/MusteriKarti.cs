@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
@@ -23,7 +24,7 @@ namespace istoCPos
 
         private void MusteriKarti_Load(object sender, EventArgs e)
         {
-            Idlabel2.Text = cek.MusteridataGridView5.CurrentCell.Value.ToString();
+            Idlabel2.Text = cek.label7.Text;
             int barkod = Convert.ToInt32(Idlabel2.Text.Trim());
             if (musterilerdb.Musteriler.Any(a => a.Id == barkod))
             {
@@ -59,7 +60,7 @@ namespace istoCPos
             }
         private void MusteriKartibutton1_Click(object sender, EventArgs e)
         {
-            Idlabel2.Text = cek.MusteridataGridView5.CurrentCell.Value.ToString();
+            Idlabel2.Text = cek.label7.Text;
             int barkod = Convert.ToInt32(Idlabel2.Text.Trim());
             if (musterilerdb.Musteriler.Any(a => a.Id == barkod))
             {
