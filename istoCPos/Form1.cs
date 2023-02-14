@@ -369,7 +369,6 @@ namespace istoCPos
 
         private void Musteributton1_Click(object sender, EventArgs e)
         { 
-            
             if (MusteritextBox.Text != "")
             {
                 string musteri = MusteritextBox.Text;
@@ -417,8 +416,6 @@ namespace istoCPos
                 }
                 else { MessageBox.Show("Müşteri Seçin"); }
             }
-            
-            
             if (treeView1.SelectedNode.Index == 3)
             {
                 TahsilatIslemleri tahsilatIslemleri = new TahsilatIslemleri();
