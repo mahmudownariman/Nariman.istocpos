@@ -401,6 +401,7 @@ namespace istoCPos
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            string veri = label7.Text;
             if (treeView1.SelectedNode.Index == 0)
             {
                 MusteriEkle MusteriKayıt = new MusteriEkle();
@@ -408,19 +409,29 @@ namespace istoCPos
             }
             
             if (treeView1.SelectedNode.Index == 1)
-            {
-                MusteriKarti musteriKarti = new MusteriKarti();
-                musteriKarti.ShowDialog(this);
+                {
+                if (veri != "" && veri != null)
+                {
+                    MusteriKarti musteriKarti = new MusteriKarti();
+                    musteriKarti.ShowDialog(this);
+                }
+                else { MessageBox.Show("Müşteri Seçin"); }
             }
+            
+            
             if (treeView1.SelectedNode.Index == 3)
             {
                 TahsilatIslemleri tahsilatIslemleri = new TahsilatIslemleri();
                 tahsilatIslemleri.ShowDialog(this);
             }
-            if(treeView1.SelectedNode.Index == 7 && MusteridataGridView5.CurrentRow != null)
+            if(treeView1.SelectedNode.Index == 7 )
             {
-                MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
-                musteriHareketleri.ShowDialog(this);
+                if (veri != "" && veri != null)
+                {
+                    MusteriHareketleri musteriHareketleri = new MusteriHareketleri();
+                    musteriHareketleri.ShowDialog(this);
+                }
+                else { MessageBox.Show("Müşteri Seçin"); }
             }
         }
 

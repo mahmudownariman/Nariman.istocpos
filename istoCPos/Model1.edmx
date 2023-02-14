@@ -65,6 +65,20 @@
           <Property Name="Unvan" Type="nvarchar" MaxLength="50" />
           <Property Name="FirmaAdi" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <EntityType Name="MusteriRapor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="islemNo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="EvrakNo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="islemTuru" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="islemTarihi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Vade" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="50" />
+          <Property Name="Alinan" Type="float" Nullable="false" />
+          <Property Name="Personel" Type="nvarchar" MaxLength="50" />
+        </EntityType>
         <EntityType Name="Satis">
           <Key>
             <PropertyRef Name="SatisId" />
@@ -166,6 +180,7 @@
           <EntitySet Name="Islem" EntityType="Self.Islem" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="IslemOzet" EntityType="Self.IslemOzet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Musteriler" EntityType="Self.Musteriler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MusteriRapor" EntityType="Self.MusteriRapor" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Satis" EntityType="Self.Satis" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Satis1" EntityType="Self.Satis1" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="SatisKayit" EntityType="Self.SatisKayit" Schema="dbo" store:Type="Tables" />
@@ -211,6 +226,7 @@
           <EntitySet Name="Satis" EntityType="istocDBModel.Satis" />
           <EntitySet Name="SatisKayit" EntityType="istocDBModel.SatisKayit" />
           <EntitySet Name="Table" EntityType="istocDBModel.Table" />
+          <EntitySet Name="MusteriRapor" EntityType="istocDBModel.MusteriRapor" />
         </EntityContainer>
         <EntityType Name="HizliUrun">
           <Key>
@@ -342,6 +358,20 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="IslemNo" Type="Int32" />
+        </EntityType>
+        <EntityType Name="MusteriRapor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="islemNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EvrakNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="islemTuru" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="islemTarihi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Vade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Aciklama" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Alinan" Type="Double" Nullable="false" />
+          <Property Name="Personel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -510,6 +540,21 @@
             <EntityTypeMapping TypeName="istocDBModel.Table">
               <MappingFragment StoreEntitySet="Table">
                 <ScalarProperty Name="IslemNo" ColumnName="IslemNo" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MusteriRapor">
+            <EntityTypeMapping TypeName="istocDBModel.MusteriRapor">
+              <MappingFragment StoreEntitySet="MusteriRapor">
+                <ScalarProperty Name="Personel" ColumnName="Personel" />
+                <ScalarProperty Name="Alinan" ColumnName="Alinan" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Vade" ColumnName="Vade" />
+                <ScalarProperty Name="islemTarihi" ColumnName="islemTarihi" />
+                <ScalarProperty Name="islemTuru" ColumnName="islemTuru" />
+                <ScalarProperty Name="EvrakNo" ColumnName="EvrakNo" />
+                <ScalarProperty Name="islemNo" ColumnName="islemNo" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

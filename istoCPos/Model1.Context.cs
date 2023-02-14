@@ -34,5 +34,6 @@ namespace istoCPos
         public virtual DbSet<Satis> Satis { get; set; }
         public virtual DbSet<SatisKayit> SatisKayit { get; set; }
         public virtual DbSet<Table> Table { get; set; }
+        public virtual DbSet<MusteriRapor> MusteriRapor { get; set; }
     }
 }

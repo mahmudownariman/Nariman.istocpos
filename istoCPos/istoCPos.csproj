@@ -84,6 +84,9 @@
     <Compile Include="MusteriHareketleri.Designer.cs">
       <DependentUpon>MusteriHareketleri.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusteriRapor.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="TahsilatIslemleri.cs">
       <SubType>Form</SubType>
     </Compile>

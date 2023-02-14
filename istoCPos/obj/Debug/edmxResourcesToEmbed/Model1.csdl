@@ -35,6 +35,7 @@
     <EntitySet Name="Satis" EntityType="istocDBModel.Satis" />
     <EntitySet Name="SatisKayit" EntityType="istocDBModel.SatisKayit" />
     <EntitySet Name="Table" EntityType="istocDBModel.Table" />
+    <EntitySet Name="MusteriRapor" EntityType="istocDBModel.MusteriRapor" />
   </EntityContainer>
   <EntityType Name="HizliUrun">
     <Key>
@@ -166,5 +167,19 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="IslemNo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MusteriRapor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="islemNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EvrakNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="islemTuru" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="islemTarihi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Alinan" Type="Double" Nullable="false" />
+    <Property Name="Personel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>
