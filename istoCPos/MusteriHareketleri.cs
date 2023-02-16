@@ -22,12 +22,19 @@ namespace istoCPos
         private void MusteriHareketleri_Load(object sender, EventArgs e)
         {
             label14.Text = cekhareketler.label7.Text;
-            /*int barkod = Convert.ToInt32(label14.Text.Trim());
+            int barkod = Convert.ToInt32(label14.Text.Trim());
             if (dbhareketler.Musteriler.Any(a => a.Id == barkod))
             {
-                var musteri = dbhareketler.Musteriler.Where(a => a.Id == barkod).SingleOrDefault();
-            }*/
-
+                var verilericek = dbhareketler.Musteriler.Where(a => a.Id == barkod).SingleOrDefault();
+                button1.Text += verilericek.MusteriAdi;
+                label19.Text += verilericek.Sehir;
+                label20.Text += verilericek.ilce;
+                label21.Text += verilericek.Ulke;
+                label22.Text += verilericek.Adres;
+                label23.Text += verilericek.Aciklama;
+                label24.Text += verilericek.Telefon+")";
+                label25.Text += verilericek.CepTelefon+")";
+            }
 
         }
 

@@ -54,6 +54,10 @@
             this.MusEklelabel6 = new System.Windows.Forms.Label();
             this.MusEklelabel5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.MusteritextBox12 = new System.Windows.Forms.TextBox();
             this.MusteritextBox11 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -74,17 +78,13 @@
             this.MusEklelabel3 = new System.Windows.Forms.Label();
             this.MusEklelabel2 = new System.Windows.Forms.Label();
             this.MusEklelabel1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel10.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel5
@@ -96,7 +96,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(969, 599);
+            this.panel5.Size = new System.Drawing.Size(886, 543);
             this.panel5.TabIndex = 1;
             // 
             // panel8
@@ -127,7 +127,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 157);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(652, 438);
+            this.panel8.Size = new System.Drawing.Size(569, 382);
             this.panel8.TabIndex = 2;
             // 
             // MusteritextBox7
@@ -231,11 +231,11 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 397);
+            this.panel9.Location = new System.Drawing.Point(0, 341);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(652, 41);
+            this.panel9.Size = new System.Drawing.Size(569, 41);
             this.panel9.TabIndex = 25;
             // 
             // MusEklelabel13
@@ -352,10 +352,52 @@
             this.panel7.Controls.Add(this.MusEklelabel16);
             this.panel7.Controls.Add(this.MusEklelabel14);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(652, 157);
+            this.panel7.Location = new System.Drawing.Point(569, 157);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(313, 438);
+            this.panel7.Size = new System.Drawing.Size(313, 382);
             this.panel7.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
+            this.panel1.Controls.Add(this.panel10);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 341);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(313, 41);
+            this.panel1.TabIndex = 49;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button2);
+            this.panel10.Controls.Add(this.button1);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel10.Location = new System.Drawing.Point(40, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(273, 41);
+            this.panel10.TabIndex = 1;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(189, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(74, 31);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "İptal";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(63, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 31);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Kayıt [F2]";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // MusteritextBox12
             // 
@@ -459,7 +501,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(965, 157);
+            this.panel6.Size = new System.Drawing.Size(882, 157);
             this.panel6.TabIndex = 0;
             // 
             // pictureBox1
@@ -540,54 +582,13 @@
             this.MusEklelabel1.TabIndex = 0;
             this.MusEklelabel1.Text = "Müşteri Adı";
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel1.Controls.Add(this.panel10);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 397);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(313, 41);
-            this.panel1.TabIndex = 49;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.button2);
-            this.panel10.Controls.Add(this.button1);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(40, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(273, 41);
-            this.panel10.TabIndex = 1;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(189, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 31);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "İptal";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(63, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Kayıt [F2]";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // MusteriEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 599);
+            this.ClientSize = new System.Drawing.Size(886, 543);
             this.Controls.Add(this.panel5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MusteriEkle";
             this.Text = "Müşteri Ekle";
             this.Load += new System.EventHandler(this.MüsteriEkle_Load);
@@ -596,11 +597,11 @@
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

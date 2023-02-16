@@ -421,7 +421,9 @@ namespace istoCPos
                 TahsilatIslemleri tahsilatIslemleri = new TahsilatIslemleri();
                 tahsilatIslemleri.ShowDialog(this);
             }
-            if(treeView1.SelectedNode.Index == 7 )
+
+
+            if (treeView1.SelectedNode.Index == 7 )
             {
                 if (veri != "" && veri != null)
                 {
@@ -629,6 +631,10 @@ namespace istoCPos
         {
             if(e.Button ==MouseButtons.Left)
             Muspanel3.Visible = false;
+        }
+
+        private void treeView1_MouseClick(object sender, MouseEventArgs e)
+        {
         }
     }
 }

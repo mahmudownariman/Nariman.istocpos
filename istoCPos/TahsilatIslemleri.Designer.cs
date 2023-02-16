@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -49,13 +51,11 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -84,6 +84,29 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(541, 422);
             this.panel1.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(541, 49);
+            this.panel3.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(539, 47);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Tahsilat İşlemleri";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -248,7 +271,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkCyan;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(407, 5);
@@ -261,7 +284,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkCyan;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.Location = new System.Drawing.Point(141, 5);
             this.button4.Name = "button4";
@@ -273,13 +296,23 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkCyan;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.button3.Location = new System.Drawing.Point(67, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(54, 40);
             this.button3.TabIndex = 3;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
+            this.button2.Location = new System.Drawing.Point(5, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(54, 40);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -291,51 +324,19 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Tarih";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkCyan;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(539, 47);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Tahsilat İşlemleri";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(541, 49);
-            this.panel3.TabIndex = 19;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DarkCyan;
-            this.button2.Location = new System.Drawing.Point(5, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(54, 40);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // NakitTahsilat
+            // TahsilatIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(541, 422);
             this.Controls.Add(this.panel1);
-            this.Name = "NakitTahsilat";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "TahsilatIslemleri";
             this.Text = "Tahsilat İşlemleri";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
